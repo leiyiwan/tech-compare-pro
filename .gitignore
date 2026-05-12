@@ -1,0 +1,19 @@
+# Hugo
+.hugo_build.lock
+/resources/_gen/
+/public/
+
+# Node.js (debug scripts)
+node_modules/
+package.json
+package-lock.json
+
+# Debug scripts
+check-page.sh
+check-build.js
+check-*.sh
+check-*.js
+
+# OS
+.DS_Store
+Thumbs.db
