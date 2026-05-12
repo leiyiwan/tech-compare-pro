@@ -21,4 +21,4 @@ We use Google AdSense to display advertisements. Google may use cookies to serve
 
 ## Contact
 
-If you have any questions about this privacy policy, please contact us at admin@tech-compare-pro.pages.dev
+If you have any questions about this privacy policy, please contact us at admin@techcompare.dev

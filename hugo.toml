@@ -1,4 +1,4 @@
-baseURL = 'https://tech-compare-pro.pages.dev'
+baseURL = 'https://techcompare.dev'
 locale = 'en-us'
 title = 'TechComparePro'
 theme = 'PaperMod'
