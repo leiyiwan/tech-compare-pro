@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tech-compare-pro.pages.dev/sitemap.xml

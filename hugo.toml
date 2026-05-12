@@ -1,0 +1,45 @@
+baseURL = 'https://tech-compare-pro.pages.dev'
+locale = 'en-us'
+title = 'TechComparePro'
+theme = 'PaperMod'
+defaultContentLanguage = 'en'
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[params]
+  description = 'Honest and detailed tech product comparisons, reviews, and buying guides'
+  defaultTheme = 'light'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+[params.homeInfoParams]
+  Title = 'TechComparePro'
+  Content = 'Honest tech product comparisons to help you make the right buying decision. We compare smartphones, laptops, headphones, and more.'
+
+[[params.socialIcons]]
+  name = 'rss'
+  url = 'index.xml'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[permalinks]
+  posts = '/:year/:month/:slug/'
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', ':fileModTime']
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
