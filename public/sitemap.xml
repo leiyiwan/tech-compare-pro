@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/05/1.-chatgpt-vs.-claude-vs.-gemini-which-ai-chatbot-handles-coding-and-writing-best-in-2025/</loc>
+    <lastmod>2026-05-31T09:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/05/2.-midjourney-vs.-dall-e-3-vs.-stable-diffusion-a-side-by-side-comparison-for-ai-image-generation/</loc>
+    <lastmod>2026-05-31T09:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/05/3.-notion-ai-vs.-mem-vs.-reflect-the-ultimate-note-taking-and-productivity-tool-showdown/</loc>
+    <lastmod>2026-05-31T09:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-05-31T09:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/05/electric-scooter-vs-electric-bike-which-urban-commuter-wins-in-2026/</loc>
     <lastmod>2026-05-30T21:21:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/05/meta-ray-ban-smart-glasses-vs-xreal-air-2-pro-vs-brilliant-labs-frame-ai-glasses-2026/</loc>
-    <lastmod>2026-05-30T21:21:22+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-05-30T21:21:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1194,6 +1209,11 @@
   </url><url>
     <loc>https://techcompare.dev/about/</loc>
     <lastmod>2026-05-29T09:06:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/contact/</loc>
+    <lastmod>2026-05-30T21:23:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
