@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/1.-chatgpt-vs.-claude-which-ai-chatbot-actually-writes-better-code-for-developers/</loc>
+    <lastmod>2026-06-11T17:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/2.-notion-ai-vs.-mem-comparing-the-best-ai-powered-note-taking-tools-for-productivity/</loc>
+    <lastmod>2026-06-11T17:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/3.-jasper-vs.-writesonic-a-side-by-side-review-of-ai-copywriting-tools-for-marketers/</loc>
+    <lastmod>2026-06-11T17:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-11T17:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/1.-chatgpt-vs.-claude-%E5%93%AA%E6%AC%BEai%E5%8A%A9%E6%89%8B%E6%9B%B4%E9%80%82%E5%90%88%E7%BC%96%E7%A8%8B%E5%92%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%AF%942025%E5%B9%B4%E5%AE%9E%E6%B5%8B%E8%A1%A8%E7%8E%B0/</loc>
     <lastmod>2026-06-11T13:03:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/3.-notion-ai-vs.-mem%E4%B8%A4%E6%AC%BEai%E7%AC%94%E8%AE%B0%E5%B7%A5%E5%85%B7%E5%9C%A8%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E5%B7%AE%E8%B7%9D%E5%9F%BA%E4%BA%8E500%E6%AC%A1%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2026-06-11T13:03:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-11T13:03:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
