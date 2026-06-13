@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/chatgpt-vs-gemini-for-code-generation-which-ai-writes-better/</loc>
+    <lastmod>2026-06-13T17:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/claude-vs-copilot-for-technical-documentation-a-hands-on-review/</loc>
+    <lastmod>2026-06-13T17:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-13T17:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/runway-vs-pika-labs-for-ai-video-generation-feature-comparison/</loc>
+    <lastmod>2026-06-13T17:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-for-code-generation-in-2024/</loc>
     <lastmod>2026-06-13T13:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-for-professional-logo-design/</loc>
-    <lastmod>2026-06-13T13:02:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-13T13:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
