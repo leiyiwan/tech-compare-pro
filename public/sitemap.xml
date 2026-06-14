@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-for-code-generation-which-ai-writes-better-python/</loc>
+    <lastmod>2026-06-14T09:02:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/jasper-vs-writesonic-for-marketing-copy-a-detailed-2024-comparison/</loc>
+    <lastmod>2026-06-14T09:02:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-for-professional-logo-design-which-ai-wins/</loc>
+    <lastmod>2026-06-14T09:02:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-14T09:02:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-gemini-for-code-generation-which-ai-writes-better/</loc>
     <lastmod>2026-06-13T17:02:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/claude-vs-copilot-for-technical-documentation-a-hands-on-review/</loc>
-    <lastmod>2026-06-13T17:02:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-13T17:02:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
