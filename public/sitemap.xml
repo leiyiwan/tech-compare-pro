@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/chatgpt-vs.-claude-for-coding-which-ai-assistant-writes-better-code/</loc>
+    <lastmod>2026-06-16T13:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/jasper-ai-vs.-copy.ai-for-long-form-blog-posts-which-one-wins/</loc>
+    <lastmod>2026-06-16T13:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/midjourney-vs.-dall-e-3-for-logo-design-a-detailed-comparison/</loc>
+    <lastmod>2026-06-16T13:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-16T13:03:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-for-code-generation-which-ai-writes-better-python/</loc>
     <lastmod>2026-06-16T09:03:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/perplexity-vs-google-gemini-for-research-a-head-to-head-comparison/</loc>
-    <lastmod>2026-06-16T09:03:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-16T09:03:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -139,11 +154,6 @@
   </url><url>
     <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-which-ai-image-generator-gives-better-results/</loc>
     <lastmod>2026-06-13T09:02:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/06/chatgpt-vs.-claude-for-coding-which-ai-assistant-writes-better-code/</loc>
-    <lastmod>2026-06-12T21:31:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
