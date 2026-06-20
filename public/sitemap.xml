@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-for-code-generation-which-ai-tool-writes-better-scripts/</loc>
+    <lastmod>2026-06-20T09:04:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/google-gemini-vs-perplexity-ai-for-research-accuracy-and-depth-compared/</loc>
+    <lastmod>2026-06-20T09:04:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-for-product-photography-a-detailed-comparison/</loc>
+    <lastmod>2026-06-20T09:04:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-20T09:04:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-google-gemini-for-code-review-which-ai-tool-is-better/</loc>
     <lastmod>2026-06-19T17:04:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/notion-ai-vs-mem-ai-for-note-taking-a-detailed-comparison/</loc>
-    <lastmod>2026-06-19T17:04:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-19T17:04:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
