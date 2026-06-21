@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/claude-vs-chatgpt-for-code-generation-a-developers-comparison/</loc>
+    <lastmod>2026-06-21T13:05:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/github-copilot-vs-amazon-codewhisperer-which-ai-coding-assistant-wins/</loc>
+    <lastmod>2026-06-21T13:05:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/perplexity-ai-vs-google-gemini-for-research-an-in-depth-review/</loc>
+    <lastmod>2026-06-21T13:05:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-21T13:05:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-vs-gemini-which-ai-assistant-powers-better-code-generation/</loc>
     <lastmod>2026-06-21T09:04:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-vs-stable-diffusion-ultimate-ai-image-generator-comparison/</loc>
-    <lastmod>2026-06-21T09:04:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-21T09:04:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
