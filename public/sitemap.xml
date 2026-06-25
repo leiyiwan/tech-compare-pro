@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/06/claude-vs-chatgpt-for-coding-which-ai-assistant-writes-better-code/</loc>
+    <lastmod>2026-06-25T17:02:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/jasper-ai-vs-copy.ai-best-ai-writing-tool-for-long-form-content-in-2025/</loc>
+    <lastmod>2026-06-25T17:02:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-comparing-ai-image-generation-quality-and-speed/</loc>
+    <lastmod>2026-06-25T17:02:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-06-25T17:02:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-ai-which-is-better-for-code-generation/</loc>
     <lastmod>2026-06-25T13:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-ai-image-generator-comparison/</loc>
-    <lastmod>2026-06-25T13:02:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-06-25T13:02:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
