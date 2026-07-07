@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/07/chatgpt-vs-claude-for-code-generation-which-ai-assistant-writes-better-python/</loc>
+    <lastmod>2026-07-07T17:01:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/midjourney-vs-dall-e-3-a-head-to-head-comparison-for-ai-image-generation/</loc>
+    <lastmod>2026-07-07T17:01:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/perplexity-vs-gemini-comparing-ai-search-tools-for-research-and-fact-checking/</loc>
+    <lastmod>2026-07-07T17:01:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-07-07T17:01:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/07/chatgpt-vs-claude-ai-for-coding-which-developer-tool-wins-in-2024/</loc>
     <lastmod>2026-07-07T13:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/07/jasper-ai-vs-copy.ai-best-ai-writing-assistant-for-content-teams/</loc>
-    <lastmod>2026-07-07T13:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-07-07T13:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -319,11 +334,6 @@
   </url><url>
     <loc>https://techcompare.dev/2026/06/midjourney-vs-dall-e-3-for-product-photography-a-side-by-side-review/</loc>
     <lastmod>2026-06-30T09:03:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-for-code-generation-which-ai-assistant-writes-better-python/</loc>
-    <lastmod>2026-06-29T17:03:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
