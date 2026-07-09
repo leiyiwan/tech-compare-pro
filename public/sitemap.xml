@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/07/chatgpt-vs.-google-gemini-for-code-generation-a-developers-comparison/</loc>
+    <lastmod>2026-07-09T13:02:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/jasper-ai-vs.-writesonic-which-ai-writing-tool-offers-better-seo-features/</loc>
+    <lastmod>2026-07-09T13:02:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/midjourney-vs.-dall-e-3-for-product-photography-a-detailed-review/</loc>
+    <lastmod>2026-07-09T13:02:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-07-09T13:02:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/07/chatgpt-vs.-claude-for-code-generation-which-ai-tool-writes-better-code/</loc>
     <lastmod>2026-07-09T09:02:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/07/perplexity-vs.-gemini-for-research-a-detailed-comparison-for-developers/</loc>
-    <lastmod>2026-07-09T09:02:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-07-09T09:02:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
