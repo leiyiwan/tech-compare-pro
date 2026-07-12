@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/07/claude-vs-chatgpt-for-code-generation-which-ai-writes-better-code/</loc>
+    <lastmod>2026-07-12T09:03:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/github-copilot-vs-cursor-ai-best-ai-coding-assistant-for-developers-in-2024/</loc>
+    <lastmod>2026-07-12T09:03:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/jasper-ai-vs-writesonic-best-ai-writing-tool-for-seo-content-creation/</loc>
+    <lastmod>2026-07-12T09:03:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-07-12T09:03:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/07/chatgpt-vs-claude-for-code-generation-which-ai-writes-better-python-and-javascript/</loc>
     <lastmod>2026-07-11T17:03:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/07/midjourney-vs-dall-e-3-image-quality-speed-and-pricing-compared-for-professional-designers/</loc>
-    <lastmod>2026-07-11T17:03:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-07-11T17:03:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -547,11 +562,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://techcompare.dev/2026/06/claude-vs-chatgpt-for-code-generation-which-ai-writes-better-code/</loc>
-    <lastmod>2026-06-28T13:03:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://techcompare.dev/2026/06/github-copilot-vs-tabnine-ai-coding-assistant-comparison-for-developers/</loc>
     <lastmod>2026-06-28T13:03:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -958,11 +968,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/06/chatgpt-vs-claude-ai-which-ai-assistant-is-best-for-coding-in-2024/</loc>
-    <lastmod>2026-06-18T09:03:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/06/jasper-ai-vs-writesonic-best-ai-writing-tool-for-seo-content-creation/</loc>
     <lastmod>2026-06-18T09:03:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
