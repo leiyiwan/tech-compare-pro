@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/07/chatgpt-vs-google-bard-for-code-generation-2025-comparison/</loc>
+    <lastmod>2026-07-30T13:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/github-copilot-vs-amazon-codewhisperer-best-ai-coding-assistant/</loc>
+    <lastmod>2026-07-30T13:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/jasper-ai-vs-copy.ai-for-long-form-content-detailed-review/</loc>
+    <lastmod>2026-07-30T13:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-07-30T13:01:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/07/claude-vs-chatgpt-for-code-generation-which-ai-assistant-writes-better-code/</loc>
     <lastmod>2026-07-30T09:01:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/07/perplexity-vs-google-gemini-best-ai-search-tool-for-developers-in-2024/</loc>
-    <lastmod>2026-07-30T09:01:15+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-07-30T09:01:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
