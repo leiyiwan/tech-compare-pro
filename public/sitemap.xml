@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/07/claude-sonnet-4.5-vs-gpt-4o-for-coding-which-ai-model-writes-better-production-code/</loc>
+    <lastmod>2026-07-31T17:05:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/cursor-vs-github-copilot-head-to-head-comparison-for-ai-assisted-development-in-2024/</loc>
+    <lastmod>2026-07-31T17:05:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/07/perplexity-pro-vs-chatgpt-plus-which-ai-search-tool-delivers-more-accurate-real-time-answers/</loc>
+    <lastmod>2026-07-31T17:05:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-07-31T17:05:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/07/claude-sonnet-4-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code/</loc>
     <lastmod>2026-07-31T13:05:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/07/midjourney-vs-dall-e-3-vs-stable-diffusion-xl-which-ai-image-generator-delivers-the-best-value-for-designers/</loc>
-    <lastmod>2026-07-31T13:05:21+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-07-31T13:05:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
