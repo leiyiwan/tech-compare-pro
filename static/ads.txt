@@ -1,1 +1,1 @@
-# AdSense publisher ID 批准后填入，格式: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-4904720630915602, DIRECT, f08c47fec0942fa0
