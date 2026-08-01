@@ -6,6 +6,7 @@ tags: ["logitech", "razer", "mouse", "productivity", "gaming", "comparison"]
 categories: ["mice"]
 description: "Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 Pro — which flagship peripheral wins for work and play?"
 summary: "Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 Pro — compare specs, design, performance, and value to decide the best mouse for your desk."
+lastmod: 2026-08-02
 ---
 
 ## Comparison Table
@@ -26,13 +27,13 @@ summary: "Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 P
 | **Onboard Profiles** | 1 (via Logi Options+) | 5 (via Synapse 4) |
 | **Software** | Logi Options+ | Razer Synapse 4 |
 | **Multi-Device** | Up to 3 devices (Flow support) | Up to 3 devices (via HyperSpeed Multi-Device) |
-| **Silent Clicks** | Yes (80% quieter mechanical switches) | No (standard mechanical switches, optical switch upgrade available on V3 Pro? Actually V3 Pro uses optical switches - clarify: third-gen optical switches, not silent) |
+| **Silent Clicks** | Yes (80% quieter mechanical switches) | No (uses Razer 3rd-gen optical switches — crisp and audible, not silent) |
 
 *Note: Prices are approximate as of May 2026; street prices may vary.*
 
 ## Design & Build Quality
 
-**Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 Pro** begins with two radically different design philosophies. Logitech’s MX Master 3S is a productivity-first tool, built for all-day comfort on a desk. The ergonomic shape favors palm grips, with a pronounced thumb rest, sculpted right-hand contour, and a matte rubber coating that resists fingerprints. It’s heavy at 141 grams — noticeably dense compared to most gaming mice — but that mass lends a grounded feel when gliding across a mouse pad or desk surface.
+**Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 Pro** begins with two radically different design philosophies. Logitech’s MX Master 3S is a productivity-first tool, built for all-day comfort on a desk. The ergonomic shape favors palm grips, with a pronounced thumb rest, sculpted right-hand contour, and a matte rubber coating that resists fingerprints. Unlike our [Logitech MX Mechanical Mini vs Keychron Q1 Pro](/posts/logitech-mx-mechanical-mini-vs-keychron-q1-pro/) comparison, which pits two keyboards head-to-head, this review focuses purely on mice. It’s heavy at 141 grams — noticeably dense compared to most gaming mice — but that mass lends a grounded feel when gliding across a mouse pad or desk surface.
 
 Razer’s Basilisk V3 Pro, by contrast, comes from the gaming lineage. Its shape is ambidextrous-friendly but still right-handed, with a more pronounced thumb shelf and a narrower waist. At 112 grams, it’s nearly 30 grams lighter, making quick flicks and rapid repositioning easier. The build uses textured side grips and a smooth matte plastic shell (available in black or white). RGB lighting is abundant: the scroll wheel, Razer logo, and a side underglow strip all light up, fully customizable through Synapse 4.
 
@@ -64,7 +65,7 @@ Razer’s HyperScroll is similar but adds a twist: you can adjust the scroll res
 | **Button Response** | ~5 ms (mechanical) | ~0.2 ms (optical) |
 | **Battery Life (typical use)** | 70 days | ~4 days at 1000 Hz (100 hours) |
 
-The Razer clearly dominates in raw performance metrics. For gaming, especially fast-paced shooters like *Valorant* or *Apex Legends*, the Basilisk V3 Pro is the better choice. The Logitech is adequate for casual gaming but not competitive.
+The Razer clearly dominates in raw performance metrics. For gaming, especially fast-paced shooters like *Valorant* or *Apex Legends*, the Basilisk V3 Pro is the better choice — pair it with our [Razer Huntsman Mini vs Ducky One 3 Mini](/posts/razer-huntsman-mini-vs-ducky-one-3-mini-best-60-keyboard/) roundup to build out a full Razer setup. The Logitech is adequate for casual gaming but not competitive.
 
 ## Key Features
 
@@ -138,7 +139,7 @@ Choose the **Logitech MX Master 3S** if you spend your day in spreadsheets, desi
 
 Choose the **Razer Basilisk V3 Pro** if you’re a competitive gamer who also needs a mouse for work tasks. The sensor performance and optical switches give you a clear advantage in fast-paced titles, and the scroll wheel customization is excellent for both productivity and gaming. Be prepared to spend extra for the dongle and dock if you want the full experience.
 
-If you can only own one mouse and need a jack-of-all-trades, the Basilisk V3 Pro edges ahead due to its superior performance and modularity. But for pure value and daily comfort, the MX Master 3S remains the gold standard for productivity.
+For a full desktop upgrade path, see our [ASUS ROG Zephyrus G16 vs Razer Blade 16](/posts/asus-rog-zephyrus-g16-vs-razer-blade-16/) laptop comparison. If you can only own one mouse and need a jack-of-all-trades, the Basilisk V3 Pro edges ahead due to its superior performance and modularity. But for pure value and daily comfort, the MX Master 3S remains the gold standard for productivity.
 
 ## FAQ
 
