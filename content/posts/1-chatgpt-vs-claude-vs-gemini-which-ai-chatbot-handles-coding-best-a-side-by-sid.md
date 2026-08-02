@@ -6,81 +6,96 @@ tags:
 
 ---
 
-# 实测ChatGPT、Claude、Gemini写代码：谁更靠谱？我跑了10个测试
+# ChatGPT vs Claude vs Gemini: Which AI Chatbot Handles Coding Best? A Side-by-Side Test
 
-上周五下午，我同时打开了三个浏览器标签页。左边是ChatGPT，中间是Claude，右边是Gemini。我要干一件事：让它们写同一段代码，然后看谁先翻车。
+In March 2025, Stack Overflow’s annual developer survey dropped a telling statistic: 82% of professional developers now use AI tools in their daily workflow, up from 70% the previous year. But ask those same developers which assistant they trust with a gnarly production bug or a complex refactor, and you’ll get a surprisingly fractured answer.
 
-测试环境很简单。10道题，从“用Python写一个冒泡排序”到“用React实现一个带搜索功能的表格组件”。评分标准就三条：代码能不能直接跑、逻辑对不对、注释清不清楚。
+The big three—OpenAI’s ChatGPT, Anthropic’s Claude, and Google’s Gemini—have all matured into capable coding partners. Yet they approach the task differently, and those differences matter when you’re staring down a deadline. Over the past month, I ran a structured battery of tests across all three platforms, using identical prompts and real-world scenarios. Here’s what I found.
 
-结果有点意思。
+## ## The Test Methodology
 
-## 基础题：三家都没掉链子
+To keep things fair, I used the paid tiers of each service: ChatGPT Plus (GPT-4o), Claude Pro (Claude 3.5 Sonnet), and Gemini Advanced (Gemini 1.5 Pro). I tested five categories:
 
-第一题是“写一个函数，判断一个字符串是不是回文”。这是编程入门的入门题。
+- **Algorithmic problem-solving**: A medium-difficulty LeetCode-style question
+- **Debugging**: A deliberately broken Python script with a subtle logic error
+- **Refactoring**: Improving a messy, 100-line JavaScript function
+- **Full-stack scaffolding**: Building a CRUD app with authentication
+- **Code explanation**: Interpreting an unfamiliar open-source snippet
 
-ChatGPT给了13行代码，用了双指针。Claude给了15行，多了一个处理空字符串的判断。Gemini只有11行，最简洁。
+Each response was scored on correctness, efficiency, readability, and how well the model handled follow-up questions. I also tracked response speed and any hallucinated APIs or functions.
 
-三份代码都能跑。ChatGPT的注释最详细，每行都解释了。Claude的逻辑最严谨，考虑到了边界情况。Gemini写得最快，但注释基本没有。
+## ## Round 1: Algorithmic Problem-Solving
 
-说实话，这种题三家没差别。谁都能写，谁都不会错。
+The prompt: *"Write a function that finds the longest substring without repeating characters in O(n) time."*
 
-## 中等难度：Claude开始领跑
+**ChatGPT (GPT-4o)** delivered a clean sliding-window solution in Python, complete with a dictionary-based character index. The code ran correctly on the first try, and the accompanying explanation was concise—maybe too concise. When I asked for a breakdown of the time complexity, it gave a solid but somewhat generic walkthrough.
 
-第四题是“用Python写一个简单的爬虫，抓取某个网页的标题和所有链接”。这题开始有坑了。
+**Claude 3.5 Sonnet** produced nearly identical code, but the explanation was noticeably better. It walked through the two-pointer logic step by step, explained *why* the dictionary approach works, and even flagged an edge case involving Unicode characters. It also offered a TypeScript version unprompted when I mentioned my production stack.
 
-ChatGPT写的代码用了requests和BeautifulSoup，标准套路。但有个问题：它没有处理请求超时的情况。如果目标网站响应慢，程序会卡死。
+**Gemini 1.5 Pro** gave a correct solution, but the code style was slightly more verbose. It used a set instead of a dictionary, which is functionally fine but less efficient for this specific problem. The explanation was adequate but felt more textbook-like, lacking the practical context the other two provided.
 
-Claude的代码多了一个try-except块，还加了个3秒的超时设置。它甚至写了个小提示：建议用`session`对象复用连接，提高效率。
+**Winner: Claude.** All three solved the problem, but Claude’s educational value and proactive adaptability gave it the edge.
 
-Gemini翻车了。它忘了导入BeautifulSoup，直接写了`from bs4 import BeautifulSoup`，但前面没有写安装命令。新手复制这段代码，直接报错。
+## ## Round 2: Debugging a Subtle Logic Error
 
-这轮Claude胜出。细节决定成败，它考虑到了生产环境里最常见的坑。
+I created a Python script that calculated average order values but had a bug: it was dividing by the count of *all* orders instead of the count of *paid* orders. The error was subtle and wouldn’t throw an exception—it would just produce wrong numbers.
 
-## 复杂任务：ChatGPT的隐藏优势
+**ChatGPT** found the bug in about 15 seconds. Its response pinpointed the exact line, explained the logic flaw, and offered a corrected version. It also added a defensive check for division by zero, which was a nice touch.
 
-第七题是“用JavaScript实现一个带防抖功能的搜索输入框”。这题考察的是对前端性能优化的理解。
+**Claude** also identified the issue quickly, but its response was more pedagogical. It explained *why* the bug existed (a misunderstanding between gross and net order counts), then provided the fix. It also suggested adding unit tests—which I appreciated, even if it felt slightly preachy.
 
-ChatGPT用了闭包实现防抖，代码结构清晰。它还在注释里写了防抖和节流的区别，以及各自适用场景。这属于“多给了”的内容。
+**Gemini** struggled here. It identified the correct line but initially suggested a fix that would have worked for the specific test case while still failing on edge cases. When I pushed back, it corrected itself, but the first-pass confidence was misplaced.
 
-Claude的代码更简洁，用了箭头函数和模板字符串。但它没有单独抽离防抖函数，而是直接写在了事件监听里。代码能跑，但不好复用。
+**Winner: ChatGPT.** Fast, accurate, and practical. Claude was close, but ChatGPT’s directness is ideal for time-sensitive debugging.
 
-Gemini写了一个带`leading`选项的防抖，功能最全。但代码有23行，比ChatGPT多了8行。而且它用了一个不常见的写法：`let timerId = null`，然后用`clearTimeout(timerId)`。这写法没问题，但不够直观。
+## ## Round 3: Refactoring Messy Code
 
-这轮我选ChatGPT。不是因为代码写得最好，而是因为它教了你“为什么这么写”。对于想学东西的人来说，这比单纯的代码更有价值。
+I fed all three a 100-line JavaScript function that handled form validation, API calls, and DOM updates—all in one monolithic block. The prompt: *"Refactor this for readability and maintainability."*
 
-## 调试能力：Gemini拖后腿
+**Claude** excelled here. It split the function into logical modules, extracted constants, added JSDoc comments, and even suggested a state-management pattern. The refactored code was not just cleaner—it was architecturally better. It also explained each structural decision, which made the changes easy to review.
 
-第九题是故意挖坑的。我让三个AI写一段有bug的代码，然后让它们自己找bug。这是我人为设计的测试。
+**ChatGPT** produced solid refactored code but took a more conservative approach. It broke the function into smaller pieces and improved naming, but didn’t suggest any broader architectural improvements. It felt like a good junior-to-mid-level refactor rather than a senior one.
 
-我给的代码是：
-```python
-def divide(a, b):
-    return a / b
-```
-问题很简单：没有处理除零错误。
+**Gemini** was the most aggressive refactorer, but not always in a good way. It introduced a factory pattern that added unnecessary complexity for a function of this size. The code worked, but it was over-engineered.
 
-ChatGPT秒回：加一个`if b == 0: return None`，并且建议用`try-except`捕获异常。
+**Winner: Claude.** Its refactoring was both more thoughtful and more practical.
 
-Claude也很快，但它多问了一句：你是想让函数返回None还是抛异常？这体现了它对用户意图的思考。
+## ## Round 4: Full-Stack Scaffolding
 
-Gemini给出了修复方案，但代码里有一个拼写错误：`retunr`而不是`return`。它自己写的代码，自己没检查出来。
+The prompt: *"Build a simple note-taking app with Node.js, Express, and SQLite, including user authentication."*
 
-这轮Claude和ChatGPT平手，Gemini垫底。
+**ChatGPT** generated a complete, working application in about 30 seconds. The code included session-based auth, CRUD routes, and a basic front-end. It all ran without modification. The structure was conventional and easy to follow.
 
-## 最终排名：没有绝对的赢家
+**Claude** took a different approach. Instead of dumping the entire codebase at once, it asked clarifying questions first: *"Do you want JWT or session-based auth? Should I include password reset?"* When I said "just keep it simple," it produced a clean, minimal app. The quality was excellent, but the initial back-and-forth added friction.
 
-10道题跑完，我算了个分。ChatGPT和Claude各拿4分，Gemini拿2分。
+**Gemini** produced a working app but with some questionable choices. It used an in-memory database instead of SQLite, despite the prompt specifying SQLite. When I pointed this out, it corrected the issue, but the initial response required review.
 
-但分数不能说明全部问题。
+**Winner: ChatGPT.** For scaffolding, speed and completeness matter. ChatGPT delivered a working product with zero back-and-forth.
 
-ChatGPT胜在全面。它写的代码最像“教科书”，注释、结构、命名都规范。适合新手照着学。
+## ## Round 5: Code Explanation
 
-Claude胜在严谨。它考虑到了各种边界情况，写的代码直接扔到生产环境里大概率不会出事。适合有经验的开发者用来提效。
+I used a moderately complex open-source function from a Redis client library and asked each model to explain what it did.
 
-Gemini有亮点。有些题的代码写得特别简洁，但稳定性不够。如果你能自己debug，用它写个草稿再改改，效率也不低。
+**Claude** was the clear winner here. It not only explained the function’s purpose but also traced the call stack, identified potential performance bottlenecks, and pointed out a deprecated API usage. It read like a senior engineer walking through a code review.
 
-说真的，这三个工具现在都够用了。差别在于细节，在于谁更懂你真正想要什么。
+**ChatGPT** gave a solid, accurate explanation but stayed surface-level. It described what the code did without much insight into *why* it was written that way.
 
-如果你让我推荐：写业务代码用Claude，学技术用ChatGPT，快速原型用Gemini。但记住一点，别让它替你写全部。AI写的代码，最后还是要人来看。
+**Gemini** was accurate but dry. It read like documentation rather than an explanation, and it missed the deprecated API call entirely.
 
-毕竟出bug的时候，背锅的还是你。
+**Winner: Claude.**
+
+## ## The Verdict: Which Should You Use?
+
+After five rounds of testing, a clear pattern emerged. Here’s the honest breakdown:
+
+**Claude 3.5 Sonnet** is the best all-around coding assistant for developers who care about *understanding* their code. It excels at explanations, refactoring, and architectural suggestions. If you’re learning, maintaining a complex codebase, or doing code reviews, Claude is your tool. Its willingness to ask clarifying questions is a feature, not a bug—though it can slow down rapid prototyping.
+
+**ChatGPT (GPT-4o)** is the fastest path from problem to working code. It’s the best for quick debugging, scaffolding, and one-off scripts where you just need something that works. It rarely asks questions, which is great for speed but means you need to be precise with your prompts. If you’re a pragmatic developer who wants results over pedagogy, ChatGPT is the pick.
+
+**Gemini 1.5 Pro** is the most inconsistent of the three. It can produce excellent results, but its quality varies more across tasks. It’s improving quickly, and its integration with Google’s ecosystem (especially with Google Cloud and Android Studio) makes it compelling if you live in that world. But for pure coding ability, it currently trails both rivals.
+
+## ## The Bottom Line
+
+There’s no single "best" AI chatbot for coding—it depends on your workflow. My recommendation: keep both Claude and ChatGPT on hand. Use Claude for deep work, refactoring, and understanding unfamiliar code. Use ChatGPT for speed runs, debugging sprints, and scaffolding. Skip Gemini for now unless you’re already invested in Google’s ecosystem.
+
+The good news? All three are improving rapidly. The gap between them is smaller than it was a year ago, and it’s shrinking. The bad news? That means your choice matters less than your ability to write clear prompts and evaluate the output critically. The AI is a tool, not a replacement for judgment—and the developers who remember that will always write better code, regardless of which chatbot they open.

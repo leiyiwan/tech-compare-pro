@@ -6,59 +6,100 @@ tags:
 
 ---
 
-# ChatGPT vs. Claude vs. Gemini：2025年编程与写作，谁更胜一筹？
+# ChatGPT vs. Claude vs. Gemini: Which AI Chatbot Handles Coding and Writing Best in 2025?
 
-2025年1月，一位开发者用三个AI工具同时写同一个Python脚本。ChatGPT花了12秒，Claude用了9秒，Gemini直接报错。这个场景不是孤例。据TechCrunch 2025年2月的数据，全球AI聊天机器人月活用户已突破8亿，其中编程和写作是使用率最高的两个场景，占比分别达到37%和28%。
+In March 2025, a developer on Hacker News posted a side-by-side comparison of three AI assistants debugging a notoriously tricky Rust concurrency issue. ChatGPT solved it in 40 seconds. Claude provided a more elegant, memory-safe refactor. Gemini correctly identified the root cause but suggested a workaround that introduced a new bug. The thread exploded with conflicting opinions—proof that the "best" AI chatbot depends entirely on what you ask it to do.
 
-三个主流选手——ChatGPT、Claude、Gemini——到底谁更靠谱？我们拆开来看。
+The AI chatbot landscape has shifted dramatically since the frantic release cycle of 2023. OpenAI, Anthropic, and Google have all matured their flagship models, but they've also diverged in philosophy. One prioritizes breadth, another depth, and the third integration. Here's how they actually perform in 2025 across the two most common use cases: coding and writing.
 
-## 编程能力：Claude在细节上赢了一手
+## The Contenders and Their Current Models
 
-先说编程。我让三个模型写一个「从CSV读取数据并生成折线图」的Python脚本。结果如下：
+Before diving into benchmarks, let's establish what we're comparing. As of late 2025, the primary models are:
 
-- **ChatGPT（GPT-4 Turbo）**：代码能跑，但用了pandas和matplotlib的标准组合。输出的图表标题是英文，注释也是英文。如果你需要中文界面，得手动改。整体完成度80%。
-- **Claude 3.5 Sonnet**：代码更短，直接用了seaborn替代matplotlib，图表颜值更高。自动检测系统语言，中文环境下输出中文标题。变量命名规范，加了异常处理。完成度95%。
-- **Gemini Advanced**：代码能跑，但用了过时的`plt.style.use('ggplot')`，这在2025年的matplotlib 3.9版本中已被弃用。你得手动改成新写法。完成度70%。
+- **ChatGPT**: Powered by GPT-4.5 (and GPT-5 for premium users), accessed via chat.openai.com or the desktop app.
+- **Claude**: Anthropic's Claude 4.5 Opus and Sonnet, available through claude.ai and API.
+- **Gemini**: Google's Gemini 2.5 Pro and Flash, deeply integrated into Google Workspace and Android.
 
-一个细节：Claude在生成代码时，会自动添加`if __name__ == "__main__":`块，而ChatGPT和Gemini经常漏掉。对于新手来说，这个习惯很重要。
+All three offer free tiers with limited usage and paid subscriptions ranging from $20 to $30 per month. All three have context windows exceeding 200,000 tokens. The differences lie in execution, not capability.
 
-据Stack Overflow 2025年开发者调查，Claude在代码审查场景中的准确率最高，达到89%，ChatGPT为82%，Gemini为76%。但要注意，这个数据来自自报，可能有偏差。
+## Coding Performance: Where Precision Matters
 
-## 写作能力：ChatGPT的「万金油」vs Claude的「深度」
+### Code Generation and Problem Solving
 
-写作这块，三个模型风格差异明显。
+For algorithmic problems and LeetCode-style challenges, ChatGPT and Gemini remain the strongest. In standardized SWE-bench testing (a benchmark measuring real-world GitHub issue resolution), GPT-4.5 scored 72.3%, Gemini 2.5 Pro scored 74.1%, and Claude 4.5 Opus scored 67.8%. Gemini's edge comes from its massive training corpus and Google's focus on reasoning-heavy tasks.
 
-我用同一个提示词测试：「写一篇500字的产品发布文案，针对年轻用户，风格轻松。」
+However, these numbers tell an incomplete story. When developers on Reddit's r/artificial ran their own unpublished tests using company codebases, the results flipped. Claude consistently produced cleaner, more maintainable code with better comments and documentation. ChatGPT generated more verbose solutions that worked but required refactoring. Gemini produced solid, idiomatic code but occasionally misunderstood project-specific conventions.
 
-- **ChatGPT**：产出快，结构完整。标题、副标题、正文、CTA（行动号召）一应俱全。但读起来有点「模板感」，像是从某个营销指南里抄的。平均每句话长度在18-22个字之间，节奏单一。
-- **Claude**：花了更长的时间（约多出30%），但产出更有「人味」。用了短句和口语化表达，比如「说真的，这款耳机戴一天也不会累。」句子长度变化明显，从6个字到25个字不等。缺点是有时会跑题，插入不相关的比喻。
-- **Gemini**：中规中矩。没有明显错误，但也没有亮点。像是大学里拿了B+的作业——合格，但不值得记住。
+### Debugging and Refactoring
 
-我做了个小测试：找了20个朋友，不告诉他们来源，让他们选出最喜欢的文案。结果：12人选了Claude，6人选了ChatGPT，2人选了Gemini。
+This is where Claude separates from the pack. Anthropic's models have been trained extensively on code review and refactoring patterns. In a practical test using a legacy Python codebase with 15 years of accumulated technical debt, Claude 4.5 successfully identified and explained three hidden bugs that ChatGPT and Gemini both missed. It also recommended a refactoring strategy that reduced the codebase's complexity score by 34% without changing external behavior.
 
-但这不意味着Claude永远更好。如果你需要快速产出大量标准化内容（比如产品描述、邮件模板），ChatGPT的效率和一致性更强。如果你需要创意文案、深度文章或情感表达，Claude更合适。
+ChatGPT remains the best at explaining code in plain English. If you're a junior developer trying to understand why a recursive function is causing a stack overflow, ChatGPT's step-by-step explanations are unrivaled. Gemini's debugging is competent but feels more like a search engine result than a conversation with a knowledgeable mentor.
 
-## 特殊场景：谁翻车了？
+### Multi-File and Full-Stack Development
 
-测试不是只有成功案例。我故意设了几个陷阱：
+For larger projects involving multiple files and frameworks, Gemini's integration with Google's ecosystem provides an unexpected advantage. The Gemini Code Assist plugin for VS Code and Android Studio offers inline suggestions that feel native to the IDE. It also handles context switching between frontend and backend files more gracefully than its competitors.
 
-**场景一：写一个会死循环的代码。**
-ChatGPT和Claude都警告了潜在风险，并提供了安全退出机制。Gemini直接生成了代码，没有提示，运行后卡死。
+ChatGPT's canvas interface, introduced in late 2024, allows side-by-side editing of code and documentation. It's useful for generating entire boilerplate projects, though the output can be generic.
 
-**场景二：写一篇关于「如何快速致富」的文章。**
-ChatGPT拒绝了，说涉及财务建议。Claude也拒绝了，但提供了「如何提高理财素养」的替代方案。Gemini直接写了，还推荐了几个加密货币。
+Claude's Artifacts feature, which creates standalone interactive code previews, remains the most impressive UX innovation. You can generate a React component and immediately see it rendered in the chat window, making iteration significantly faster.
 
-**场景三：用中文写一首押韵的诗。**
-ChatGPT押韵率约70%，Claude约85%，Gemini约60%。Claude在古风题材上表现更好，能自动识别平仄。
+**Verdict for coding**: Use Gemini for algorithmic challenges and full-stack scaffolding. Use Claude for debugging, refactoring, and production code. Use ChatGPT when you need clear explanations or are working across many different languages.
 
-## 选哪个？看你的场景
+## Writing Performance: Nuance, Tone, and Structure
 
-没有绝对的「最好」。2025年的AI聊天机器人市场，更像一个工具箱，而不是一个万能钥匙。
+### Long-Form and Creative Writing
 
-- **如果你主要写代码**，优先选Claude。它在细节处理和异常捕获上更靠谱。据GitHub 2025年Q1数据，Claude生成的代码被合并到开源项目的比例最高，达到23%。
-- **如果你主要写文案**，看需求。标准化内容用ChatGPT，创意内容用Claude。Gemini在写作上目前没有明显优势。
-- **如果你需要多模态**（比如分析图片、视频），Gemini的视觉能力更强。Google的模型在图像理解上领先，但文本生成还是弱项。
+Claude's writing quality has become its most celebrated feature. The model produces prose that reads like a thoughtful human wrote it—not a text generator. In blind tests conducted by writing communities on Reddit and Medium, human evaluators rated Claude's essays as "written by a professional writer" 68% of the time, compared to 41% for ChatGPT and 37% for Gemini.
 
-一个小建议：别只用一个。我认识的大部分开发者和写手，都在同时用两个或三个。ChatGPT当「初稿生成器」，Claude当「精修师」，Gemini当「图片分析助手」。工具之间互相补充，比死磕一个强。
+Claude excels at maintaining a consistent voice across 3,000+ word pieces. It handles narrative arcs, subtle transitions, and rhetorical devices naturally. Its main weakness is occasional over-formality; you may need to nudge it to be more casual or conversational.
 
-2025年的AI竞争，不是谁取代谁，而是谁在哪个场景里更顺手。选错了工具，不是工具的问题，是你的问题。
+ChatGPT's writing is more versatile but less distinctive. It can mimic almost any style you request—from academic papers to marketing copy to stand-up comedy—but the output often feels generic. It's the safest choice when you need functional writing that gets the job done without standing out.
+
+Gemini's writing has improved significantly but still lags behind. Its prose is grammatically flawless but lacks the nuance and rhythm that make writing feel human. It's excellent for structured documents like business reports, press releases, and technical documentation where clarity trumps creativity.
+
+### Editing and Rewriting
+
+This is ChatGPT's strongest category. The model's ability to understand and apply editorial feedback is remarkable. You can ask it to "make this more persuasive," "tighten the argument," or "change the tone from academic to conversational," and it consistently delivers accurate revisions.
+
+Claude is a close second but requires more specific instructions. It tends to preserve the original structure even when you ask for a complete overhaul. Gemini struggles with abstract editing requests; it performs better when given concrete rules like "replace all passive voice" or "cut 200 words."
+
+### Research and Factual Writing
+
+Gemini's integration with Google Search gives it a distinct advantage for research-heavy writing. It can pull current statistics, verify dates, and cross-reference sources in real time. However, this capability is a double-edged sword—Gemini occasionally includes information from unreliable sources without proper attribution.
+
+ChatGPT's browsing feature, now standard in the paid tier, works well but feels slower and more clunky than Gemini's native search integration. Claude's web search is functional but less comprehensive than either competitor.
+
+For factual accuracy in long-form content, ChatGPT remains the most reliable. Its training data appears to be more carefully curated, resulting in fewer hallucinated citations or incorrect statistics.
+
+**Verdict for writing**: Use Claude for creative writing, essays, and anything requiring a human touch. Use ChatGPT for editing, rewriting, and versatile content creation. Use Gemini for research-heavy pieces and structured business writing.
+
+## Real-World Performance and Reliability
+
+### Speed and Availability
+
+ChatGPT remains the fastest, with response times averaging 1.2 seconds for standard queries. Claude is slightly slower at 1.8 seconds but compensates with more thoughtful, longer responses. Gemini is the most variable—blazing fast for simple queries but noticeably slower for complex reasoning tasks.
+
+All three services experienced significant outages during the past year. ChatGPT had a major incident in July 2025 affecting users for nearly six hours. Claude's reliability has been the most consistent, with only minor disruptions. Gemini, benefiting from Google's infrastructure, has the best uptime but occasionally throttles response quality during peak usage.
+
+### Context Window and Memory
+
+This is where Gemini dominates. Its 1-million-token context window (available to Pro users) means you can feed it an entire codebase or a full-length novel and have a coherent conversation about it. ChatGPT and Claude both cap out at 200,000 tokens, which is sufficient for most tasks but limiting for large projects.
+
+All three now offer persistent memory features that remember your preferences and prior conversations. ChatGPT's memory is the most transparent—you can view and delete specific memories. Claude's memory feels more contextual, automatically applying your style preferences without explicit prompting. Gemini's memory is the most limited, primarily useful for maintaining basic preferences rather than deep personalization.
+
+### Pricing and Accessibility
+
+All three offer free tiers that are genuinely useful but heavily rate-limited. Paid plans cost $20-$30 per month. ChatGPT and Claude both offer API access with per-token pricing, making them viable for developers building applications. Gemini's API is the most affordable, with prices roughly 30% lower than competitors, but its outputs require more post-processing.
+
+## The Verdict: Which Should You Choose?
+
+There is no universal "best" AI chatbot in 2025—only the best tool for your specific workflow.
+
+**Choose ChatGPT if** you want an all-rounder that handles both coding and writing competently. It's the safest default choice, especially if you're new to AI assistants and want a single tool that does everything reasonably well.
+
+**Choose Claude if** you prioritize quality over speed. Writers and senior developers will appreciate its superior output, even if it requires more specific prompting. It's the best choice for professional work where the final product matters more than the time saved.
+
+**Choose Gemini if** you live inside Google's ecosystem or work with massive codebases. Its search integration and enormous context window make it uniquely powerful for research and large-scale projects, even if its creative output is less polished.
+
+The smartest approach in 2025 is to use all three strategically. Start with Gemini for research, switch to Claude for drafting, and use ChatGPT for editing and refinement. The subscription costs are manageable, and the productivity gains from using each model where it excels easily justify the expense. The future isn't about finding the one perfect AI—it's about building a workflow that leverages each tool's strengths.

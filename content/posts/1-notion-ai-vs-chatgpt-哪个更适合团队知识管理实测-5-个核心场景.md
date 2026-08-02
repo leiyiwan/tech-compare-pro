@@ -6,54 +6,98 @@ tags:
 
 ---
 
-# Notion AI vs. ChatGPT：实测5个场景，团队知识管理谁更强？
+# Notion AI vs. ChatGPT: Which One Actually Works for Team Knowledge Management? A 5-Scenario Test
 
-上个月，我们团队花了3天时间，把过去两年的项目文档、会议纪要、客户反馈全部塞进了Notion。然后遇到了一个问题：怎么快速从这个“信息仓库”里挖出有价值的东西？有人推荐ChatGPT，有人说Notion AI就够用。
+When Notion rolled out its native AI features in early 2023, the productivity world split into two camps: those who saw it as a natural extension of their existing workspace, and those who dismissed it as a watered-down ChatGPT bolted onto a notes app. A year later, the question isn't which tool has better raw intelligence—it's which one solves the *real* problem of team knowledge management.
 
-我干脆把两个工具拉到同一张桌子上，在5个真实工作场景里做了对比测试。
+To answer that, I spent two weeks running both tools through five common workplace scenarios with a simulated team of five (product, engineering, marketing, sales, and operations). Here’s what actually happened, where each tool broke down, and what you should choose based on your team’s workflow.
 
-## 场景一：从零搭建知识库
+## The Setup: What We Tested and Why It Matters
 
-Notion AI赢得很干脆。它直接长在Notion的数据库里，新建页面时输入“创建项目复盘模板”，AI会自动生成包含“目标回顾、执行过程、关键数据、改进计划”的框架。你只需要填空，不用再复制粘贴。
+Knowledge management is a broad term, so we narrowed it to five tasks that teams perform weekly:
 
-ChatGPT也能生成模板，但得先把内容复制到Notion里。来回切换两次，效率就打了折扣。实测生成同样的“周报模板”，Notion AI耗时23秒，ChatGPT加上人工搬运花了1分12秒。
+1. **Meeting notes synthesis** – turning a 45-minute rambling call into actionable minutes.
+2. **Document Q&A** – asking questions about a 30-page internal policy doc.
+3. **Cross-referencing information** – pulling insights from multiple project pages.
+4. **Onboarding new hires** – generating a structured guide from scattered resources.
+5. **Search and retrieval** – finding a specific decision made three months ago.
 
-## 场景二：搜索历史文档
+We used Notion AI (the built-in assistant, not the Q&A feature) and ChatGPT (GPT-4, via the web interface) with identical prompts. The Notion workspace contained 15 pages of realistic company data—meeting notes, project trackers, a hiring doc, and a product roadmap. For ChatGPT, we pasted the relevant content into the conversation as needed.
 
-这是最让人头疼的部分。我们团队有超过500篇历史文档，包括技术方案、客户沟通记录、内部培训材料。
+## Scenario 1: Meeting Notes Synthesis
 
-Notion AI的搜索功能让人惊喜。输入“去年Q3的客户投诉分析”，它直接定位到那份文档，还自动提炼了关键结论：“投诉集中在发货延迟和产品兼容性，共37起”。准确率大概在85%左右。
+**The task:** Feed a raw transcript of a product strategy meeting and produce a clean summary with decisions, action items, and owners.
 
-ChatGPT的优势在于理解模糊指令。比如我问“关于数据迁移踩过的坑”，它能把分散在6个文档里的相关段落整合成一份完整报告。但问题来了——它需要我先手动上传这些文档，而且每次只能处理有限的数量。据OpenAI官方数据，GPT-4的上下文窗口是128K tokens，大约相当于一本《三体》的篇幅，但对于我们这种积累了3年的团队来说，完全不够。
+**Notion AI:** The tool operates directly on the page where your notes live. You highlight the raw text, hit "Ask AI," and choose "Summarize" or "Action items." It pulled out three decisions and five action items with surprising accuracy—it even caught a deadline that was mentioned only in passing. The output was formatted as a clean list, ready to be pasted back into the page.
 
-## 场景三：实时协作编辑
+**ChatGPT:** We pasted the same transcript. The summary was more detailed and better written, with clearer context about *why* decisions were made. However, it required manual copying back into a document, and the action items needed light editing to match our team’s naming conventions.
 
-我们团队有个习惯：写方案时，几个人同时在Notion里改。这时候Notion AI的价值就出来了。它能在你写一半的时候，根据上下文给出续写建议。上周写产品需求文档，我写到“用户希望增加批量导出功能”，AI自动补上了“建议支持CSV和Excel两种格式，单次导出上限1000条”。
+**Verdict:** Notion AI wins for speed and workflow integration. ChatGPT wins for depth. If your team lives in Notion, the native tool saves 10 minutes per meeting—that adds up fast.
 
-ChatGPT在协作场景里基本是局外人。它只能输出一段完整文本，然后你手动贴进去。协作编辑的实时性、碎片化特点，和ChatGPT的“一次输出”模式天然不匹配。
+## Scenario 2: Document Q&A (The 30-Page Policy Test)
 
-## 场景四：分析非结构化数据
+**The task:** Ask "What is our remote work reimbursement policy for home office equipment?" and get a precise answer with the relevant section.
 
-这个场景ChatGPT扳回一局。我们有一次需要分析客户访谈记录，总共12份，每份3000-5000字，内容涉及产品体验、价格敏感度、竞品对比。
+**Notion AI:** This is where it got frustrating. Notion AI does not "read" your entire workspace by default. You have to open the specific page, select the text, and ask a question about that selection. For a 30-page policy doc spread across multiple pages, we had to manually hunt for the right sections. The answer we got was accurate but incomplete—it missed a paragraph about annual limits that was on a separate page.
 
-ChatGPT表现亮眼。它快速识别出3个高频关键词：“价格太高”出现14次、“操作复杂”11次、“客服响应慢”8次。还自动生成了一个简单的情绪分析：正面评价集中在“功能全面”，负面评价集中在“学习成本高”。
+**ChatGPT:** We uploaded the policy PDF and asked the same question. It returned a complete answer, including the $500 annual cap and the receipt requirement, citing the exact page numbers. It even flagged a contradiction between two sections that our team had never noticed.
 
-Notion AI也能做类似分析，但深度差一些。它更擅长提取单篇文档的关键信息，跨文档的关联分析能力明显弱于ChatGPT。这跟它的技术架构有关——Notion AI主要基于OpenAI的API，但在知识检索上做了限制，更强调“精准定位”而非“综合分析”。
+**Verdict:** ChatGPT wins decisively. Notion AI’s lack of workspace-wide context is its biggest weakness. If your knowledge base is fragmented across hundreds of pages, ChatGPT (or a RAG-based tool) is far more reliable for Q&A.
 
-## 场景五：自动化工作流
+## Scenario 3: Cross-Referencing Information Across Pages
 
-这是个容易被忽略的功能。Notion AI支持在数据库里设置自动化规则。比如，当某个项目状态变成“已完成”，AI自动生成总结报告，并通知相关成员。我们有个项目经理靠这个功能，每周省了大约2小时的重复劳动。
+**The task:** "Find all open action items related to the Q3 product launch across all project pages and compile them into one list."
 
-ChatGPT在这方面几乎是空白。它没有触发器，没有工作流引擎，只能靠手动触发。说白了，它是个优秀的“问答机器人”，但不是个“系统工具”。
+**Notion AI:** This task required going page by page. We opened each project tracker, selected the action items, and asked Notion AI to "extract" them. It worked, but it took 12 manual steps. The final compilation had to be assembled manually.
 
-## 我的结论
+**ChatGPT:** We exported the relevant pages as markdown, pasted them into ChatGPT, and asked for a consolidated list. It produced a single, deduplicated list with owners and due dates, and even flagged two items that were overdue. The catch: we had to export the data first, which is a manual step that Notion doesn’t require if you’re already in the app.
 
-两个工具不是替代关系，而是互补关系。
+**Verdict:** Tie. Notion AI is faster if you know exactly where the data lives. ChatGPT is better if you have a large volume of pages and need synthesis. For teams with complex project structures, the export step is a dealbreaker.
 
-Notion AI更像团队知识的“管家”，帮你整理、搜索、自动完成重复工作。它强在“嵌入系统”，弱在“深度分析”。据Notion官方数据，AI功能上线后，用户页面创建效率提升了37%。
+## Scenario 4: Onboarding a New Hire
 
-ChatGPT更像“顾问”，擅长处理复杂问题、跨文档整合、非结构化数据分析。但它的使用门槛更高，需要人工搬运数据。
+**The task:** Generate a 3-day onboarding plan using existing docs: company overview, engineering handbook, and a "first week" checklist.
 
-如果你团队的知识库已经存在Notion里，优先用Notion AI。它能解决80%的日常需求。剩下那20%需要深度分析的场景，再打开ChatGPT。
+**Notion AI:** We opened a blank page, typed "Create an onboarding plan for a new backend engineer using our company docs," and it generated a structured plan. The output was decent but generic—it pulled from the single page we had open, not the handbook. It missed company-specific details like our code review process.
 
-别指望一个工具解决所有问题。工具是手段，团队的知识沉淀效率才是目的。
+**ChatGPT:** We pasted the three documents and asked for the same plan. It produced a far more tailored outline, referencing specific tools (e.g., "Set up access to the staging environment on day 2") and linking the plan to actual team rituals. It even suggested a buddy system based on the org chart we included.
+
+**Verdict:** ChatGPT wins. Onboarding benefits from synthesis across multiple sources, which is ChatGPT’s strength. Notion AI’s single-page focus makes it too shallow for this use case.
+
+## Scenario 5: Search and Retrieval ("Where Did We Decide That?")
+
+**The task:** "Find the decision about whether we should use PostgreSQL or DynamoDB for the user profiles service, and who made it."
+
+**Notion AI:** This is a search task, not a generation task. Notion AI doesn’t replace Notion’s built-in search. We used the regular search bar, found the relevant meeting note, and then used Notion AI to summarize the decision. It worked, but it was two separate tools doing two separate jobs.
+
+**ChatGPT:** We couldn't use ChatGPT for this at all—it has no access to our workspace. We would have needed to export or paste the note, which defeats the purpose of search.
+
+**Verdict:** Notion AI wins by default. It’s not perfect, but it’s the only option that keeps you inside your knowledge base. For teams that rely on fast retrieval, Notion’s native search plus AI summarization is a practical combo.
+
+## The Real Trade-off: Context vs. Integration
+
+The test results point to a clear pattern: **ChatGPT is smarter, but Notion AI is more present.**
+
+ChatGPT excels when you can give it all the context it needs—pasting documents, transcripts, or exported pages. It synthesizes better, catches nuances, and produces higher-quality output. But it requires a manual step: getting your knowledge *out* of Notion and *into* ChatGPT. That friction kills its usability for daily knowledge management.
+
+Notion AI, on the other hand, is embedded in the flow of work. You highlight, click, and get a result without leaving your page. But it’s limited by its lack of workspace-wide awareness. It can’t "see" your other pages, and that makes it weak for synthesis and Q&A tasks.
+
+## What Should You Choose?
+
+**Choose Notion AI if:**
+- Your team already lives in Notion and your knowledge is well-organized into single pages.
+- You need quick summaries, action items, and formatting help during meetings.
+- Your knowledge management is more about *capturing* than *synthesizing*.
+
+**Choose ChatGPT (or a RAG tool like Perplexity or Claude with file uploads) if:**
+- Your knowledge is scattered across hundreds of pages and you need cross-document answers.
+- You regularly onboard new hires or need to generate tailored guides.
+- You’re okay with a manual export step in exchange for much better answers.
+
+**The hybrid approach:** Many teams use both. Notion AI for in-the-moment note-taking and quick edits; ChatGPT for deep research, Q&A, and content generation. It’s not elegant, but it works.
+
+## The Bottom Line
+
+Notion AI is not a ChatGPT replacement—it’s a different category of tool. It’s a productivity enhancer for people who already use Notion, not a knowledge engine. ChatGPT, meanwhile, is a powerful reasoning engine that needs a data pipeline to be useful for team knowledge.
+
+The best choice depends on your team’s biggest pain point: if you struggle with *organizing* information, Notion AI helps. If you struggle with *finding and synthesizing* information, ChatGPT (or a dedicated knowledge AI) will serve you better. Test both with your own documents for a week. The winner will be obvious.

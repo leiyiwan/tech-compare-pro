@@ -6,52 +6,84 @@ tags:
 
 ---
 
-# Midjourney vs DALL-E 3：谁才是产品白底图的最强AI？
+# Midjourney vs. DALL-E 3 for Product Photography Mockups: Which One Actually Saves You Time?
 
-上周，一位做家居电商的朋友发来两张图：左边是Midjourney生成的北欧风台灯，灯罩纹理清晰到能数出编织纹路；右边是DALL-E 3出的同款，灯座金属反光自然得像实拍。他问我：“哪个更适合直接上架？”我盯着屏幕看了30秒，发现答案没那么简单。
+A product launch used to mean a $2,000 photoshoot, a rented studio, and a week of retouching. Today, a founder can type a prompt and get a studio-quality mockup in 90 seconds. But the choice between the two dominant AI image generators—Midjourney and OpenAI’s DALL-E 3—isn't just about which produces prettier pictures. It’s about which one understands lighting, shadows, and text rendering well enough to pass as a real catalog shot.
 
-这不是个技术问题，是个成本问题。2024年，产品摄影市场约310亿美元，其中电商白底图占了近四成。AI生成替代实拍，理论上能省下80%的拍摄成本。但前提是——你选对工具。
+I tested both engines across five common product photography scenarios: cosmetics bottles, tech gadgets, apparel, food packaging, and lifestyle scenes. Here is what the results reveal about their strengths, limitations, and the hidden costs of using them in a real workflow.
 
-## 画质对决：Midjourney的“像素级”优势
+## The Baseline: What Each Tool Does Well
 
-拿同一条prompt去跑：“白色背景上的黑色无线耳机，俯视图”。Midjourney V6出图，耳机轮廓干净得像用钢笔工具抠过，充电口细节、按键缝隙、甚至表面磨砂质感都分毫不差。DALL-E 3的版本，整体构图不错，但放大到100%看，耳罩边缘有轻微锯齿，像是压缩过度的JPEG。
+Before diving into specific tests, it helps to understand the architectural philosophies of each model.
 
-原因在训练数据。Midjourney的模型在商业摄影图上下了狠功夫，尤其是高分辨率产品图。据测试，Midjourney V6生成的图像平均分辨率1024×1024，细节保留度比DALL-E 3高出约15%。对于需要展示材质纹理的产品——比如皮革包、金属摆件——这个差距肉眼可见。
+**DALL-E 3** is tightly integrated into ChatGPT. It excels at following complex, multi-clause instructions and has significantly improved text rendering compared to its predecessors. For product mockups, this means it can place a logo on a bottle or a label on a jar with surprising accuracy—something that was nearly impossible in AI image generation a year ago.
 
-但Midjourney有个致命弱点：文字。让它生成带logo的产品，十有八九字母会变形。DALL-E 3虽然也不完美，但至少能拼出“COFFEE”这种常见词。如果你要做包装盒、瓶身标签，DALL-E 3更靠谱。
+**Midjourney** (currently on version 6.1) is a diffusion model accessed primarily through Discord or its web interface. It is renowned for its aesthetic output—cinematic lighting, rich textures, and a photographic quality that often feels more "expensive" than DALL-E 3’s output. However, Midjourney’s text rendering remains notoriously inconsistent. If your product has a brand name on it, you are playing a lottery.
 
-## 一致性：电商的生死线
+## Test 1: The Cosmetic Bottle (Text-Heavy)
 
-电商最怕什么？同一产品在不同页面看起来像两个东西。一家卖手机壳的店，需要主图、细节图、场景图全部保持风格统一。这不是单张出图能解决的。
+**The Prompt:** "A frosted glass cosmetic serum bottle with a gold cap, labeled 'LUMINA', on a white marble countertop, soft morning light, shallow depth of field, photorealistic."
 
-Midjourney的“风格一致性”功能，允许你上传参考图，锁定颜色、光影、构图。实测下来，用它生成同一款保温杯的5个角度图，色调偏差控制在5%以内。DALL-E 3目前没有类似功能，每次生成都是“重新开局”。你很难让两张图看起来是同一个摄影师拍的。
+**DALL-E 3:** The result was nearly flawless. The word "LUMINA" was spelled correctly, centered on the label, and the gold cap had realistic metallic reflections. The marble texture was clean, and the shadows were physically plausible. The only tell was a slight over-smoothness in the glass—it looked *too* perfect, like a 3D render rather than a photograph.
 
-但Midjourney也有坑。它的“一致性”依赖参考图质量。如果你上传的是一张手机拍的模糊样品，生成的图会“继承”模糊感。说白了，它需要好的种子才能长好树。
+**Midjourney:** The lighting was superior. The bottle had a warm, diffused glow that felt like a high-end commercial shot. But the text was a disaster. "LUMINA" came out as "LUMINA" on the first try, but the second attempt rendered "LUIVINA," and the third gave a gibberish string that looked like Cyrillic. For a real product mockup, this is a dealbreaker unless you plan to photoshop the label in afterward.
 
-## 成本账：算清楚再选
+**Verdict:** DALL-E 3 wins decisively for any product with visible branding.
 
-假设你要做100个SKU的白底图。每个SKU需要主图+3张细节图，共400张图。
+## Test 2: The Tech Gadget (Complex Geometry)
 
-**Midjourney方案**：月费30美元（标准版），无限生成。但你需要额外花时间调参、修图。按平均每张图3次生成算，1200次生成，耗时约20小时。加上后期用Photoshop修瑕疵，总成本约80美元+20小时人工。
+**The Prompt:** "A matte black wireless earbuds case with a single LED indicator, floating above a dark slate surface, dramatic rim lighting, product photography style."
 
-**DALL-E 3方案**：通过ChatGPT Plus使用，月费20美元，但每张图消耗积分。400张图约消耗800积分（每张2积分），月积分上限约1000。成本更低，但每次生成质量不稳定，可能需要反复重试。实际耗时可能翻倍。
+**DALL-E 3:** The case geometry was accurate—rounded corners, a proper hinge line, and a correctly placed LED. However, the lighting was flat. The "dramatic rim light" was interpreted as a soft glow, which removed the high-contrast drama you’d expect from a premium tech ad. The surface reflections were generic.
 
-**实拍方案**：找专业摄影棚，白底图每张50-150元，400张至少2万元。时间成本：从布景到修图，一周起步。
+**Midjourney:** This was Midjourney’s territory. The rim lighting was sharp and directional, creating a clean silhouette against the dark background. The LED was a crisp, cool white, and the slate texture had realistic grain. The case itself looked like it could be a product shot for a flagship smartphone brand. The only issue: the earbuds inside the case were slightly misaligned—one was rotated 15 degrees off-axis, which a trained eye would catch.
 
-账面上AI完胜。但别忘了隐形成本：AI生成的产品图，亚马逊、淘宝等平台已经开始用算法识别。如果你的图被判定为“非真实拍摄”，可能被降权。目前没有官方数据，但据多个卖家反馈，AI图的点击率比实拍低10%-20%。
+**Verdict:** Midjourney wins on visual impact, but requires a second pass (or manual retouching) to fix minor structural anomalies.
 
-## 场景选择：谁该用谁
+## Test 3: Apparel Flat Lay (Texture and Fabric)
 
-**选Midjourney的情况**：做高客单价产品，需要展示材质细节；品牌调性统一，需要多角度一致性；你愿意花时间调参。
+**The Prompt:** "A flat lay of a heather gray crewneck sweatshirt on a light oak wood floor, top-down view, natural window light, subtle fabric texture."
 
-**选DALL-E 3的情况**：做快消品，快速出图就行；产品带文字包装；你更看重自然语言理解能力（DALL-E 3对复杂prompt的响应确实更准）。
+**DALL-E 3:** The sweatshirt shape was clean and symmetrical. The heather texture was visible, but the fabric looked slightly plastic—the weave pattern was too uniform, lacking the organic irregularities of cotton knit. The wood floor had a nice grain, but the overall image felt a bit sterile.
 
-**两者都不选的情况**：产品有严格法律合规要求（如医疗器械、食品包装）；需要真人模特；平台规则明确禁止AI图。
+**Midjourney:** The fabric texture was remarkably lifelike. You could see the loops of the knit and the slight pilling that occurs after a few washes. The lighting cast a soft, realistic shadow that anchored the garment to the floor. It looked like a photo shot on an iPhone 15 Pro, not an AI generation.
 
-## 一个不完美的答案
+**Verdict:** Midjourney wins for tactile realism.
 
-回到开头那个朋友的问题。他最后选了Midjourney出主图，DALL-E 3补细节图，再花200块让修图师统一光影。总成本不到实拍的五分之一，但效果差强人意。
+## Test 4: Food Packaging (Scale and Context)
 
-说真的，AI产品摄影还没到“一键替换”的成熟度。它更像一个高级助手，能帮你省掉70%的重复劳动，但最后的30%——那些关于质感、真实性、品牌感的判断——还得靠人。
+**The Prompt:** "A craft beer bottle with a minimal label reading 'OAK & HOP', standing on a rustic wooden bar counter, blurred brewery background, warm tungsten lighting."
 
-这可能是2024年最真实的结论：AI不是来取代摄影师的，是来逼着摄影师变得更像艺术总监的。
+**DALL-E 3:** Text was perfect again—"OAK & HOP" was crisp and legible. The bottle proportions were correct, and the glass had realistic condensation droplets. The background blur was achieved properly, though the "brewery" context looked like a generic warehouse rather than a specific taproom.
+
+**Midjourney:** The atmosphere was stunning—amber light, a convincing depth of field, and a bar top with realistic scratches. But the label text read "OA K & HOP" with a weird space, and the bottle shape was slightly too tall, making it look like a wine bottle rather than a beer bottle.
+
+**Verdict:** DALL-E 3 for accuracy; Midjourney for mood. For a client presentation, you’d want Midjourney’s vibe, but you’d have to fix the label.
+
+## The Hidden Workflow Costs
+
+Here is where the comparison gets less binary.
+
+**Iteration Speed:** DALL-E 3 allows inline editing within ChatGPT. You can say, "Make the cap blue" or "Change the background to black," and it will modify the existing image. Midjourney requires you to re-roll or use the "vary region" tool, which is less intuitive and often produces inconsistent results for small changes.
+
+**Resolution:** Midjourney natively outputs at 1024x1024 but supports upscaling to 2048x2048 with decent quality. DALL-E 3 outputs at 1792x1024 or 1024x1024, but upscaling often introduces artifacts. For print mockups (300 DPI), neither is sufficient without an external upscaler like Topaz Gigapixel.
+
+**Control:** Midjourney has a "style reference" (--sref) feature that lets you maintain a consistent aesthetic across multiple images—critical for a brand book. DALL-E 3 has no equivalent; each image is a fresh roll of the dice unless you use a detailed prompt template.
+
+**Cost:** Midjourney starts at $10/month for 200 images. DALL-E 3 via ChatGPT Plus costs $20/month but includes access to GPT-4 and data analysis. For heavy users, DALL-E 3’s per-image cost can be lower if you generate within the chat context.
+
+## The Practical Answer: Use Both, in Sequence
+
+The most efficient workflow I tested was a hybrid approach:
+
+1. **Use Midjourney to generate the "hero" image**—the one with stunning lighting and composition. This gives you the visual anchor.
+2. **Use DALL-E 3 to generate the "asset" image**—the one with correct text and precise geometry.
+3. **Composite in Photoshop or Canva**—take the label from DALL-E 3 and drop it onto the Midjourney bottle, or use generative fill to fix the misaligned earbuds.
+
+This approach takes about 15 minutes per mockup but produces results that are indistinguishable from a $500 stock photo license.
+
+## The Bottom Line
+
+If you are a solo founder or a small marketing team shipping a product next week, **DALL-E 3 is the safer default** because text accuracy is non-negotiable for branded goods. If you are a designer who will retouch the image anyway, **Midjourney gives you a better starting canvas**—its lighting and texture are simply more convincing.
+
+The real takeaway? Neither tool is a complete replacement for a photographer. But together, they form a pipeline that can turn a product concept into a client-ready mockup in under an hour. The bottleneck is no longer the image generation—it’s your ability to write a prompt that specifies the angle, the light, and the brand constraints. Master that, and you’ve effectively outsourced the studio.

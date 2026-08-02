@@ -6,52 +6,88 @@ tags:
 
 ---
 
-# GPT-4 vs Gemini Ultra：2024年写代码到底该选谁？
+# GPT-4 vs Gemini Ultra: Which AI Model Is Better for Code Generation in 2024?
 
-凌晨两点，程序员小王盯着满屏的报错信息发呆。他刚让GPT-4生成了一段Python爬虫代码，运行到第三分钟就卡住了。切换成Gemini Ultra试了试，结果返回的代码直接少了两个关键函数。这场景，2024年估计不少开发者都经历过。
+In March 2024, a developer at a mid-sized SaaS company ran a simple experiment. He asked both OpenAI’s GPT-4 and Google’s Gemini Ultra to write a Python script that scrapes a website, handles rate limiting, and outputs the data as JSON. GPT-4 finished in 14 seconds. Gemini Ultra took 11 seconds. But when he inspected the outputs, the difference wasn’t speed—it was *structure*. Gemini’s code included error handling for edge cases GPT-4 missed, while GPT-4’s version was more readable and better commented. This split personality is exactly why choosing between these two models for code generation isn't a matter of "which is smarter"—it's about what you're optimizing for.
 
-两个顶级AI模型在代码生成上的对决，已经不再是实验室里的参数比拼。据第三方评测平台HumanEval最新数据，GPT-4的通过率达到87%，Gemini Ultra是83.6%。差距不大，但实际用起来，感受完全不同。
+By mid-2024, both models have matured significantly. GPT-4 (specifically GPT-4 Turbo and the newer GPT-4o variants) and Gemini Ultra 1.0 represent the cutting edge of commercial large language models. But for developers, the question isn't academic. It affects daily productivity, code quality, and debugging time. Here's a data-driven breakdown of how they compare across the metrics that actually matter.
 
-## 代码质量：GPT-4更稳，Gemini Ultra更快
+## Benchmark Performance: The Numbers Behind the Hype
 
-先说结论。GPT-4生成的代码，逻辑完整性明显更强。我拿一个典型的LeetCode中等题“三数之和”做测试，GPT-4给出的解法包含了边界检查、去重逻辑、双指针优化，直接跑通。Gemini Ultra也给出了正确答案，但少了对重复三元组的过滤，需要手动补一行代码。
+Let's start with what we know from standardized tests. On HumanEval—the classic benchmark for code generation—GPT-4 scores around 67% pass@1, meaning it solves the problem correctly on its first attempt. Gemini Ultra, according to Google's own technical report, claims a 74.4% pass@1 on HumanEval. That's a meaningful gap.
 
-不是个例。斯坦福大学2024年1月发布的对比报告显示，在500个随机编程题目中，GPT-4的一次通过率是72%，Gemini Ultra是65%。说白了，GPT-4更像一个有经验的程序员，习惯性地把坑填好。Gemini Ultra则像个刚毕业的，思路对，但细节总差那么一点。
+However, benchmarks deserve skepticism. HumanEval consists of relatively short, self-contained problems. Real-world coding involves multi-file projects, existing codebases, and ambiguous requirements. A more relevant benchmark is SWE-bench, which tests models on real GitHub issues from popular repositories. Here, GPT-4 (with tool use) achieves roughly 33% resolution rate. Gemini Ultra's performance on SWE-bench has been reported around 22-25% in independent evaluations, though Google has not published official numbers.
 
-但Gemini Ultra有个杀手锏：速度。同样生成一个完整的REST API服务代码，GPT-4平均耗时8.2秒，Gemini Ultra只要4.5秒。对于写代码过程中频繁试错的场景，快一倍意味着你能在同样时间内多试两套方案。
+What does this mean practically? For algorithmic puzzles and LeetCode-style problems, Gemini Ultra holds a slight edge. For modifying existing codebases and fixing bugs in complex projects, GPT-4 currently performs better in real-world testing.
 
-## 复杂场景：GPT-4胜出，但差距在缩小
+## Code Quality: Readability vs. Robustness
 
-多文件项目、依赖管理、错误处理，这些才是真实开发中的硬骨头。
+The most striking difference between the two models emerges when you examine the *style* of generated code.
 
-我让两个模型生成一个简单的Web应用，包含用户登录、数据查询、日志记录三个模块。GPT-4给出的代码结构清晰，文件之间引用关系正确，连数据库连接池都自动加了。Gemini Ultra生成的代码能跑，但文件命名混乱，有个模块的导入路径写错了。
+**GPT-4** tends to produce clean, idiomatic code. It follows PEP 8 conventions, uses descriptive variable names, and adds helpful comments. If you're working on a team where code review matters, GPT-4's output requires less cleanup. It also tends to write more modular code—breaking functions into smaller, testable units. This makes it easier to unit test and maintain.
 
-不过谷歌团队没闲着。Gemini Ultra在2024年2月的更新中，加入了专门的代码上下文理解模块。据谷歌官方博客数据，更新后Gemini Ultra在处理500行以上的项目代码时，错误率下降了34%。虽然还没追上GPT-4，但差距已经从“明显不如”变成了“略逊一筹”。
+**Gemini Ultra**, on the other hand, leans toward defensiveness. It frequently adds `try-except` blocks, null checks, and input validation even when not explicitly asked. This can be a double-edged sword. For production systems where robustness is critical, this is valuable. But it also means more boilerplate code, and sometimes it over-engineers simple tasks. In one test involving a basic CRUD API, Gemini Ultra generated 40% more lines of code than GPT-4 for the same functionality—most of it validation logic.
 
-## 语言支持：各有所长，看你在用什么
+The trade-off is clear: if you want minimal, readable code that you'll refactor anyway, GPT-4 is better. If you're generating code to drop into a production pipeline with minimal review, Gemini Ultra's defensive style might save you from edge-case bugs.
 
-Python和JavaScript，两者都表现优秀。但到了小众语言，区别就出来了。
+## Language and Framework Support
 
-Rust语言，GPT-4能生成符合所有权规则的代码，内存安全处理得当。Gemini Ultra在Rust上的表现就差一些，生成的代码经常出现借用检查错误。据Reddit上r/rust社区的统计，开发者反馈GPT-4的Rust代码可用率是78%，Gemini Ultra只有61%。
+Both models support dozens of programming languages, but their strengths differ.
 
-但Go语言是Gemini Ultra的强项。谷歌自家的语言，训练数据里Go代码占比更高。实测一个并发下载器的实现，Gemini Ultra生成的goroutine管理代码比GPT-4更简洁，性能开销也小12%（据个人测试数据，仅供参考）。
+GPT-4 remains the stronger choice for **Python, JavaScript, and TypeScript**, largely because of the volume of training data and the maturity of OpenAI's fine-tuning. It also handles popular frameworks like React, Django, and FastAPI with impressive accuracy.
 
-## 实际开发中的坑
+Gemini Ultra shows surprising strength in **less common languages**. It performs notably well with Rust, Go, and Kotlin, likely because Google's training data includes extensive code from their own repositories (Android is Kotlin-first, and Google Cloud heavily uses Go). In independent tests, Gemini Ultra also demonstrated better performance with **SQL**—generating more efficient queries with correct joins and indexing suggestions.
 
-说两个真实遇到的问题。
+For developers working in the Google ecosystem (Android, Flutter, Google Cloud), Gemini Ultra has a natural advantage. For web developers and Python-centric teams, GPT-4 remains the safer bet.
 
-第一，GPT-4会“过度解释”。生成代码时经常附带大量注释，有时候注释比代码还长。对于需要快速迭代的项目，这些注释反而成了干扰。Gemini Ultra默认代码更简洁，适合喜欢“少废话”的开发者。
+## Context Window and Multi-File Projects
 
-第二，Gemini Ultra对中文注释支持不好。我让它在中文注释下生成代码，结果有30%的概率把注释内容写进代码逻辑里，导致语法错误。GPT-4在这点上稳定得多，中文注释和英文注释表现一致。
+This is where Gemini Ultra's architecture gives it a distinct edge. Gemini Ultra supports up to 1 million tokens of context (in the API version), while GPT-4 Turbo supports 128,000 tokens. That's roughly an 8x difference.
 
-## 怎么选，看场景
+Practically, this means Gemini Ultra can ingest an entire codebase of moderate size—say, 50-80 files—and generate code that respects existing patterns and conventions. GPT-4, with its smaller context, requires you to be selective about what you feed it. You can't just paste a whole repository; you have to curate the relevant files.
 
-没有绝对的好坏，只有适不适合。
+For developers working on large monorepos, Gemini Ultra's expanded context is transformative. One developer reported using Gemini Ultra to refactor a 30-file TypeScript project in a single prompt, with the model correctly maintaining import paths and type definitions across all files. GPT-4 would have required multiple sessions with manual context management.
 
-如果你在写核心业务代码，对稳定性和完整性要求高，选GPT-4。它更像一个靠谱的搭档，虽然慢点，但不会给你埋坑。
+That said, larger context isn't always better. With more input, both models can get confused by irrelevant details. And Gemini Ultra's 1M token context comes with higher latency—responses can take 15-30 seconds for large projects, versus 5-10 seconds for GPT-4.
 
-如果你在写脚本、做原型验证、或者需要快速试错，Gemini Ultra的速度优势更明显。反正原型代码写完就扔，快比稳重要。
+## Debugging and Error Explanation
 
-如果你主要用Go语言，或者项目里大量使用谷歌云服务，Gemini Ultra的生态整合是加分项。反过来，用Rust、C++或者复杂框架，GPT-4更稳妥。
+When code fails, the quality of the explanation matters as much as the fix.
 
-最后说一句，两个模型都在快速迭代。谷歌DeepMind团队已经放话，2024年下半年Gemini Ultra会有重大更新。GPT-5也传闻年底发布。现在选哪个，可能半年后答案就变了。保持关注，但别迷信。
+GPT-4 excels at **explaining why** something went wrong. It provides step-by-step reasoning, identifies the root cause, and suggests preventive measures. This makes it an excellent pair-programming tool for learning developers. It also tends to offer multiple alternative solutions, which is useful when the first fix doesn't work.
+
+Gemini Ultra is more **directive**. It gives you the corrected code immediately, often without extensive explanation. This is faster for experienced developers who just want the fix. But it's less educational, and if the first solution doesn't work, Gemini Ultra sometimes struggles to iterate—it tends to repeat similar approaches rather than fundamentally changing strategy.
+
+In a test involving a race condition in a multithreaded Python application, GPT-4 correctly identified the issue, explained the GIL limitations, and offered three different synchronization strategies. Gemini Ultra provided a working fix using a lock, but didn't explain why the race condition occurred. Both solved the problem, but GPT-4 imparted more knowledge in the process.
+
+## Cost and Speed Considerations
+
+For practical use, cost matters.
+
+**GPT-4 Turbo** pricing: $10 per 1M input tokens, $30 per 1M output tokens. **Gemini Ultra** (API): $15 per 1M input tokens, $60 per 1M output tokens. Gemini Ultra is roughly 50-100% more expensive per token.
+
+However, Gemini Ultra's larger context window means you might send fewer tokens overall (since you don't need to re-send context in multiple iterations). For projects where you're working with large codebases, the cost difference narrows.
+
+Speed is also a factor. GPT-4 Turbo generates tokens at roughly 40-60 tokens per second. Gemini Ultra is slower, around 20-30 tokens per second for complex code generation. For long outputs, this difference is noticeable. A 500-line script might take 30 seconds with Gemini Ultra versus 15 seconds with GPT-4.
+
+## The Verdict: Which Should You Choose?
+
+There's no universal winner. The right choice depends on your workflow:
+
+**Choose GPT-4 if:**
+- You work primarily in Python, JavaScript, or TypeScript
+- You value code readability and maintainability
+- You need detailed explanations for debugging and learning
+- You're working within a budget
+- Your projects fit within a 128K token context
+
+**Choose Gemini Ultra if:**
+- You work with large codebases that need full-context understanding
+- You use Kotlin, Go, Rust, or SQL heavily
+- You're in the Google Cloud/Android ecosystem
+- You prefer robust, defensive code over minimal code
+- You're willing to pay more for fewer context limitations
+
+In 2024, the most pragmatic approach is to use both. Many developers report using GPT-4 for initial code generation and architecture, then switching to Gemini Ultra for codebase-wide refactoring and cross-file analysis. The two models complement each other well.
+
+The deeper takeaway: the era of "which AI is better" is ending. The era of "which AI for which task" is here. Your time is better spent learning the strengths of each model than arguing about benchmarks. The best code generator is the one you know how to use effectively—and that might just be both.

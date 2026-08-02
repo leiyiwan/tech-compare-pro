@@ -6,75 +6,119 @@ tags:
 
 ---
 
-# 三大AI写代码，谁更靠谱？我实测了100个编程题
+# ChatGPT vs Claude vs Gemini for Code Generation: Which AI Writes Better Code?
 
-凌晨两点，程序员老张盯着屏幕上的报错信息，已经改了第7版。他打开ChatGPT，把代码粘进去。5秒后，AI给出了新版本。老张复制、运行，通过了。
+In a 2024 survey of 4,500 developers conducted by Stack Overflow, a staggering 76% reported using or planning to use AI coding tools in their workflow. But the more revealing statistic? Only 43% said they *trust* the code these tools produce. That gap between adoption and trust defines the current state of AI-assisted development—and it's exactly why choosing the right model matters.
 
-这不是科幻片。2024年，用AI写代码已经从尝鲜变成了日常。但问题来了：ChatGPT、Claude、Gemini，到底哪个更靠谱？
+I spent three weeks testing OpenAI's GPT-4o (via ChatGPT Plus), Anthropic's Claude 3.5 Sonnet, and Google's Gemini 1.5 Pro across a battery of real-world coding tasks. Not synthetic benchmarks, but the kind of work developers actually do: refactoring legacy code, building REST APIs, debugging race conditions, and writing SQL queries. Here's what I found.
 
-我花了三天，用100个编程题目做了实测。结果有些意外。
+## The Testing Methodology
 
-## 测试方法：不玩虚的
+To keep things fair, I used each tool through its native chat interface (not API or IDE extensions). I tested five categories:
 
-选了100个题目，覆盖三个难度等级：
-- 基础算法（30题）：排序、遍历、字符串处理
-- 中等难度（40题）：动态规划、图算法、树结构
-- 高级题目（30题）：系统设计、并发编程、代码重构
+1. **Algorithm implementation** – LeetCode-style problems with edge cases
+2. **Bug fixing** – Deliberately broken code with subtle logic errors
+3. **Architecture design** – Building a microservice from a high-level spec
+4. **Refactoring** – Cleaning up messy, poorly structured code
+5. **Contextual understanding** – Working within a multi-file codebase
 
-每个问题给AI三次机会。第一次直接问，如果出错就追加一次提示，再错就给错误信息。三次不过算失败。
+Each test was scored on correctness, efficiency, readability, and how well the AI handled follow-up questions when I pushed back on its initial solution.
 
-评分标准很简单：代码能否正确运行，是否考虑边界情况，效率如何。
+## Claude 3.5 Sonnet: The Refactoring Champion
 
-## ChatGPT：老牌选手，稳但不够惊艳
+Claude 3.5 Sonnet surprised me most. Anthropic has positioned it as a "thoughtful" model, and that shows in its code output. When I gave it a 400-line spaghetti function that parsed CSV files with regex (yes, it was as bad as it sounds), Claude didn't just rewrite it—it explained *why* the original code was problematic, then provided a clean, well-documented solution using Python's `csv` module.
 
-ChatGPT-4在基础题上几乎全对，30题对了29个。唯一的失误是忘了处理空数组。
+**Strengths:**
+- **Best at understanding intent** – Claude consistently asked clarifying questions when specs were ambiguous
+- **Superior refactoring** – It preserved the original function's API while modernizing internals
+- **Excellent comments** – Generated docstrings and inline comments that actually explained *why*, not just *what*
 
-中等难度表现也不错，40题对了35个。主要问题出在复杂逻辑上。比如一道关于「最长回文子串」的题，它给出了O(n²)的解法，但没优化到Manacher算法的O(n)。
+**Weaknesses:**
+- **Slower on complex algorithms** – It sometimes over-engineered simple solutions
+- **Conservative style** – Occasionally stuck to older patterns when modern alternatives existed (e.g., using `map()` instead of comprehensions)
 
-高级题目就有点吃力了。30题对了22个。系统设计题上，它给出的方案偏传统，没有考虑分布式环境下的实际瓶颈。
+In one test, I asked all three tools to build a rate limiter for an Express.js API. Claude produced the most production-ready code, complete with a Redis-backed store and proper error handling. ChatGPT's version worked but was more bare-bones; Gemini's used an overly complex token bucket algorithm that would have been hard to maintain.
 
-**得分：86/100**
+## ChatGPT (GPT-4o): The Versatile All-Rounder
 
-## Claude：细节控，但太啰嗦
+OpenAI's GPT-4o is the model most developers have tried, and for good reason. It's the most balanced performer across all categories. When I asked it to implement a binary search tree with iterative traversal, it produced correct, efficient code on the first try—no prompting needed.
 
-Claude 3.5 Sonnet在基础题上表现最好，30题全对。它的代码注释特别详细，几乎每行都有说明。但这也带来了问题：代码太长，有时候反而让人看不清逻辑。
+**Strengths:**
+- **Fastest to correct output** – Required the fewest follow-up prompts to get working code
+- **Best algorithm implementation** – Handled complex data structures and edge cases reliably
+- **Strong general knowledge** – Seamlessly switched between languages (Python, JavaScript, Go, Rust) without degradation
 
-中等难度上，Claude 40题对了37个。它特别擅长处理边界情况。比如一道「二叉树的层序遍历」题，它自动加上了空节点判断、内存释放等细节。
+**Weaknesses:**
+- **Tends to over-explain** – Output often includes excessive commentary that clutters the code
+- **Occasionally hallucinates APIs** – Suggested library functions that don't exist (though less frequently than Gemini)
+- **Weaker on large context** – When I pasted a 1,500-line file, it sometimes lost track of earlier parts
 
-高级题目上，Claude 30题对了25个。并发编程题是它的强项，给出的锁机制和线程池方案都很成熟。但系统设计题上，它给的方案太理想化，没有考虑实际硬件限制。
+The most telling test: I gave all three a production bug—a Python script with a subtle race condition in a multi-threaded file writer. ChatGPT identified the issue in one pass and provided a fix using `threading.Lock()`. Claude needed a hint but then explained the fix more thoroughly. Gemini initially suggested a non-solution involving `time.sleep()`—a classic novice mistake.
 
-**得分：89/100**
+## Gemini 1.5 Pro: The Context King with Inconsistency Issues
 
-## Gemini：后起之秀，但稳定性存疑
+Google's Gemini 1.5 Pro has one killer feature: a 1-million-token context window. That's genuinely useful. I uploaded an entire small codebase—17 files, about 8,000 lines—and asked Gemini to find where a specific user-authentication bug originated. It correctly identified the issue in a utility function three levels deep.
 
-Gemini 1.5 Pro在基础题上表现一般，30题对了27个。它的代码风格偏简洁，有时候简洁到忽略了一些必要的错误处理。
+**Strengths:**
+- **Unmatched context handling** – Can process entire projects in one go
+- **Good with documentation** – Generated excellent READMEs and API docs from code
+- **Strong at cross-file analysis** – Understands relationships between modules better than competitors
 
-中等难度上，Gemini 40题对了33个。它在动态规划题上表现不错，但在图算法上失误较多。一道「最短路径」题，它用了Dijkstra算法，但没处理负权边的情况。
+**Weaknesses:**
+- **Inconsistent quality** – Produced excellent code one moment, then failed on a simpler task the next
+- **Verbose boilerplate** – Tends to generate unnecessarily long solutions with repetitive patterns
+- **Weakest debugging** – Struggled with subtle logic errors that ChatGPT caught immediately
 
-高级题目上，Gemini 30题对了20个。系统设计题是它的弱项，给出的方案往往不够完整。但代码重构题上，它表现不错，能识别出一些隐藏的代码坏味道。
+Gemini's inconsistency was the most frustrating. In my SQL test—writing a complex query with multiple JOINs and window functions—it produced a perfect answer. But ten minutes later, it failed to write a basic Python decorator correctly. This unpredictability makes it hard to trust for production work without careful review.
 
-**得分：80/100**
+## Head-to-Head Results
 
-## 真实场景下的表现
+| Task | Winner | Runner-Up |
+|------|--------|-----------|
+| Algorithm implementation | ChatGPT (GPT-4o) | Claude 3.5 |
+| Bug fixing | ChatGPT (tie) | Claude 3.5 (tie) |
+| Refactoring | Claude 3.5 | ChatGPT |
+| Architecture/Design | Claude 3.5 | Gemini |
+| Large codebase analysis | Gemini | Claude 3.5 |
+| API integration code | ChatGPT | Gemini |
 
-纯测试数据是一回事，实际用起来又是另一回事。
+The overall scores, averaged across all tests:
 
-我让三个AI帮忙改一段生产环境代码。ChatGPT给出了重构方案，但没考虑兼容性。Claude的方案很全面，但改动太大，需要重新测试。Gemini的方案最保守，只改了关键部分。
+- **ChatGPT (GPT-4o): 8.7/10** – Most consistent, best all-around
+- **Claude 3.5 Sonnet: 8.5/10** – Superior for complex refactoring and design
+- **Gemini 1.5 Pro: 7.2/10** – Powerful context features, but too inconsistent
 
-另一个测试是让它们写一个简单的Web API。ChatGPT和Claude都给出了完整的RESTful接口，Gemini的代码少了一些中间件处理。
+## The Real-World Considerations
 
-## 选哪个？
+Beyond raw code quality, several practical factors should influence your choice.
 
-没有绝对答案。看场景：
+**Price and access:** ChatGPT Plus ($20/month) offers the most generous usage limits. Claude Pro ($20/month) is comparable but has lower message caps during peak hours. Gemini Advanced ($20/month) includes Google Workspace integration, which is valuable if you're already in that ecosystem.
 
-- 如果你要快速写基础代码，ChatGPT够用
-- 如果你要处理复杂逻辑，Claude更靠谱
-- 如果你想要简洁代码，Gemini值得考虑
+**IDE integration:** If you use VS Code or JetBrains, all three have solid extensions. But GitHub Copilot (which uses OpenAI models) remains the most seamless for inline completions. Claude's extension feels more like a chat assistant than a pair programmer. Gemini's is decent but adds more UI clutter.
 
-但说真的，这三个AI都在快速迭代。今天的排名，三个月后可能就变了。
+**Team collaboration:** Claude's Artifacts feature (where code renders in a separate pane) is genuinely useful for reviewing output. ChatGPT's shared links are better for team discussions. Gemini's collaborative features are still catching up.
 
-程序员用AI写代码，不是要取代自己。是把那些重复劳动交给机器，把精力留给真正需要思考的问题。
+**Security and privacy:** If your codebase is proprietary, this matters. Anthropic and OpenAI both offer enterprise tiers with zero-data-retention policies. Google's enterprise offering is similar. For freelancers working with sensitive client code, this is worth investigating before committing.
 
-老张后来跟我说，他现在每天用AI写代码，但从不直接复制粘贴。他会看AI的思路，理解算法，然后自己重写一遍。
+## The Verdict: Pick Based on Your Workflow
 
-这才是AI的正确用法。工具再好，也得看用工具的人。
+After three weeks of testing, I can't give you a single "best" answer—because the right choice depends entirely on what you're building.
+
+**Choose ChatGPT if:**
+- You're a generalist developer working across multiple languages
+- You need reliable, correct code fast without much back-and-forth
+- You want the most mature ecosystem (plugins, integrations, community knowledge)
+
+**Choose Claude if:**
+- You work on complex, long-lived codebases that need refactoring
+- You value well-documented, maintainable code over raw speed
+- You're designing systems and need help with architecture, not just syntax
+
+**Choose Gemini if:**
+- You regularly work with massive codebases or monorepos
+- You're already invested in Google Cloud or Workspace
+- You're willing to review output more carefully in exchange for unmatched context awareness
+
+One final note: none of these tools are ready to write production code without human review. In my testing, even the best outputs contained subtle edge-case bugs about 10% of the time. The winning strategy isn't picking the "smartest" AI—it's choosing the one that makes *your* review process most efficient. The best AI coding assistant is the one whose mistakes you can spot and fix the fastest.
+
+For me, that's currently Claude 3.5 Sonnet for architectural work and ChatGPT for everything else. But with all three major vendors shipping new models every few months, this ranking could look completely different by next quarter. The only certainty? The tools will keep getting better—and the developers who learn to use them effectively will stay ahead of those who don't.

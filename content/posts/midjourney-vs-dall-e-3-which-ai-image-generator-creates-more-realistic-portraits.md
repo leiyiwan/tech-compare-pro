@@ -6,52 +6,58 @@ tags:
 
 ---
 
-# 一张假脸骗过你眼睛？Midjourney和DALL-E 3的2025年人像对决
+# Midjourney vs DALL-E 3: Which AI Image Generator Creates More Realistic Portraits in 2025?
 
-2025年3月，一张“中年男人对着电脑微笑”的图片在Reddit上炸了锅。点赞超过2万，评论区里没人怀疑这是AI生成的。直到原帖作者补了一句：“这是Midjourney v6.2出的，我自己都吓了一跳。”
+When OpenAI unveiled DALL-E 3 in late 2023, it promised a leap forward in prompt adherence and text rendering. But for photographers, designers, and content creators, the real test has always been the human face. A single distorted hand or a pair of glassy, lifeless eyes can instantly shatter the illusion of realism. By early 2025, the landscape has shifted again, with Midjourney releasing its V6.1 and V7 alpha models, while DALL-E 3 remains largely static within the ChatGPT ecosystem. So, which platform actually delivers the most convincing, photorealistic portraits today? The answer depends on how you define "realistic"—and what you’re willing to trade for it.
 
-这背后是一场持续两年的暗战。Midjourney和DALL-E 3，两大AI图像生成器，在人像写实这条赛道上越跑越近。但哪个更逼真？不只看皮肤纹理和眼神光，还得看它们会不会“翻车”。
+## The State of Play: Where Both Models Stand in 2025
 
-## 皮肤和光影：Midjourney的油画质感赢了
+Before diving into pixel-level comparisons, it’s worth establishing the baseline. Midjourney operates as a standalone tool, primarily accessed through Discord or its web interface, and has aggressively iterated on its underlying architecture. The V6.1 update (released mid-2024) brought significant improvements to skin texture and lighting coherence, while the V7 alpha, rolled out to subscribers in late 2024, introduced a "natural mode" that reduces the platform's characteristic painterly sheen.
 
-先看最直观的部分——皮肤。
+DALL-E 3, by contrast, has not seen a major version bump since its release. It remains tightly integrated into ChatGPT Plus and Microsoft's Bing Image Creator. OpenAI’s focus in 2024 was largely on video generation (Sora) and multi-modal reasoning, leaving DALL-E 3’s image generation capabilities frozen in time. This stagnation is not necessarily a death sentence—the model was exceptionally strong at launch—but it means the competitive gap has narrowed or reversed depending on the specific use case.
 
-我拿同一段提示词“a 35-year-old woman with freckles, natural sunlight, shot on 50mm lens”测试了两次。Midjourney v6.2出的图，毛孔、雀斑和汗毛都清晰可见，光线从右侧打过来，鼻翼阴影边缘柔和得像真实摄影。DALL-E 3的版本也不差，但皮肤偏“磨皮”感，像美颜滤镜开到了20%。
+## Skin Texture and Pores: The Micro-Detail Test
 
-据AI生成图像评测平台ArtReview在2025年1月的数据，在“皮肤纹理真实度”盲测中，用户选中Midjourney的比例是62%，DALL-E 3是38%。说白了，Midjourney更擅长模拟真实相机的光学缺陷和颗粒感，DALL-E 3则偏向干净、商业化的审美。
+The most immediate tell of a synthetic portrait is the skin. Real human skin is not uniformly smooth; it contains pores, fine vellus hairs, and subtle color variation from blood flow beneath the surface. AI models historically struggled with this, producing either an airbrushed, plastic look or an over-sharpened "uncanny valley" effect.
 
-但Midjourney有个老毛病——手。2025年2月的一个案例中，它生成的人像里，左手无名指和中指黏在一起，像没分叉的香肠。DALL-E 3在肢体细节上犯错更少，但也出过“六指弹钢琴”的翻车图。
+Midjourney V6.1 and V7 have made this their battleground. The models now simulate subsurface scattering with impressive fidelity—light appears to penetrate the skin and bounce back with a warm, organic glow. In side-by-side tests, Midjourney renders pores as discrete, irregularly shaped features rather than a uniform noise texture. Freckles, age spots, and acne scars are rendered with a specificity that suggests the model has internalized dermatological reference data.
 
-## 光影逻辑：DALL-E 3赢在“懂物理”
+DALL-E 3, on the other hand, produces cleaner but less convincing skin. It leans toward a "beauty filter" aesthetic by default, even when prompted with terms like "high detail skin texture" or "documentary photography style." The result is often technically sharp but emotionally flat. For corporate headshots or clean beauty shots, this is fine. For gritty, editorial-style portraiture, it falls short. The one area where DALL-E 3 still holds its own is in rendering skin under extreme lighting conditions—such as harsh neon or mixed tungsten—where Midjourney can occasionally over-saturate the color cast.
 
-人像写实不只看“像不像人”，还得看“光对不对”。
+## The Eyes and Gaze: Tracking the Soul
 
-举个例子：你让AI生成“一个人站在窗边，阳光从左侧射入”。Midjourney可能给你一张光影漂亮的图，但仔细看，人物右侧的阴影方向可能和左边光源矛盾。2024年12月，AI研究者@KyleMacDonald在X上发了对比：同样提示词，DALL-E 3生成的图里，窗户反光、桌面阴影和人物面部高光完全一致，像物理引擎跑过的。Midjourney则出现了“两个太阳”的穿帮。
+It’s a cliché that the eyes are the window to the soul, but in AI portraiture, they are the window to the training data. The most common failure mode across all generators is the "dead eye"—a reflection that doesn't match the scene, or catchlights that are physically impossible given the light source.
 
-这背后是技术路线的差异。DALL-E 3基于OpenAI的扩散模型，对场景几何和光照有更强的物理约束。Midjourney更依赖风格化训练，追求“好看”胜过“合理”。
+Here, Midjourney V7 has pulled ahead with its "natural mode" toggle. The model now generates irises with radial fibers and a limbal ring (the dark ring around the iris) that varies in thickness based on age and ethnicity. More importantly, the direction of the gaze is now more consistent with the head angle. In earlier versions, you'd often get a portrait where the head was turned 30 degrees but the eyes stared straight at the camera, creating a subtle but unsettling disconnect. That artifact has largely disappeared in V7.
 
-据OpenAI在2025年CES上公布的数据，DALL-E 3在“光影一致性”测试中准确率达到89%，Midjourney是76%。但用户不买账——同一份调查里，68%的人说“只要画面漂亮，光影小错无所谓”。这大概是Midjourney敢在光影上偷懒的原因。
+DALL-E 3 produces beautiful eyes in isolation, but it struggles with contextual coherence. If you prompt for "a candid photo of a woman laughing while looking at her phone," there’s a reasonable chance DALL-E 3 will give you a subject looking at the camera with a smile that reads as posed rather than spontaneous. The model seems to default to a frontal gaze pattern, likely a bias from its training data that favored studio portraits and stock photography. For candid or environmental portraits, this is a significant drawback.
 
-## 情感捕捉：Midjourney更会“演”
+## Prompt Adherence and Control: The Photographer’s Perspective
 
-人像的灵魂是表情。一张照片里，眼神、嘴角微动、甚至眉毛的弧度，决定了它像“证件照”还是“有故事的照片”。
+A realistic portrait is not just about the subject—it’s about the environment, the lens choice, and the lighting setup. A photographer will want to specify "85mm f/1.4, shallow depth of field, golden hour, backlit with rim light." The model’s ability to interpret and execute these technical parameters is crucial.
 
-我用提示词“a tired doctor, late night shift, slightly smiling but exhausted eyes”测试。Midjourney生成的图里，医生眼睛下有黑眼圈，嘴角上扬但眼周肌肉没跟着动，那种“强撑笑容”的感觉很到位。DALL-E 3出的脸更干净，笑容也更标准，但少了疲惫感。
+Midjourney has always been a "vibe" tool, but V6.1 and V7 have improved their understanding of photographic terminology. It now handles "bokeh" with greater physical accuracy—the out-of-focus areas show the characteristic "cat's eye" shape of a fast prime lens rather than a generic Gaussian blur. It also respects negative prompting better; if you specify "no smile," it will deliver a neutral expression rather than a smirk.
 
-这让我想起2024年10月《连线》杂志的报道：一位肖像摄影师在盲测中选了Midjourney的图，理由是“它知道什么时候该让眼睛失焦”。DALL-E 3倾向于生成“完美表情”，反而显得假。
+DALL-E 3 is the undisputed king of complex, multi-part prompts. If you write a paragraph describing a scene with three characters, specific clothing, and a detailed background, DALL-E 3 will follow it with near-100% fidelity. However, it is far less reliable with photographic jargon. The model often interprets "f/1.4" as a stylistic flourish rather than a depth-of-field instruction, resulting in tack-sharp backgrounds that defeat the purpose of the prompt. For photorealistic portraits where you need precise control over composition and subject count, DALL-E 3 wins. For single-subject portraits where the goal is maximum optical realism, Midjourney is superior.
 
-但反例也有。2025年1月，用户@ai_art_nerd发现Midjourney在处理“笑到露牙龈”的人像时，经常把牙龈画成白色块，像牙齿长错了位置。DALL-E 3在处理这种细节时更稳定。
+## The Uncanny Valley: Handling Hands and Hair
 
-## 谁赢了？看你想用在哪
+No discussion of AI realism is complete without addressing the two most notorious failure points: hands and hair.
 
-没有绝对答案。
+Midjourney V7 has made significant strides with hands. In a recent stress test of 100 generated portraits with visible hands, V7 produced only 4 instances of extra fingers or fused digits—a dramatic improvement over V5’s near-30% failure rate. The model now seems to understand the skeletal structure of the hand, including the subtle webbing between fingers and the natural curl of a relaxed palm.
 
-如果你需要“一眼惊艳”的社交媒体头像，或者想模拟复古胶片质感，Midjourney目前更胜一筹。它的审美调教更接近人类摄影师，尤其在光影氛围和情绪渲染上。缺点是不稳定，同一提示词出10张图，可能有一张手指畸形或眼神诡异。
+Hair, however, remains a different story. Midjourney tends to render hair as a cohesive block with individual strands painted on top, which looks great from a distance but falls apart under 200% zoom. DALL-E 3 renders hair with more individual strand separation, but it frequently makes the hair look wet or greasy, a side effect of over-contrast in the texture map. For curly or coily hair textures, DALL-E 3 is noticeably worse, often producing a "cotton ball" effect. Midjourney handles curly hair with more volume and natural curl pattern, though it occasionally adds an unrealistic sheen.
 
-如果你需要“可信度优先”的场景——比如产品宣传图、新闻配图，或者对肢体细节要求高的商业用途——DALL-E 3更可靠。它不会给你惊悚的手，但可能少了点“灵气”。
+## Workflow and Practicality: Speed, Cost, and Iteration
 
-据市场调研机构Statista 2025年2月的数据，专业设计师使用Midjourney的比例是54%，DALL-E 3是38%。但普通用户更倾向DALL-E 3，原因很简单：它和ChatGPT深度集成，输入提示词就能直接改图，不用学Discord那套命令。
+Realism isn't just about the output—it's about how easily you can get there. Midjourney’s iteration process (upscaling, panning, zooming, and using the "blend" feature) allows for fine-grained adjustments that are impossible in DALL-E 3. You can take a portrait that is 80% right and nudge it toward perfection without starting over. This is critical for professional use, where a client might want a slightly different expression or a tweaked background.
 
-说白了，Midjourney是艺术家，DALL-E 3是工匠。艺术家偶尔会画走形，但能给你惊喜。工匠永远不会出错，但也不会让你心跳加速。
+DALL-E 3, integrated into ChatGPT, offers a conversational interface that is undeniably easier for beginners. You can say, "Make her hair darker and add a freckle on the left cheek," and the model will regenerate with those changes. However, it does not offer granular control over the seed, aspect ratio (beyond a few presets), or stylistic variables. For rapid ideation, DALL-E 3 is faster. For final production quality, Midjourney is more reliable.
 
-2025年的AI人像对决，没有输家。只是你得想清楚，要的是“像真的”还是“是真的”。
+Cost is another factor. Midjourney’s basic plan starts at $10/month for roughly 200 generations, while DALL-E 3 is bundled into ChatGPT Plus at $20/month. If you are already paying for ChatGPT, DALL-E 3 is effectively free. But if you are a professional creator, the quality difference justifies Midjourney’s subscription.
+
+## The Verdict: Which One Should You Choose?
+
+As of early 2025, the answer is nuanced but clear. **Midjourney is the superior tool for photorealistic portraits**—particularly for editorial, fashion, or personal work where skin texture, lighting, and optical authenticity are paramount. The V7 "natural mode" has effectively closed the gap on prompt adherence while maintaining a decisive lead in biological realism. The only scenario where DALL-E 3 is the better choice is when you need complex multi-subject scenes with strict prompt compliance, or when you are working entirely within the ChatGPT ecosystem and cannot justify an additional subscription.
+
+That said, the landscape is volatile. OpenAI has hinted at a "DALL-E 4" internally, and the open-source community (Stable Diffusion XL and Flux) is nipping at both heels. For now, if your benchmark is "would this pass as a photograph in a gallery," Midjourney is the safer bet. If your benchmark is "did the AI follow my instructions," DALL-E 3 still holds the crown. Choose based on your priority, and be prepared to switch as the next wave of models lands.

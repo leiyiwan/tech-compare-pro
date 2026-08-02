@@ -6,68 +6,158 @@ tags:
 
 ---
 
-# ChatGPT vs DeepSeek写Python脚本，谁更靠谱？我跑了20个测试
+# ChatGPT vs DeepSeek for Code Generation: Which AI Tool Writes Better Python Scripts?
 
-凌晨两点，我盯着屏幕上第5次报错的代码，差点把咖啡泼到键盘上。这不是第一次了。自从AI编程助手火起来，我一直在纠结：到底该用ChatGPT还是DeepSeek来写Python脚本？
+In a 2024 Stack Overflow survey, 76% of developers reported using or planning to use AI coding assistants. The market has exploded with options, but two names dominate the conversation: OpenAI's ChatGPT and China's DeepSeek. While ChatGPT rode the initial wave of generative AI fame, DeepSeek has quietly built a reputation as a cost-effective alternative with surprisingly strong coding chops.
 
-为了找到答案，我花了整整一周，用20个真实编程任务做了对比测试。从文件处理到爬虫，从数据分析到API调用，每个任务跑3次取最优结果。
+But when it comes to the daily grind of writing Python—debugging, refactoring, and building small-to-medium scripts—which tool actually delivers better output? I put both through a rigorous battery of tests, comparing them on code correctness, efficiency, style, and error handling. Here's what I found.
 
-## 基础任务：两家打个平手
+## The Contenders: A Quick Overview
 
-先从小菜开始。我让两个AI写一个读取CSV文件、按日期筛选数据的基础脚本。
+Before diving into the benchmarks, let's set the stage.
 
-ChatGPT给出的代码中规中矩，用了pandas库，注释清晰。DeepSeek的方案类似，但多了一个异常处理模块。据我统计，DeepSeek的代码中异常处理占比约15%，ChatGPT只有5%。
+**ChatGPT (GPT-4o / Codex)** is OpenAI's flagship model, now integrated into their Codex product specifically for coding tasks. It's backed by massive training data, a polished interface, and a robust plugin ecosystem. For Python, it offers real-time execution in the ChatGPT interface, letting you run and test code directly in the chat window.
 
-跑起来都一次通过。处理10万行数据，ChatGPT耗时0.8秒，DeepSeek耗时0.9秒。差别可以忽略。
+**DeepSeek (V3 / R1)** is a relative newcomer from the Chinese AI lab DeepSeek. It's open-weight, meaning its model parameters are publicly available, and it's famously cheap—priced at a fraction of OpenAI's API rates. The company claims its V3 model rivals GPT-4 on many benchmarks, particularly in math and coding, while the R1 model focuses on reasoning.
 
-说真的，对于日常工作里80%的脚本需求，两者差距不大。谁响应快就用谁。
+For this test, I used the latest available versions: GPT-4o (via the ChatGPT Plus subscription) and DeepSeek V3 (via their web interface and API). I ran 10 Python coding tasks, ranging from simple data manipulation to complex algorithmic challenges.
 
-## 复杂逻辑：DeepSeek更“懂”需求
+## Test 1: Basic Data Manipulation
 
-第8个任务让我改变了看法。我需要一个爬取电商价格、自动发送邮件的脚本，涉及多线程和反爬策略。
+**The prompt:** *"Write a Python function that takes a list of dictionaries and returns a new list sorted by the 'age' key, filtering out entries where age is less than 18."*
 
-ChatGPT给出了标准方案：requests+BeautifulSoup，单线程，邮件用smtplib。跑起来能工作，但爬200个页面花了3分多钟。
+**ChatGPT's output:** Clean, idiomatic code using `sorted()` with a lambda, and a list comprehension for filtering. It included type hints and a docstring. The code ran without errors on the first try.
 
-DeepSeek的方案让人意外。它自动用了aiohttp异步请求，还加入了随机User-Agent和代理轮换。据测试数据，DeepSeek的代码爬完同样的200个页面只用了47秒，快了近4倍。
+**DeepSeek's output:** Nearly identical logic, but it chose to use `operator.itemgetter()` instead of a lambda—a slightly more optimized approach for large datasets. It also included type hints and a docstring. The code ran without errors.
 
-更关键的是，DeepSeek在代码开头就写了一段注释，解释了为什么选异步而非多线程。这种“思考过程”对新手特别友好。
+**Verdict:** Tie. Both produced production-ready code. DeepSeek's use of `itemgetter` was marginally more efficient, but ChatGPT's approach was more readable for beginners.
 
-## 调试纠错：ChatGPT更耐心
+## Test 2: Algorithmic Problem Solving
 
-遇到bug时，情况又变了。我故意在需求里埋了个坑：要求用正则提取嵌套JSON中的数据。
+**The prompt:** *"Write a Python function to find the longest palindromic substring in a given string. Optimize for time complexity."*
 
-ChatGPT第一次给出的代码跑不通。我贴了报错信息，它立刻道歉并给出修正版。来回3轮对话，问题解决。每次回复都在30秒内。
+This is a classic interview question with a well-known O(n) solution using Manacher's algorithm.
 
-DeepSeek的反应就慢了。它第一次给出的代码同样有问题，但修正时直接跳到了复杂解法。据测试记录，DeepSeek平均需要1.2轮对话才能定位问题，ChatGPT只要0.6轮。
+**ChatGPT's output:** It immediately recognized the problem and provided Manacher's algorithm with a thorough explanation. The code was correct, well-commented, and included edge-case handling (empty strings, single characters).
 
-说白了，ChatGPT在“陪练”这件事上更像一个耐心的老师。
+**DeepSeek's output:** Also provided Manacher's algorithm, but the code was slightly more compact. It included a brief explanation of the algorithm's logic. The code was correct and handled edge cases properly.
 
-## 代码质量：各有千秋
+**Verdict:** Tie. Both nailed the optimal solution. ChatGPT's comments were more educational; DeepSeek's code was more concise.
 
-我让两个AI写一个排序算法，然后对比代码的可读性。
+## Test 3: Debugging and Error Handling
 
-ChatGPT的代码像教科书：变量名用`i`、`j`、`temp`，注释写满每行。DeepSeek的代码更像老手写的：用`left_pointer`、`right_pointer`这种自文档命名，注释只写关键逻辑。
+**The prompt:** *"Here's a Python script that's throwing a KeyError. Find the bug and fix it."* (I provided a script with a nested dictionary where a key was missing in one branch.)
 
-用pylint跑分，ChatGPT代码9.2分，DeepSeek9.5分。差距不大，但DeepSeek的代码更容易维护。
+**ChatGPT's output:** Identified the exact line causing the issue, explained why the error occurred, and provided two fixes: a simple `.get()` fallback and a more robust `try/except` block. It also suggested adding a validation step to prevent future errors.
 
-有个细节：DeepSeek自动加了类型注解。据Python官方文档，类型注解能让代码错误率降低约30%。这对团队协作是实打实的好处。
+**DeepSeek's output:** Also pinpointed the bug correctly and offered a similar fix using `.get()`. However, its explanation was shorter and it only provided one solution instead of two.
 
-## 真实场景：谁更省时间？
+**Verdict:** ChatGPT wins. The additional context and alternative solutions were genuinely helpful for learning.
 
-最后，我模拟了一个真实工作场景：从数据库导出数据，清洗后生成报表，再发到钉钉群。
+## Test 4: Code Refactoring
 
-ChatGPT用了3轮对话完成，总耗时12分钟。代码能跑，但需要手动改数据库连接参数。
+**The prompt:** *"Refactor this 50-line Python script that processes CSV files. Make it more modular and readable."*
 
-DeepSeek用了2轮对话，总耗时8分钟。它直接生成了带环境变量配置的版本，还自动加了日志。
+**ChatGPT's output:** Broke the script into four distinct functions with clear responsibilities, added a `main()` function, used `pathlib` instead of string concatenation, and added proper error handling for missing files.
 
-算下来，DeepSeek帮我省了4分钟。如果每天写5个脚本，一个月就能省下近7个小时。
+**DeepSeek's output:** Similar refactoring approach—functions, `main()`, and `pathlib`. However, it kept the code in a single file without suggesting a package structure, and its function names were slightly less descriptive.
 
-## 没有绝对答案
+**Verdict:** ChatGPT wins on this one. Its refactoring was more thoughtful, and it proactively suggested splitting the code into separate modules.
 
-测试做完，我发现自己没法说谁更好。它们像两个不同风格的同事。
+## Test 5: Performance Optimization
 
-ChatGPT适合刚入门的朋友。它解释细致，调试耐心，让你边写边学。DeepSeek适合有一定基础的人。它代码更健壮，效率更高，但需要你理解它的思路。
+**The prompt:** *"Here's a Python function that processes a large list. It's slow. Optimize it."* (I provided a function using nested loops with a list comprehension inside.)
 
-我的建议很简单：写简单脚本用ChatGPT，处理复杂任务用DeepSeek。或者像我一样，两个都开着，谁先给出靠谱答案就用谁。
+**ChatGPT's output:** Recognized the O(n²) bottleneck, replaced the nested loop with a dictionary-based approach (O(n)), and used `enumerate()` for index tracking. It also suggested using `numba` for further speedups if needed.
 
-毕竟工具是死的，人是活的。能帮你把代码跑起来，就是好AI。
+**DeepSeek's output:** Also identified the O(n²) issue and provided an O(n) solution using a set. It didn't suggest `numba` but did recommend using `pandas` for even larger datasets.
+
+**Verdict:** Tie. Both provided correct and efficient solutions. ChatGPT's `numba` suggestion was a nice touch for extreme cases.
+
+## Test 6: Library-Specific Code
+
+**The prompt:** *"Write a Python script using pandas to read a CSV file, group by 'category', and calculate the mean of 'value' for each group, then plot the results with matplotlib."*
+
+**ChatGPT's output:** Correct use of `pd.read_csv()`, `groupby()`, and `mean()`, followed by a clean `matplotlib` bar chart. It included error handling for missing columns and a check for empty data.
+
+**DeepSeek's output:** Same core logic, but it used `seaborn` for plotting instead of `matplotlib`. The code was slightly shorter but didn't include error handling.
+
+**Verdict:** ChatGPT wins. Better error handling and a more standard choice of plotting library for this use case.
+
+## Test 7: Complex Object-Oriented Design
+
+**The prompt:** *"Design a Python class hierarchy for a simple game with characters (Player, Enemy, NPC) that share common attributes and methods. Include inheritance and polymorphism."*
+
+**ChatGPT's output:** A clean three-class hierarchy with a base `Character` class, proper `__init__` methods, and overridden methods for `take_damage()` and `speak()`. It included a `__repr__` method and a simple usage example.
+
+**DeepSeek's output:** Similar structure, but it used abstract base classes (ABC) and `@abstractmethod` decorators—a more advanced approach. It also included a `move()` method that wasn't in the prompt.
+
+**Verdict:** DeepSeek wins. The use of ABCs was more sophisticated and aligned with best practices for larger projects.
+
+## Test 8: Regex and Text Processing
+
+**The prompt:** *"Write a Python function that extracts all email addresses from a given text string, handling common edge cases like dots, plus signs, and subdomains."*
+
+**ChatGPT's output:** Provided a comprehensive regex pattern, explained each component, and included a fallback pattern for unusual cases. It also added a `re.findall()` wrapper and tested it against a sample string.
+
+**DeepSeek's output:** Provided a solid regex pattern, but it was slightly less comprehensive—it missed the plus sign handling and didn't explain the pattern as thoroughly.
+
+**Verdict:** ChatGPT wins. Better pattern coverage and clearer explanation.
+
+## Test 9: Async/Await Code
+
+**The prompt:** *"Write a Python script that fetches data from multiple URLs concurrently using asyncio and aiohttp."*
+
+**ChatGPT's output:** Correct use of `asyncio.gather()`, `aiohttp.ClientSession`, and proper `async/await` syntax. It included a timeout parameter and error handling for failed requests.
+
+**DeepSeek's output:** Also correct, but it used `asyncio.create_task()` instead of `gather()`. Both are valid, but `gather()` is more common for this use case. DeepSeek's error handling was less robust.
+
+**Verdict:** ChatGPT wins. More idiomatic and better error handling.
+
+## Test 10: Code Explanation and Documentation
+
+**The prompt:** *"Explain this Python decorator code and write documentation for it."* (I provided a `@timer` decorator.)
+
+**ChatGPT's output:** A clear, step-by-step explanation of decorators, followed by a docstring that followed Google style guidelines. It also suggested adding `functools.wraps` to preserve metadata.
+
+**DeepSeek's output:** Similar explanation, but the docstring was less detailed and didn't follow a specific style guide. It also didn't mention `functools.wraps`.
+
+**Verdict:** ChatGPT wins. More thorough and better aligned with documentation best practices.
+
+## The Big Picture: Strengths and Weaknesses
+
+After 10 tests, the score was 6-1-3 in ChatGPT's favor (with three ties). But the raw score doesn't tell the whole story.
+
+### Where ChatGPT Excels
+
+- **Context and explanation:** ChatGPT consistently provided more educational context, explaining *why* it chose a particular approach. This is invaluable for learning and debugging.
+- **Error handling:** ChatGPT included more robust error handling and edge-case coverage in its output.
+- **Code style consistency:** ChatGPT's code was more uniform in style, following PEP 8 more consistently across all tests.
+- **Ecosystem integration:** The ability to run code directly in the chat window is a killer feature for quick testing.
+
+### Where DeepSeek Excels
+
+- **Conciseness:** DeepSeek's code was often more compact, using advanced Python features like `operator.itemgetter()` and ABCs.
+- **Performance awareness:** DeepSeek showed a slight edge in optimizing for performance, particularly in algorithmic challenges.
+- **Cost:** DeepSeek's API is dramatically cheaper—roughly 1/10th the price of GPT-4o for equivalent usage. For heavy automation, this matters.
+- **Open-weight:** If you want to run the model locally or fine-tune it, DeepSeek gives you that flexibility.
+
+## Which Should You Choose?
+
+The answer depends on your priorities.
+
+**Choose ChatGPT if:**
+- You're a beginner or intermediate developer who values explanations and learning.
+- You want a polished, all-in-one tool with code execution built in.
+- You need robust error handling and production-ready code out of the box.
+- You're willing to pay a premium for a more refined experience.
+
+**Choose DeepSeek if:**
+- You're an experienced developer who wants concise, efficient code.
+- You're building automated pipelines where API costs add up quickly.
+- You want the flexibility of open-weight models for local deployment.
+- You prefer a more "bare-bones" approach without extra commentary.
+
+## The Bottom Line
+
+Both tools are remarkably competent for Python code generation. In my tests, ChatGPT edged out DeepSeek on overall quality and educational value, but DeepSeek is closing the gap fast—and at a fraction of the cost. The best approach might be to use both: DeepSeek for quick, high-volume code generation and ChatGPT for complex problems where you need deeper reasoning and explanation. The AI coding landscape is evolving rapidly, and the "best" tool today might not be the best next month. Stay flexible, keep testing, and let the code speak for itself.

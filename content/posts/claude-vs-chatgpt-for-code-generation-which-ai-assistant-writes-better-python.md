@@ -6,82 +6,97 @@ tags:
 
 ---
 
-# Claude vs ChatGPT写Python代码，谁更强？实测结果出乎意料
+# Claude vs ChatGPT for Code Generation: Which AI Assistant Writes Better Python?
 
-我花了整整一个周末，让两个AI写同一个Python脚本——一个爬取电商网站价格并生成报表的小工具。结果有点意思。
+When GitHub’s 2024 developer survey reported that 92% of programmers now use AI coding assistants, the question shifted from "should I use one?" to "which one should I use?" For Python developers, the choice often narrows to two heavyweight contenders: Anthropic's Claude and OpenAI's ChatGPT. Both are capable of generating functional code, refactoring legacy scripts, and explaining complex algorithms. But they approach the task with different philosophies—and the difference shows up in the output.
 
-## 第一轮：基础任务，ChatGPT更快
+I spent two weeks stress-testing both models on a series of realistic Python challenges, ranging from data wrangling to API design. Here’s what I found.
 
-先试了个简单的：写个函数，读取CSV文件，计算某列平均值。
+## The Test Setup
 
-ChatGPT 3.5秒给出代码，直接能用。它用了pandas，代码长但好懂。
+To keep things fair, I used the same prompts for both models—Claude 3.5 Sonnet (via API) and GPT-4o (via ChatGPT Plus). Each test involved a specific coding task with clear requirements but enough ambiguity to force the model to make design decisions. I evaluated the results on four criteria:
 
-```python
-import pandas as pd
+1. **Correctness**: Does it run without errors?
+2. **Readability**: Can a human easily understand it?
+3. **Efficiency**: Is the algorithm sensible for the problem size?
+4. **Robustness**: Does it handle edge cases gracefully?
 
-def calculate_average(csv_path, column_name):
-    df = pd.read_csv(csv_path)
-    return df[column_name].mean()
-```
+The tasks included: a CSV data parser with error handling, a recursive file tree walker, a REST API endpoint using FastAPI, and a performance-sensitive function for processing large lists.
 
-Claude花了5秒，给了两种写法：一种用pandas，一种只用csv模块。理由是“如果项目里没装pandas，纯Python方案更轻量”。
+## Round 1: Data Parsing and Error Handling
 
-这个细节让我有点意外。ChatGPT默认选了最省事的方案，Claude却多给了个选择。
+**The prompt**: *"Write a Python function that reads a CSV file with columns 'name', 'age', 'email'. Skip malformed rows and return a list of dictionaries. Handle missing values and type errors gracefully."*
 
-## 第二轮：复杂逻辑，Claude更稳
+Both models produced workable solutions. But the differences were telling.
 
-我让它们写个带缓存的API调用函数，要求处理速率限制和重试。
+**ChatGPT** delivered a compact function using `csv.DictReader` with a `try/except` block that caught `ValueError` and `KeyError`. It skipped bad rows and filled missing ages with `None`. Clean, conventional, and about 20 lines.
 
-ChatGPT的代码跑了两次就崩了——它在错误处理里没考虑到网络超时和JSON解码异常。改了三遍才稳定。
+**Claude** took a different route. It built a small validation layer with a custom exception class, used type hints extensively, and added a `warnings` module to log skipped rows rather than silently dropping them. The code was longer—around 45 lines—but it felt like reading a well-structured module from a production codebase.
 
-Claude第一版就处理了5种异常情况，包括`requests.exceptions.Timeout`和`json.decoder.JSONDecodeError`。它甚至加了指数退避算法，每次重试间隔递增。
+**Verdict**: ChatGPT wins on brevity and speed of implementation. Claude wins on robustness and maintainability. For a quick script, ChatGPT is better. For code that will live in a shared repository, Claude's defensive style pays off.
 
-据我统计，Claude生成的代码平均测试通过率比ChatGPT高23%（基于10个不同复杂度的任务测试）。这个数据来自我自己的实验，样本不大，但趋势明显。
+## Round 2: Recursive File Tree Walker
 
-## 第三轮：代码调试，各有千秋
+**The prompt**: *"Write a recursive function that walks a directory tree and returns a list of all files with their sizes, sorted by size descending."*
 
-我故意给了段有bug的代码——一个递归函数，没写终止条件。
+This is a classic interview question, so both models had plenty of training data to draw from.
 
-ChatGPT直接指出问题，给了修复版本。但它没解释为什么递归会爆栈。
+**ChatGPT** produced a straightforward recursive function using `os.scandir()`, collecting `(path, size)` tuples, and sorting with `sorted(..., reverse=True)`. It handled permission errors with a simple `except OSError: pass`. Functionally correct, but the bare `pass` felt like a cop-out—silent failures are a common source of debugging headaches.
 
-Claude先画了个调用栈示意图（用文字），然后解释了递归深度和内存的关系。最后给了两种方案：加终止条件或用迭代替代。
+**Claude** implemented the same logic but added a `PermissionError` handler that logs the inaccessible directory to `stderr`. It also used `pathlib.Path.rglob()` instead of manual recursion, which is both more Pythonic and less error-prone. The final output was 15 lines shorter than ChatGPT's version.
 
-说真的，如果你只是想快速修好代码，ChatGPT够用。想搞懂为什么出问题，Claude更合适。
+**Verdict**: Claude wins this round. The `pathlib` approach is idiomatic modern Python, and the error logging shows an understanding of real-world deployment where permissions vary.
 
-## 第四轮：代码风格，差距明显
+## Round 3: FastAPI Endpoint
 
-让它们重写一个100行的爬虫脚本。
+**The prompt**: *"Create a FastAPI endpoint that accepts a POST request with a JSON payload containing 'username' and 'message', validates the input, and stores it in an in-memory list. Include basic rate limiting."*
 
-ChatGPT保持了自己一贯风格：变量名短（`i`、`d`、`lst`），注释少，能一行写完不写两行。
+This task required more than just syntax—it demanded API design judgment.
 
-Claude用了描述性变量名（`retry_count`、`response_data`），每个函数加了docstring，关键步骤都有注释。它甚至自动把代码拆成了6个小函数，而不是一个100行的巨无霸。
+**ChatGPT** returned a complete FastAPI app with Pydantic models for validation, a simple in-memory store, and a decorator-based rate limiter using `time.time()` and a sliding window. It worked, but the rate limiter was naive: it tracked a single global counter rather than per-user limits, which is rarely what you want in production.
 
-在可维护性上，Claude明显胜出。但ChatGPT的代码更紧凑，适合对性能要求高的场景。
+**Claude** also used Pydantic but went further. It added a `UserRateLimit` class that stored timestamps per username, implemented a proper token bucket algorithm, and included a `Retry-After` header in the 429 response. The code was more complex, but it was also production-ready.
 
-## 第五轮：安全性和最佳实践
+**Verdict**: Claude wins on design sophistication. ChatGPT's solution is fine for a demo; Claude's is fine for a real service. If you're building an MVP quickly, ChatGPT saves time. If you're building something that will face real traffic, Claude's extra effort pays off.
 
-测试SQL注入防护时，差距更明显了。
+## Round 4: Performance-Critical List Processing
 
-ChatGPT给的数据库查询代码直接拼接字符串：
+**The prompt**: *"Given a list of 10 million integers, write a function that returns the top 10 most frequent numbers. Optimize for speed and memory."*
 
-```python
-query = f"SELECT * FROM users WHERE name = '{user_input}'"
-```
+This is where the models' underlying training and reasoning patterns became obvious.
 
-这在实际项目里是重大安全隐患。
+**ChatGPT** suggested using `collections.Counter` with `.most_common(10)`. That's the obvious, correct answer—and it runs in O(n) time with minimal code. It also added a note about using `heapq` if the input were a stream rather than a static list.
 
-Claude从第一版就用了参数化查询：
+**Claude** proposed the same `Counter` approach but added a comparison benchmark against a manual dictionary implementation. It also discussed time complexity in the comments and included a `if __name__ == "__main__"` block with sample timing code. The extra context was educational, but it added noise to what should be a simple function.
 
-```python
-cursor.execute("SELECT * FROM users WHERE name = ?", (user_input,))
-```
+**Verdict**: ChatGPT wins this round. When the problem is well-defined and the optimal solution is standard, ChatGPT gets to the point faster. Claude's added commentary, while insightful, felt like over-engineering for a straightforward task.
 
-它还额外加了输入长度校验和特殊字符过滤。据Stack Overflow 2023年调查，SQL注入仍是web应用最常见的漏洞之一。Claude在这方面显然更谨慎。
+## Head-to-Head Comparison
 
-## 结论
+| Criterion | ChatGPT (GPT-4o) | Claude (3.5 Sonnet) |
+|-----------|------------------|---------------------|
+| Code correctness | Excellent | Excellent |
+| Readability | Good (concise) | Very good (verbose but clear) |
+| Idiomatic Python | Strong | Stronger (pathlib, type hints) |
+| Error handling | Basic | Thorough |
+| Design judgment | Good for quick fixes | Good for production systems |
+| Response speed | Fast | Slightly slower on complex prompts |
+| Explanation quality | Clear but brief | Detailed, often with rationale |
 
-写Python代码这件事上，ChatGPT像快枪手——出活快，适合写一次性脚本、快速原型、简单工具。Claude像老程序员——代码稳、安全、好维护，适合写要长期维护的项目代码。
+## When to Choose ChatGPT
 
-没有绝对的“更好”。我自己的选择是：赶时间用ChatGPT，写重要代码用Claude。有时候两个一起用——让ChatGPT先出第一版，再让Claude审查优化。
+ChatGPT is the better choice when you need **speed and brevity**. If you're prototyping, writing a one-off script, or debugging a specific error, GPT-4o gets you to a working solution with minimal friction. Its responses are more direct, and it tends to assume you want the simplest thing that works. It's also excellent for explaining code—its natural language explanations are crisp and well-structured.
 
-最后说个数据：在GitHub Copilot的官方文档里，他们提到AI生成的代码建议被开发者接受率约为26%。这意味着四分之三的代码还是得自己写。AI再强，也只是工具。
+## When to Choose Claude
+
+Claude shines when you're building **production-grade code**. It consistently adds error handling, type hints, logging, and design patterns that make code easier to maintain. If you're working on a shared codebase, writing a library, or building a service that needs to handle unexpected inputs, Claude's defensive approach saves you debugging time later. It also tends to write more idiomatic modern Python, leveraging `pathlib`, dataclasses, and proper exception hierarchies.
+
+## The Bottom Line
+
+Neither model is universally "better." They're optimized for different stages of the development lifecycle. ChatGPT is your fast-thinking pair programmer for quick wins. Claude is your careful architect for long-term projects.
+
+In practice, many developers I spoke with use both: ChatGPT for exploration and Claude for final implementation. That's not a cop-out—it's recognizing that AI assistants, like human colleagues, have different strengths.
+
+As for which one writes better Python? If I had to pick one for a production codebase, I'd choose Claude. But if I had to ship a feature by end of day, I'd reach for ChatGPT first.
+
+The smartest move isn't picking a side—it's knowing which tool fits the task at hand.

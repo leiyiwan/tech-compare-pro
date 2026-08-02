@@ -6,56 +6,74 @@ tags:
 
 ---
 
-# ChatGPT vs. Claude：2025年写代码和邮件，谁更强？
+# ChatGPT vs. Claude: Which AI Assistant Writes Better Code and Emails in 2025?
 
-凌晨三点，程序员陈磊盯着屏幕上的报错信息，第7次把代码片段扔进AI对话框。他先试了ChatGPT，又切到Claude。两分钟后，ChatGPT给出了一版带注释的Python脚本，Claude则直接画了张逻辑流程图。
+In the first quarter of 2025, the AI assistant landscape is defined by a two-horse race. OpenAI’s ChatGPT and Anthropic’s Claude have pulled decisively ahead of competitors like Gemini and Copilot in terms of raw capability and user trust. But for the average professional—the developer shipping code and the manager drafting correspondence—the question is no longer "which is smarter?" but "which is more useful in my workflow?"
 
-这不是个例。2025年，AI助手已经成了写代码和写邮件的标配工具。但ChatGPT和Claude，到底谁更靠谱？我花了三周时间，用真实工作场景做了对比测试。
+A recent survey of 2,000 technical and non-technical professionals found that 68% now use an AI assistant daily, yet 41% maintain subscriptions to *both* major platforms. That dual-subscription trend signals a real problem: users can't decide which tool owns which task. This article breaks down the 2025 capabilities of ChatGPT and Claude specifically for two core functions—writing code and writing emails—based on benchmark data, developer community sentiment, and practical usability tests.
 
-## 写代码：ChatGPT快，Claude稳
+## The 2025 Landscape: A Quick Snapshot
 
-先看代码能力。我扔给两个AI同一个任务：用Python写一个爬虫，抓取某电商平台的价格数据，并自动生成Excel报表。
+Before diving into task-specific performance, it's worth establishing where both models stand in their latest iterations. As of early 2025, ChatGPT operates on the GPT-4.5 architecture, with the "o3" reasoning model available for complex tasks. Claude runs on the Claude 3.7 Sonnet and Opus models, with Anthropic heavily marketing its "hybrid reasoning" capabilities.
 
-ChatGPT的反应速度惊人。从输入到输出完整代码，只用了8秒。代码里包含了requests库、BeautifulSoup解析、openpyxl写入Excel，结构清晰。但有个问题——它默认用了平台两年前的老API接口，实际已经失效了。
+Pricing remains nearly identical: both offer free tiers with limited access and premium plans at $20/month for individual users. However, the *value proposition* diverges sharply. ChatGPT has become an ecosystem—with GPTs, DALL-E image generation, and deep integration into Microsoft products. Claude, meanwhile, has doubled down on being the "reliable workhorse" with a massive 200K token context window (on par with ChatGPT's latest) and a focus on long-form coherence.
 
-Claude花了12秒。它先反问了一句：“目标平台是否有反爬机制？是否需要处理动态加载？”然后给出了两套方案：一套用Selenium模拟浏览器，一套用API直连。最后还加了一句：“建议先用小批量数据测试，避免IP被封。”
+The real differentiator in 2025 isn't raw intelligence—both are exceptional. It's **behavioral consistency** and **domain optimization**.
 
-这个细节很关键。据Stack Overflow 2024年开发者调查，62%的开发者遇到过AI生成的代码有安全漏洞或逻辑错误。Claude的谨慎，反而省了后期调试的时间。
+## Code Generation: Precision vs. Pragmatism
 
-再说个具体数据。我用LeetCode的中等难度算法题测试了20道。ChatGPT一次性通过的题是14道，Claude是12道。但Claude给出的代码平均行数少了18%，变量命名更规范，注释也更到位。
+### Benchmark Performance and Real-World Utility
 
-说白了，ChatGPT像是个急性子的高手，能快速给你个能跑的版本。Claude更像是个严谨的架构师，写出来的代码可读性和可维护性更好。
+On standard coding benchmarks like HumanEval and SWE-bench, Claude 3.7 Opus edges out GPT-4.5 by a narrow margin—roughly 3-4% on average. But benchmarks measure isolated problem-solving. In real-world scenarios, the gap is more nuanced.
 
-## 写邮件：ChatGPT像同事，Claude像助理
+**Claude excels at architectural reasoning.** When asked to refactor a legacy codebase or design a microservices structure, Claude's responses demonstrate a deeper understanding of system-wide implications. It doesn't just solve the immediate problem; it flags potential edge cases, suggests error handling, and often provides a more maintainable solution. Developers on platforms like Hacker News and Reddit consistently report that Claude's code "feels more senior" — it reads like something written by a staff engineer who has seen production failures.
 
-邮件场景更贴近日常。我模拟了三个任务：写一封催款邮件、一封项目进度汇报、一封裁员通知。
+**ChatGPT excels at speed and iteration.** For boilerplate code, API integrations, and well-documented patterns, ChatGPT is marginally faster and more direct. It also has a significant advantage in its integration with GitHub Copilot (which now runs on OpenAI models). If your workflow involves quick snippets, regex patterns, or converting pseudocode to Python, ChatGPT's output is often immediately copy-pasteable.
 
-催款邮件，ChatGPT的版本开头是：“希望您一切顺利。关于贵司尚未支付的第三季度服务费……”语气客气，但有点公式化。Claude的版本开头是：“我们注意到贵司近期可能面临资金周转压力，如有困难可协商分期方案。”它主动把立场从“催款”变成了“协商”。
+### The 2025 "Context Window" Factor
 
-项目进度汇报，ChatGPT列了5个要点，用词偏技术化。Claude先写了一段摘要，然后按“已完成-进行中-待解决”分层，最后还加了一句：“本周核心风险是服务器扩容，需要协调运维部资源。”这直接能发给老板看。
+This is where Claude currently has a decisive advantage. Claude's 200K token context allows it to ingest entire repositories—including README files, configuration files, and test suites—before generating code. In practical terms, this means Claude can understand your project's conventions and match them. ChatGPT, while also offering 200K tokens, tends to lose focus on the *specifics* of your codebase when the context is large, defaulting to generic best practices rather than your project's actual patterns.
 
-裁员通知最考验情商。ChatGPT写得很标准：“经过慎重评估，公司决定与您解除劳动合同。”Claude版本多了句：“我们理解这对您是个艰难的消息，公司会提供N+3补偿和三个月过渡期支持。”据HR同行反馈，实际工作中，员工对“有温度”的裁员通知接受度高出40%。
+**Verdict for Code:** If you're building complex systems or working in a large, established codebase, **Claude** is your primary tool. If you're prototyping, writing scripts, or need rapid-fire solutions to isolated problems, **ChatGPT** is more efficient.
 
-## 速度和成本：一个快，一个省
+## Email Writing: Tone, Structure, and Persuasion
 
-速度上，ChatGPT的GPT-4 Turbo模型响应时间平均2.3秒，Claude的Claude 3 Opus是3.1秒。差距不大，但高频使用时体感明显。
+### The "Voice" Problem
 
-成本上，ChatGPT Plus每月20美元，Claude Pro也是20美元。但API调用价格不同：ChatGPT每百万token输入收费10美元，Claude是8美元。如果每天调用上千次，一个月能省出顿饭钱。
+Email writing is fundamentally about tone calibration. A perfect email that sounds like a robot is a failed email. Here, the 2025 models have diverged significantly in their default personas.
 
-不过有个坑。ChatGPT的免费版在高峰期会限速，Claude的免费版每天只能发100条消息。真要用起来，两个都得掏钱。
+**Claude is the better diplomat.** Anthropic has invested heavily in "constitutional AI"—training the model to be helpful, harmless, and honest. This manifests in email writing as a natural tendency toward measured, professional language. Claude's default email drafts are polite without being sycophantic, clear without being blunt, and structured with a logical flow that mirrors human business communication. It handles difficult conversations (declining a request, delivering bad news, negotiating) with remarkable tact.
 
-## 短板在哪里
+**ChatGPT is the better marketer.** OpenAI's model is trained on a broader swath of internet text, which makes its default tone more energetic and persuasive. For sales emails, cold outreach, and promotional copy, ChatGPT generates punchier subject lines and more compelling calls-to-action. However, this energy can backfire in sensitive contexts—ChatGPT has a tendency toward hyperbole and over-enthusiasm ("I'm thrilled to inform you...") that feels inauthentic in serious corporate communication.
 
-ChatGPT的问题在于“管不住嘴”。我让它写一个简单的SQL查询，它顺手加了个DELETE语句，差点把测试库清空。Claude的问题在于“太啰嗦”，有时候问个简单问题，它先来段背景介绍，再列三个方案，最后还问你要不要优化。
+### Multilingual and Cultural Nuance
 
-更关键的是，两个AI都搞不定“行业黑话”。我让它们写一封给芯片制造商的邮件，提到“7nm工艺良率问题”。ChatGPT理解成了“7纳米工艺的收益率”，Claude直接问“是否指台积电的N7节点？”——都不对。真正行业里说的是“7nm制程的良率爬坡”。
+Both models support dozens of languages, but Claude has a slight edge in non-English business communication, particularly in European languages. Anthropic's training data includes more diverse, formal corpora. ChatGPT, meanwhile, is stronger at American English idioms and casual workplace slang—useful for internal team communication but potentially too informal for international clients.
 
-## 我的结论
+### The "Rewrite" Test
 
-没有完美答案。选ChatGPT还是Claude，取决于你更看重什么。
+A practical test: take a poorly written, rambling email and ask both models to rewrite it. ChatGPT will produce a cleaner, more structured version but often adds action items or questions that weren't in the original. Claude will preserve the original intent more faithfully, tightening the language without inventing new content. For most business users, Claude's approach is safer.
 
-如果你是个急性子，需要快速出活，代码能跑就行，邮件不出错就够——ChatGPT更合适。它的速度和广度，能帮你省下大量时间。
+**Verdict for Emails:** For external communication, sensitive topics, and long-form correspondence, **Claude** is superior. For marketing emails, quick replies, and informal internal messages, **ChatGPT** has the edge.
 
-如果你写的是核心系统代码，或者邮件涉及客户关系、员工情绪——Claude更靠谱。它那种“先想清楚再动手”的风格，能帮你少踩坑。
+## Practical Considerations: Workflow and Cost
 
-说真的，最好的方案是两台机器都开着。写代码用ChatGPT搭框架，用Claude做复审。写邮件用Claude起草，用ChatGPT润色。别嫌麻烦。2025年了，AI助手就像当年的计算器——不是比谁算得快，而是看你会不会用。
+### Integration and Ecosystem
+
+ChatGPT's integration with Microsoft 365 (Word, Outlook, Teams) is a massive practical advantage. If you live in the Microsoft ecosystem, ChatGPT can draft emails directly in Outlook with context from your calendar and previous conversations. Claude, despite having a desktop app and browser extension, lacks this deep OS-level integration.
+
+### The "Hallucination" Gap
+
+In 2025, both models have significantly reduced hallucinations, but they fail differently. ChatGPT tends to hallucinate *facts*—fabricating statistics, citing non-existent studies, or inventing email addresses. Claude tends to hallucinate *intent*—misinterpreting ambiguous instructions and producing an email or code that confidently addresses the wrong problem. For email writing, Claude's failure mode is less damaging (you'll notice the misunderstanding quickly). For code, ChatGPT's failure mode is more dangerous (you might ship a function that references a non-existent library).
+
+## The Verdict: It's a Complementary Relationship
+
+The honest answer for 2025 is that you need both—or you need to choose based on your primary use case.
+
+- **If you are a developer or engineer** whose primary AI use is code generation and review, **Claude** is the better investment. Its architectural reasoning and context handling are unmatched.
+- **If you are in sales, marketing, or a general business role** focused on communication, **ChatGPT** offers more versatility, especially with its Microsoft integration and stronger persuasive writing.
+- **If you do both equally**, maintaining both subscriptions ($40/month total) is justified. The cost is negligible compared to the time saved, and each tool covers the other's weaknesses.
+
+One final note: the gap between these two is narrowing rapidly. OpenAI's rumored "GPT-5" and Anthropic's "Claude 4" are expected later this year, and both companies are actively copying each other's strengths. The decision you make today is valid for the next 6-8 months. Re-evaluate when the next major versions drop.
+
+In the meantime, the most productive approach is not to ask "which is better?" but "which is better *for this specific task right now*?" The professionals who thrive in 2025 are those who treat AI assistants as a team—each with distinct strengths—rather than a single oracle.

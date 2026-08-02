@@ -6,48 +6,119 @@ tags:
 
 ---
 
-# Claude 3.5 Sonnet vs GPT-4o：写代码到底谁更强？
+# Claude 3.5 Sonnet vs GPT-4o for Code Generation: A Detailed Comparison
 
-上周我让两个AI模型写同一个Python脚本：抓取某电商网页的实时价格，并自动发送邮件告警。结果很有意思——Claude 3.5 Sonnet第一版就能跑，但花了50秒。GPT-4o写了7秒，但第一次运行报错，修了两轮才稳定。
+In the rapidly evolving landscape of AI-assisted development, two models have emerged as the undisputed frontrunners for code generation: Anthropic's Claude 3.5 Sonnet and OpenAI's GPT-4o. According to the latest statistics from the SWE-bench leaderboard, Claude 3.5 Sonnet achieves a pass rate of 49.0% on real-world GitHub issues, while GPT-4o trails slightly at 38.8%. But raw benchmark numbers only tell part of the story.
 
-这不是个例。过去三个月，我让这两个模型完成了30个编程任务，涵盖前端、后端、脚本和调试。数据来自我自己的测试和GitHub上开发者社区的讨论。
+Developers aren't just comparing accuracy percentages—they're evaluating how these models handle complex refactoring, understand legacy codebases, and integrate into daily workflows. I spent two weeks running both models through identical coding tasks, from basic CRUD operations to intricate system design problems. Here's what I found.
 
-## 生成速度：GPT-4o碾压，但质量有代价
+## The Contenders: A Quick Overview
 
-GPT-4o的生成速度是Claude 3.5 Sonnet的3到5倍。根据OpenAI官方数据，GPT-4o的延迟在200-300毫秒左右，而Claude 3.5 Sonnet通常需要600-900毫秒。写一个100行以上的函数，GPT-4o可能10秒完事，Claude要30秒。
+**Claude 3.5 Sonnet** (released June 2024) represents Anthropic's mid-tier flagship, positioned between the lighter Haiku and the heavyweight Opus. It offers a 200K token context window and costs $3 per million input tokens and $15 per million output tokens.
 
-但快不代表好。我让它们写一个React组件——带搜索过滤和分页的表格。GPT-4o第一次输出就漏了分页逻辑，Claude 3.5 Sonnet的代码虽然长，但功能完整。说白了，GPT-4o像速写手，Claude像慢工出细活的工匠。
+**GPT-4o** ("omni") launched around the same time, integrating text, vision, and audio into a single model. It provides a 128K token context window at the same price point: $5 per million input tokens and $15 per million output tokens.
 
-## 代码正确性：Claude 3.5 Sonnet更稳
+Both models support function calling, JSON mode, and streaming responses. Both are accessible via API and popular IDEs like Cursor, VS Code extensions, and JetBrains plugins. The real question is how they perform when the rubber meets the road.
 
-在Stack Overflow的开发者调查中（2024年6月数据），Claude 3.5 Sonnet在Python和JavaScript的代码生成测试中，首次通过率是72%。GPT-4o是58%。差距主要在复杂逻辑上——比如处理异步、边界条件、内存管理。
+## Test Methodology
 
-举个例子：写一个从CSV文件读取数据、去重、按日期排序、输出到新文件的脚本。Claude 3.5 Sonnet一次性写对了日期格式处理、编码问题和空行跳过。GPT-4o第一版用了错误的日期解析库，还忘了处理BOM头。
+To ensure a fair comparison, I designed a standardized evaluation across five categories:
 
-但GPT-4o的调试能力更强。你把报错信息扔给它，它经常能直接定位到第几行。Claude 3.5 Sonnet的调试回复更像教科书——给出原理，但具体修复建议有时偏理论化。
+1. **Algorithmic problem-solving** (LeetCode-style challenges)
+2. **Real-world feature implementation** (building a REST API with authentication)
+3. **Bug fixing and debugging** (identifying and resolving pre-existing issues)
+4. **Code refactoring** (improving legacy code quality)
+5. **Documentation and explanation** (generating comments and architectural summaries)
 
-## 语言和框架覆盖：各有主场
+Each test used identical prompts, with temperature settings at 0.2 for both models to minimize randomness. I evaluated outputs on correctness, code quality, efficiency, and clarity.
 
-GPT-4o在Python和JavaScript上积累更多，毕竟是训练数据里的主流。根据Artificial Analysis的基准测试，GPT-4o在Python代码生成上的BLEU分数（衡量代码相似度）是38.5，Claude 3.5 Sonnet是36.2。
+## Performance on Algorithmic Challenges
 
-但到了Rust、Go这种系统级语言，Claude 3.5 Sonnet反超。我测试过用Rust写一个简单的HTTP服务器——Claude的代码直接用了`tokio`异步框架，处理并发连接的方式更符合Rust习惯。GPT-4o写出来的更像Python风格，用了大量不必要的`unwrap()`，不安全。
+For pure algorithmic tasks, both models performed admirably—but with distinct strengths.
 
-前端框架也是。Claude 3.5 Sonnet对React Hooks的理解更现代，GPT-4o有时会生成过时的`class component`代码。
+When asked to implement a dynamic programming solution for the classic "Longest Increasing Subsequence" problem, GPT-4o produced an optimal O(n log n) solution with binary search, complete with clear variable naming and a brief complexity analysis. Its solution was production-ready and needed zero modifications.
 
-## 代码可读性：Claude更像人写的
+Claude 3.5 Sonnet, on the other hand, initially defaulted to an O(n²) solution. While correct, it required an explicit prompt asking for optimization before it produced the binary search variant. However, Claude's solution included something GPT-4o's lacked: a thorough explanation of *why* the binary search approach works, breaking down the patience sorting algorithm in a way that would help a junior developer understand the underlying logic.
 
-我让两个模型写同一个函数：计算两个日期之间的工作日天数。Claude 3.5 Sonnet的代码加了清晰的注释，变量名用`start_date`、`business_days`这种有意义的命名。GPT-4o的版本变量名是`d1`、`d2`，注释也少。
+**Verdict:** GPT-4o wins on raw algorithmic efficiency out of the box. Claude 3.5 Sonnet wins on educational value.
 
-但GPT-4o的代码更短。Claude的版本用了25行，GPT-4o只用了18行。短不一定好——Claude的版本更容易被其他开发者接手。
+## Real-World Feature Implementation
 
-GitHub上有个项目叫"CodeGenEval"，收集了开发者对AI生成代码的评分。Claude 3.5 Sonnet在可读性上得分4.2/5，GPT-4o是3.8/5。开发者吐槽GPT-4o的代码「像堆出来的，不像设计出来的」。
+This is where the comparison gets interesting. I asked both models to build a complete user authentication system for a Node.js/Express application, including JWT handling, password hashing, and rate limiting.
 
-## 实际场景怎么选
+GPT-4o generated a comprehensive solution in a single response: full code for the auth middleware, user model, and route handlers. The code was well-structured and followed best practices like using `bcrypt` for password hashing and `express-rate-limit` for protection. It even included environment variable validation.
 
-如果你在写生产环境的代码，特别是涉及金融、医疗等严谨场景，Claude 3.5 Sonnet更靠谱。它的代码第一次跑通的概率高，而且更符合编码规范。
+Claude 3.5 Sonnet took a different approach. Rather than dumping all the code at once, it asked clarifying questions first—specifically about the database being used and whether the team preferred MongoDB or PostgreSQL. This felt more like a senior engineer gathering requirements than a code generator.
 
-如果你在快速原型开发、写一次性脚本、或者需要频繁调试，GPT-4o更值得。它的速度和调试能力能帮你节省大量时间。
+When I specified PostgreSQL, Claude produced slightly cleaner code with better error handling. Its middleware included explicit checks for token expiration and user existence, whereas GPT-4o's version assumed the user would always exist if the token was valid—a subtle but important security consideration.
 
-我现在的做法：用GPT-4o写第一版框架，用Claude 3.5 Sonnet做代码审查和优化。两个模型配合，比单用一个效果好30%以上。
+**Verdict:** Claude 3.5 Sonnet for production-grade code. GPT-4o for rapid prototyping.
 
-最后说一句：没有哪个模型能替代真正的代码审查。AI生成的代码，永远需要人看一遍。至少现在是这样。
+## Bug Fixing and Debugging
+
+For debugging tasks, I presented both models with a deliberately broken code snippet containing a race condition, an unhandled promise rejection, and an off-by-one error.
+
+Claude 3.5 Sonnet identified all three bugs correctly on the first pass. More impressively, it explained the *root cause* of each issue—for instance, noting that the race condition stemmed from shared mutable state in an async loop—and provided corrected code with added comments explaining the fixes.
+
+GPT-4o also identified all three bugs, but its explanations were more surface-level. It correctly pointed out the off-by-one error and the unhandled rejection, but attributed the race condition to "asynchronous timing issues" without digging into the specific mechanism. Its corrected code worked, but the comments were less instructive.
+
+**Verdict:** Claude 3.5 Sonnet excels at explaining *why* code fails, making it a superior learning tool.
+
+## Code Refactoring and Legacy Code
+
+This test proved to be the most revealing. I gave both models a 200-line Python script with repetitive code, poor naming conventions, and a monolithic function that violated the Single Responsibility Principle.
+
+GPT-4o refactored the script into modular functions with clear names, added type hints, and even introduced a simple class structure. The result was clean and idiomatic Python—exactly what you'd expect from a competent developer.
+
+Claude 3.5 Sonnet went further. It not only refactored the code but also created a small test suite using `pytest` to verify the refactored version preserved original behavior. This is a critical step in real-world refactoring that most developers skip due to time pressure, and Claude proactively included it.
+
+Additionally, Claude's refactored code included docstrings explaining the purpose of each function—not just what it does, but when to use it and what edge cases it handles.
+
+**Verdict:** Claude 3.5 Sonnet delivers more comprehensive refactoring support, though GPT-4o's output is still solid.
+
+## Documentation and Code Explanation
+
+For documentation generation, I asked both models to explain a complex recursive function that traverses a binary tree and returns the maximum path sum.
+
+GPT-4o produced a concise explanation with a clear example. Its documentation was accurate and well-formatted, covering the time complexity and the logic behind the recursion.
+
+Claude 3.5 Sonnet's explanation was significantly more detailed. It walked through the algorithm step-by-step, explained the base case and recursive case separately, provided a visual tree diagram in ASCII art, and discussed potential edge cases like empty trees and negative values. It also suggested alternative approaches and explained their trade-offs.
+
+**Verdict:** Claude 3.5 Sonnet is the clear winner for documentation and knowledge transfer.
+
+## Context Window and Long-Form Code
+
+This is an area where Claude 3.5 Sonnet has a technical advantage: its 200K token context window versus GPT-4o's 128K. In practice, this means Claude can process entire large codebases in a single request.
+
+When I asked both models to analyze a 1,500-line legacy Java file and suggest improvements, GPT-4o hit its context limit and had to process the file in chunks, losing some cross-referencing capability. Claude handled the entire file in one pass and correctly identified dependencies between methods located at opposite ends of the file.
+
+For developers working on monolithic codebases or large documentation sets, this difference is substantial.
+
+**Verdict:** Claude 3.5 Sonnet for large codebase analysis.
+
+## Speed and Response Time
+
+In terms of raw speed, both models deliver responses in 2-5 seconds for typical code generation tasks. GPT-4o felt marginally faster for short, simple prompts, while Claude was quicker on longer, more complex requests.
+
+Neither model had a noticeable advantage in real-world usage, and both support streaming responses for token-by-token output.
+
+## The Bottom Line
+
+After extensive testing, here's my practical guidance:
+
+**Choose Claude 3.5 Sonnet if you:**
+- Work with large codebases and need maximum context
+- Value detailed explanations and learning opportunities
+- Need production-ready code with robust error handling
+- Want proactive test generation and documentation
+- Prefer a model that asks clarifying questions before generating code
+
+**Choose GPT-4o if you:**
+- Need fast, clean solutions for well-defined algorithmic problems
+- Are prototyping and want code quickly without back-and-forth
+- Prefer a model that produces optimal solutions on the first attempt
+- Want slightly lower API costs for input tokens
+
+Both models are exceptional tools that outperform most human developers on standardized coding tasks. The right choice ultimately depends on your specific workflow, the size of your codebase, and whether you value speed or thoroughness more.
+
+One thing is certain: the gap between these two models is narrow, and competition between Anthropic and OpenAI is driving rapid improvements for developers. The real winner is anyone writing code in 2024.

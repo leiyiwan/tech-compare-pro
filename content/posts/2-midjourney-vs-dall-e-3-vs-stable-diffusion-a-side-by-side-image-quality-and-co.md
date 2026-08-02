@@ -6,42 +6,116 @@ tags:
 
 ---
 
-# 一张图烧掉1块钱？Midjourney、DALL-E 3、Stable Diffusion谁更划算
+# Midjourney vs. DALL-E 3 vs. Stable Diffusion: A Side-by-Side Image Quality and Cost Comparison
 
-上个月，我花了3小时对比三款AI绘图工具。同一个提示词“一只穿着西装的猫在华尔街敲钟”，Midjourney给了一张毛茸茸的英短，DALL-E 3画出了带着领结的橘猫，Stable Diffusion则生成了一只表情严肃的狸花猫。三张图风格迥异，但都称得上“能用”。
+In February 2024, a user on X (formerly Twitter) prompted Midjourney, DALL-E 3, and Stable Diffusion XL with the same phrase: "A photorealistic portrait of a weathered fisherman in a yellow raincoat during a storm." The results were starkly different. Midjourney delivered a cinematic, moody close-up with perfect lighting. DALL-E 3 produced a highly detailed, almost clinical image with exceptional text rendering on the raincoat. Stable Diffusion, running locally, generated a gritty, slightly imperfect shot that looked like it came from a real camera roll.
 
-问题是，它们的价格差了三倍。Midjourney每月10美元起，DALL-E 3含在ChatGPT Plus的20美元里，Stable Diffusion完全免费。便宜没好货？还是贵的真值？
+This single experiment encapsulates the ongoing debate in the AI art community: which model is actually the best? The answer, as you might expect, is complicated. It depends on what you are creating, how much you are willing to spend, and whether you value control over convenience.
 
-## 画质：谁更懂“好看”这个词
+Here is a breakdown of how these three titans compare on image quality, feature sets, and real-world costs in 2024.
 
-先说结论：**Midjourney在艺术感上碾压，DALL-E 3在精确性上胜出，Stable Diffusion胜在可定制。**
+## The Contenders: A Quick Overview
 
-Midjourney v6的细节令人咋舌。我拿“雨后东京街头的霓虹灯倒影”测试，它生成的画面里，水坑边缘的灯光折射、广告牌上的日文字体、甚至雨滴在玻璃上的轨迹都清晰可辨。据第三方评测网站ImagenHub的数据，Midjourney在“视觉吸引力”评分上达到8.9/10，比DALL-E 3的8.2高出近一个点。
+Before diving into the pixels, it is important to understand the architecture and philosophy behind each tool.
 
-DALL-E 3强在“理解你说了什么”。当我输入“一只戴着博士帽的柴犬，背景是图书馆，书架上放着一本《如何成为人类》”，它准确画出了书名和柴犬的严肃表情。Midjourney则把书名糊成了乱码。OpenAI官方称，DALL-E 3在文本渲染的准确率上达到92%，而Midjourney只有67%。
+- **Midjourney:** Operates exclusively through a Discord interface (though a web app is rolling out). It is renowned for its aesthetic output—images that look "finished" straight out of the box. It is the preferred tool for concept artists and marketing teams who need high-impact visuals quickly.
+- **DALL-E 3:** Built by OpenAI and integrated directly into ChatGPT Plus. Its superpower is prompt adherence. If you write a complex, multi-part prompt, DALL-E 3 will follow it with near-perfect accuracy, including rendering legible text inside the image.
+- **Stable Diffusion:** The open-source heavyweight. It runs locally on your own hardware or via cloud services like RunPod and Replicate. It offers the highest degree of control (via LoRAs, ControlNet, and custom checkpoints) but requires technical knowledge and a decent GPU to run effectively.
 
-Stable Diffusion是匹黑马，但需要驯服。它的基础模型出图质量不稳定，有时会出现六指手、歪眼睛。但社区用户分享了超过10万个微调模型，比如“Realistic Vision”专攻写实风，“Anything V5”专攻二次元。如果你愿意花时间调参，Stable Diffusion能输出不输Midjourney的作品。
+## Image Quality: A Tale of Defaults vs. Customization
 
-## 成本：免费的不一定最省钱
+When comparing "quality," we have to separate *default output* from *potential output*.
 
-算笔账。Midjourney每月10美元，能生成约200张图（快速模式），每张成本5美分。DALL-E 3按张收费，每张2美分，但需搭配ChatGPT Plus的20美元月费。Stable Diffusion免费，但需要一台至少8GB显存的显卡，一张RTX 3060要2500元。
+### Midjourney: The Aesthetic King (Version 6)
 
-如果你只做10张图，DALL-E 3最便宜，只要20美分。如果你每月做500张，Midjourney的10美元月费更划算。如果你每天做100张且持续一年，Stable Diffusion的免费优势就出来了，前提是你已经有一台好电脑。
+As of late 2024, Midjourney V6 is the benchmark for "pretty." The model has an innate understanding of lighting, composition, and color grading. It produces images with a distinct "photographic" feel, often surpassing stock photo quality.
 
-还有一个隐性成本：时间。我用三款工具各生成100张图，Midjourney平均每张35秒，DALL-E 3约15秒，Stable Diffusion本地运行约45秒。时间就是钱，尤其对商业用户来说。
+- **Strengths:** Exceptional at photorealism, cinematic lighting, and stylized illustration. It handles complex textures (skin, hair, fabric) with remarkable coherence.
+- **Weaknesses:** It struggles with specific text rendering (though V6 improved this) and is notoriously bad at following complex, logical instructions (e.g., "Place the red apple to the left of the blue vase, with a cat behind the vase"). It often "does what it wants" aesthetically, even if it ignores your exact layout.
 
-## 适用场景：谁该买谁
+### DALL-E 3: The Literal Genius
 
-**设计师和艺术家：选Midjourney。** 它的风格滤镜、构图能力、色彩搭配远超另外两款。据ArtStation统计，2023年平台上30%的AI作品标注了Midjourney，而DALL-E 3只有8%。说白了，Midjourney的图发朋友圈会有人问“这是哪位摄影师拍的”。
+DALL-E 3 is the opposite. It is not necessarily "prettier" than Midjourney, but it is *smarter*. It is trained to follow the user's instructions to the letter.
 
-**文案和营销人员：选DALL-E 3。** 它能准确呈现文字内容，比如在广告图上写“618大促”或“买一送一”。Midjourney的文字渲染是硬伤，经常出现乱码。我试过让DALL-E 3画一张“写着‘Hello World’的黑板”，它完美复刻了字体。
+- **Strengths:** Unmatched prompt adherence and text rendering. If you need a sign that says "Joe's Diner" or a book cover with a specific title, DALL-E 3 is your only reliable choice among the three. It also handles complex scenes with multiple objects and spatial relationships better than its rivals.
+- **Weaknesses:** The default style tends to look "clean" and slightly flat. It lacks the dramatic, cinematic post-processing that Midjourney applies automatically. Images can sometimes feel sterile or overly "AI-generated" if you look closely at the details.
 
-**技术玩家和批量生产：选Stable Diffusion。** 你可以用ControlNet控制人物姿势，用LoRA微调特定风格，甚至搭建自己的API。据Hugging Face数据，Stable Diffusion的模型下载量已超过1亿次，社区生态最活跃。缺点是学习曲线陡峭，新手容易劝退。
+### Stable Diffusion: The Wild Card
 
-## 最后说几句
+Stable Diffusion (SD) is a moving target. The base SDXL model is good, but the community has fine-tuned it into specialized checkpoints like *Realistic Vision*, *DreamShaper*, or *Juggernaut XL*.
 
-没有完美的工具，只有适合的用法。Midjourney是奢侈品，贵但省心；DALL-E 3是工具车，精准但无趣；Stable Diffusion是改装车，潜力大但需要动手。
+- **Strengths:** With the right checkpoint and settings, Stable Diffusion can produce quality that rivals or exceeds Midjourney. Crucially, it allows for **ControlNet**, which lets you dictate the exact pose, composition, or depth map of your image. This is the only tool of the three that gives you true "directorial" control.
+- **Weaknesses:** The default SDXL model is actually worse than Midjourney and DALL-E 3 out of the box. It requires significant tweaking, prompt engineering, and model downloads to look good. Without a powerful GPU (NVIDIA RTX 3060 or higher), generation times are painfully slow.
 
-如果你预算有限且只想偶尔玩玩，DALL-E 3的按次付费最划算。如果你靠AI绘图吃饭，Midjourney的10美元月费值得投资。如果你是个技术宅，Stable Diffusion的免费和可定制性无可替代。
+**Verdict on Quality:**
+- **Best Default Aesthetics:** Midjourney
+- **Best Prompt Accuracy:** DALL-E 3
+- **Best Customization & Control:** Stable Diffusion
 
-至于那只穿西装的猫？我最后用了Midjourney的图，因为客户说“要有质感”。客户永远是对的。
+## Cost Comparison: The Hidden Variables
+
+The pricing structures are completely different, which makes direct comparison tricky. Here is the financial reality.
+
+### Midjourney: Flat Subscription
+
+Midjourney operates on a tiered subscription model. There is no free tier.
+
+- **Basic Plan:** $10/month (approx. 200 generations per month)
+- **Standard Plan:** $30/month (unlimited slow generations, 15 hours of fast time)
+- **Pro Plan:** $60/month (30 hours fast time, stealth mode)
+
+**Cost per image:** If you use your 200 generations on the Basic plan, that is $0.05 per image. However, you must pay monthly even if you don't use it. There is no "pay as you go" option.
+
+### DALL-E 3: Bundled with ChatGPT
+
+DALL-E 3 is not sold as a standalone product; it is included in ChatGPT Plus ($20/month) and ChatGPT Enterprise. You also get a limited number of free generations via Bing Image Creator.
+
+- **ChatGPT Plus:** $20/month for the standard tier. OpenAI does not cap the number of images you can generate, but they throttle you based on server load. Heavy users report hitting limits after 30-50 images in a short window.
+- **Bing Image Creator:** Free (with Microsoft account), but generation times are slow, and image resolution is capped.
+
+**Cost per image:** If you use the $20/month ChatGPT subscription, your cost is effectively fixed. If you generate 400 images a month, it is $0.05 each. If you generate 10, it is $2.00 each. For heavy users, this is the cheapest option per image.
+
+### Stable Diffusion: Free (If You Own Hardware)
+
+This is where Stable Diffusion wins outright. The software is open-source and completely free.
+
+- **Local Hardware:** If you own a GPU with 8GB+ VRAM, your only cost is electricity. A typical generation uses about 0.01 kWh, costing fractions of a cent.
+- **Cloud GPUs:** If you don't have a good GPU, you can rent one. Services like RunPod charge roughly **$0.30 to $0.50 per hour** for a decent GPU (RTX 3090). You can generate hundreds of images in that hour.
+
+**Cost per image:** Effectively $0.00 (hardware sunk cost) to $0.01 (cloud rental). This is a massive advantage for high-volume creators.
+
+## The Hidden Costs: Time and Learning Curve
+
+The financial cost is only half the story. The *time* cost is often more significant.
+
+- **Midjourney:** Lowest learning curve. You type a prompt, get four images, upscale, and done. You can master it in an afternoon.
+- **DALL-E 3:** Lowest learning curve. It is conversational—you can chat with it in ChatGPT, ask for edits, and iterate naturally. However, you cannot edit specific pixels or use advanced features like inpainting with a mask (you can only ask for changes via text).
+- **Stable Diffusion:** Steepest learning curve. You need to learn about checkpoints, samplers, CFG scales, and negative prompts. Setting up ControlNet or LoRAs requires reading documentation and troubleshooting errors. It can take weeks to reach proficiency.
+
+## Which One Should You Choose?
+
+The "best" tool depends entirely on your workflow.
+
+**Choose Midjourney if:**
+- You are a marketer, art director, or creator who needs stunning visuals *fast*.
+- You care about aesthetics over strict adherence to a prompt.
+- You don't mind paying a flat monthly fee for a polished, "it just works" experience.
+
+**Choose DALL-E 3 if:**
+- You need text rendering (logos, signs, book covers) or complex logical scenes.
+- You are already paying for ChatGPT Plus and want image generation as a bonus.
+- You prefer a conversational interface where you can refine images by chatting.
+
+**Choose Stable Diffusion if:**
+- You are a developer, technical artist, or hobbyist who wants total control.
+- You have a budget of $0 and a decent GPU.
+- You need to generate thousands of images (e.g., for training datasets) where API costs would bankrupt you.
+- You want to use advanced techniques like ControlNet for pose-specific character art.
+
+## The Bottom Line
+
+There is no single "best" AI image generator—there is only the best *fit* for your specific use case. Midjourney is the artist, DALL-E 3 is the interpreter, and Stable Diffusion is the engineer.
+
+In 2024, the smartest approach is to use all three. Use DALL-E 3 to nail the composition and text, use Midjourney to add polish and drama, and use Stable Diffusion to fine-tune the final output or scale up production. The cost of a monthly subscription to Midjourney and ChatGPT is roughly $50 combined—a fraction of what a single freelance designer costs—and gives you access to the full spectrum of AI creativity.
+
+The tools are not competitors; they are complementary instruments in the same orchestra. The question isn't "Which is best?" but "Which do you need right now?"
