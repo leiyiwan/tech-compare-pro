@@ -2,9 +2,10 @@
 title: "Roborock S8 MaxV Ultra vs Dreame X40 Ultra: Flagship Robot Vacuum 2026"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Robot"]
 
 ---
+
 
 # Roborock S8 MaxV Ultra vs Dreame X40 Ultra: Which Flagship Robot Vacuum Wins in 2026?
 

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini: Detailed Comparison for Developers in 2025"
 date: 2026-07-27T13:04:00+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT vs Claude vs Gemini: Detailed Comparison for Developers in 2025
 

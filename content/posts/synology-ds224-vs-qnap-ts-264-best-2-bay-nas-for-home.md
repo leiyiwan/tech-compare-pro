@@ -2,9 +2,10 @@
 title: "Synology DS224+ vs QNAP TS-264: Best 2-Bay NAS for Home"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Tech"]
 
 ---
+
 
 # Synology DS224+ vs QNAP TS-264: Which 2-Bay NAS Wins for Your Home?
 

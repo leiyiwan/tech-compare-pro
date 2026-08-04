@@ -2,9 +2,10 @@
 title: "Gemini Advanced vs Copilot Pro: In-Depth Comparison for Enterprise Teams"
 date: 2026-07-04T17:05:34+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot"]
 
 ---
+
 
 # Gemini Advanced vs Copilot Pro: In-Depth Comparison for Enterprise Teams
 

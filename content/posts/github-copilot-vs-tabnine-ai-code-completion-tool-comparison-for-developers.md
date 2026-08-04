@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: AI Code Completion Tool Comparison for Developers"
 date: 2026-07-07T13:01:23+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Developer"]
 
 ---
+
 
 # GitHub Copilot vs. Tabnine: Which AI Code Completion Tool Actually Helps Developers?
 

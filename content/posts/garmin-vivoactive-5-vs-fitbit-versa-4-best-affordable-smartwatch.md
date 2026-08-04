@@ -2,9 +2,10 @@
 title: "Garmin Vivoactive 5 vs Fitbit Versa 4: Best Affordable Smartwatch"
 date: 2026-05-30T21:08:13+08:00
 draft: false
-tags:
+tags: ["Smartwatch"]
 
 ---
+
 
 # Garmin Vivoactive 5 vs. Fitbit Versa 4: Which Affordable Smartwatch Wins in 2024?
 

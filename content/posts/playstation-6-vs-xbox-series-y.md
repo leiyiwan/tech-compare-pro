@@ -8,6 +8,7 @@ description: "Next-gen gaming console comparison: PS6 vs Xbox Series Y specs and
 summary: "Next-gen gaming console comparison: PS6 vs Xbox Series Y specs and games"
 ---
 
+
 The **Next-gen gaming console comparison: PS6 vs Xbox Series Y specs and games** showdown is finally here. Sony’s PlayStation 6 (model CFI-7000) and Microsoft’s Xbox Series Y (model 2050) both launched in late 2025, each promising generational leaps in graphics, load times, and ecosystem integration. We’ve spent the last three months testing both units across a dozen titles, benchmarking frame rates, measuring thermals, and putting each system’s unique features under a microscope. No fluff — here’s exactly how they stack up.
 
 ## Comparison Table: PlayStation 6 vs Xbox Series Y

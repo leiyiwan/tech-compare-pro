@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: The Ultimate AI Coding Assistant Comparison"
 date: 2026-07-22T09:02:25+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Coding"]
 
 ---
+
 
 # GitHub Copilot vs Tabnine: The Ultimate AI Coding Assistant Comparison
 

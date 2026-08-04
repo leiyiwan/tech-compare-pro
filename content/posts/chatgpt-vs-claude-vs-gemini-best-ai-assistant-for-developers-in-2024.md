@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini: Best AI Assistant for Developers in 2024"
 date: 2026-07-19T17:01:24+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT vs Claude vs Gemini: Best AI Assistant for Developers in 2024
 

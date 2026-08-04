@@ -8,6 +8,7 @@ description: "Low-profile mechanical keyboard comparison: NuPhy Air75 V2 vs Lofr
 summary: "Low-profile mechanical keyboard comparison: NuPhy Air75 V2 vs Lofree Flow"
 ---
 
+
 Low-profile mechanical keyboard comparison: NuPhy Air75 V2 vs Lofree Flow. Both target the same audience—gamers and typists who want a slim, portable mechanical board without sacrificing feel. But beneath the similar 75% layouts, these two keyboards diverge sharply in build, switch ecosystem, and connectivity. NuPhy’s Air75 V2 packs hot-swap versatility and a 2.4GHz dongle into a lightweight plastic frame. Lofree’s Flow goes all-in on luxury with a CNC aluminum unibody, sacrificing some features for premium aesthetics. Here’s how they really compare in daily use.
 
 ## Comparison Table

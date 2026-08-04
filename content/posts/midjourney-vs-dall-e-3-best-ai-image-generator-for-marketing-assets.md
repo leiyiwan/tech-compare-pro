@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Best AI Image Generator for Marketing Assets"
 date: 2026-07-23T09:02:52+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Marketing"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Image Generator Delivers Better Marketing Assets?
 

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Bard vs Claude: Comparing AI Chatbots for Code Generation"
 date: 2026-07-06T09:06:03+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Google"]
 
 ---
+
 
 # ChatGPT vs Google Bard vs Claude: Comparing AI Chatbots for Code Generation
 

@@ -2,9 +2,10 @@
 title: "Gemini Advanced vs Copilot Pro: Best AI Tool for Google Workspace Integration?"
 date: 2026-07-16T17:05:08+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot", "Google"]
 
 ---
+
 
 # Gemini Advanced vs Copilot Pro: Best AI Tool for Google Workspace Integration?
 

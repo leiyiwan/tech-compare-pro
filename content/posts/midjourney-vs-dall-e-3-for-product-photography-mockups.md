@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Product Photography Mockups"
 date: 2026-07-10T09:02:24+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs. DALL-E 3 for Product Photography Mockups: Which One Actually Saves You Time?
 

@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: AI Pair Programming Tool Comparison for 2024"
 date: 2026-06-26T17:02:41+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Programming"]
 
 ---
+
 
 # GitHub Copilot vs Tabnine: AI Pair Programming Tool Comparison for 2024
 

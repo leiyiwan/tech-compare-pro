@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Detailed Comparison for Professional Designers"
 date: 2026-07-22T13:02:34+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: A Detailed Comparison for Professional Designers
 

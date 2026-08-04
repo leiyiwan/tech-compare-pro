@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Gemini for Code Review: Which AI Tool is Better?"
 date: 2026-06-19T17:04:19+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Gemini for Code Review: Which AI Tool Is Better?
 

@@ -2,9 +2,10 @@
 title: "Garmin Enduro 3 vs COROS Vertix 2: Adventure Smartwatch Battle"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Smartwatch"]
 
 ---
+
 
 # Garmin Enduro 3 vs. COROS Vertix 2: The Adventure Smartwatch Heavyweight Bout
 

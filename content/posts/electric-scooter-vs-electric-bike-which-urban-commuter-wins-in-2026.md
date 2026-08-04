@@ -2,9 +2,10 @@
 title: "Electric Scooter vs Electric Bike: Which Urban Commuter Wins in 2026"
 date: 2026-05-30T21:21:22+08:00
 draft: false
-tags:
+tags: ["Tech"]
 
 ---
+
 
 # Electric Scooter vs Electric Bike: Which Urban Commuter Wins in 2026?
 

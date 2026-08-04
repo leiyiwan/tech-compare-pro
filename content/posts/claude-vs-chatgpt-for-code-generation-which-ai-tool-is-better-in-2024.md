@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Code Generation: Which AI Tool is Better in 2024?"
 date: 2026-06-13T09:02:01+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # Claude vs ChatGPT for Code Generation: Which AI Tool is Better in 2024?
 

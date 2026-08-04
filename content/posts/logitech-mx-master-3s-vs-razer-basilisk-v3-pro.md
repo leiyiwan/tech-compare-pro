@@ -9,6 +9,7 @@ summary: "Premium mouse comparison: Logitech MX Master 3S vs Razer Basilisk V3 P
 lastmod: 2026-08-02
 ---
 
+
 ## Comparison Table
 
 | Feature | Logitech MX Master 3S | Razer Basilisk V3 Pro |

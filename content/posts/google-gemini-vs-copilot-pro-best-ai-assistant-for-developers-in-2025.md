@@ -2,9 +2,10 @@
 title: "Google Gemini vs Copilot Pro: Best AI Assistant for Developers in 2025"
 date: 2026-07-12T13:03:19+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot", "Google"]
 
 ---
+
 
 # Google Gemini vs Copilot Pro: Best AI Assistant for Developers in 2025
 

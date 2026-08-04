@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Photorealistic Images: Which AI Art Tool Wins?"
 date: 2026-07-03T17:05:12+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs. DALL-E 3 for Photorealistic Images: Which AI Art Tool Wins?
 

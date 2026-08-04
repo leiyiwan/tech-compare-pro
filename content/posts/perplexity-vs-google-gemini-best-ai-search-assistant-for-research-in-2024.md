@@ -2,9 +2,10 @@
 title: "Perplexity vs Google Gemini: Best AI Search Assistant for Research in 2024"
 date: 2026-07-22T13:02:34+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity vs Google Gemini: Which AI Search Assistant Wins for Research in 2024?
 

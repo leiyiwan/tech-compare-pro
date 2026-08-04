@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Ultimate Test for Professional Graphic Design Projects"
 date: 2026-07-15T17:04:43+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Wins for Professional Graphic Design?
 

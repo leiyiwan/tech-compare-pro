@@ -8,6 +8,7 @@ description: "Mid-range TWS earbuds comparison: Nothing Ear 3 vs OnePlus Buds Pr
 summary: "Mid-range TWS earbuds comparison: Nothing Ear 3 vs OnePlus Buds Pro 3"
 ---
 
+
 ## Overview
 
 The mid-range TWS earbuds market in 2026 has two serious contenders: Nothing’s third-generation Ear 3 and OnePlus’s Buds Pro 3. Both aim to deliver flagship-grade features without the $250+ price tag. Nothing Ear 3 brings a refined transparent aesthetic, custom 12.6mm drivers, and LDAC/LHDC 5.0 support. OnePlus Buds Pro 3 counters with a dual-driver setup (11mm dynamic + 6mm planar), dual DACs, and a claimed 50dB adaptive ANC. This **Mid-range TWS earbuds comparison: Nothing Ear 3 vs OnePlus Buds Pro 3** breaks down every spec, real-world performance metric, and value proposition to help you decide which pair belongs in your ears.

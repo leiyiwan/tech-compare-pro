@@ -8,6 +8,7 @@ description: "Electric scooter comparison: Segway Max G3 vs Niu KQi3 Pro for com
 summary: "Electric scooter comparison: Segway Max G3 vs Niu KQi3 Pro for commuting"
 ---
 
+
 # Segway Ninebot Max G3 vs Niu KQi3 Pro
 
 **Electric scooter comparison: Segway Max G3 vs Niu KQi3 Pro for commuting** reveals two heavyweights in the sub‑$900 commuter category. Both scooters target daily urban riders who need reliable range, reasonable speed, and solid build quality — but they approach the task differently. The Segway Ninebot Max G3 (MSRP $849) is the latest evolution of the iconic Max line, offering a more powerful motor and longer range than its predecessor. The Niu KQi3 Pro ($649) is the mid‑tier flagship from the Chinese brand famous for its design sensibilities and smart features. This article pokes into every detail that matters for a commuter: real‑world range, hill climbing, ride comfort, portability, and long‑term durability. We’ve logged over 150 miles across both units on mixed terrain to give you the straight numbers.

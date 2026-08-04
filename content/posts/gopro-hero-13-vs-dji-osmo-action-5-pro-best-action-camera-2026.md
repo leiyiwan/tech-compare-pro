@@ -2,9 +2,10 @@
 title: "GoPro Hero 13 vs DJI Osmo Action 5 Pro: Best Action Camera 2026"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Camera"]
 
 ---
+
 
 # GoPro Hero 13 vs. DJI Osmo Action 5 Pro: The 2026 Action Camera Showdown
 

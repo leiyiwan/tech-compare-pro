@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Amazon CodeWhisperer: AI Pair Programming Tools Compared"
 date: 2026-07-24T09:03:20+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Amazon"]
 
 ---
+
 
 # GitHub Copilot vs Amazon CodeWhisperer: AI Pair Programming Tools Compared
 

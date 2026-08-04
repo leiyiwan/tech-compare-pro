@@ -2,9 +2,10 @@
 title: "Perplexity Pro vs. Google Gemini Advanced: Best AI Search for Deep Research"
 date: 2026-07-19T09:01:08+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity Pro vs. Google Gemini Advanced: Which AI Search Wins for Deep Research?
 

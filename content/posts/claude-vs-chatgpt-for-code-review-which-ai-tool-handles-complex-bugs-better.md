@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Code Review: Which AI Tool Handles Complex Bugs Better?"
 date: 2026-06-25T09:02:06+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # Claude vs ChatGPT for Code Review: Which AI Tool Handles Complex Bugs Better?
 

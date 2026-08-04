@@ -2,9 +2,10 @@
 title: "ChatGPT vs DeepSeek vs Gemini: Best AI Assistant for Developers in 2025"
 date: 2026-07-17T09:05:17+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Developer"]
 
 ---
+
 
 # ChatGPT vs DeepSeek vs Gemini: Best AI Assistant for Developers in 2025
 

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude AI for Coding: Which Developer Tool Wins in 2024"
 date: 2026-07-07T13:01:23+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # ChatGPT vs Claude AI for Coding: Which Developer Tool Wins in 2024?
 

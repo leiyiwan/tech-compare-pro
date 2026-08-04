@@ -2,9 +2,10 @@
 title: "Notion AI vs Mem for Meeting Notes Summarization"
 date: 2026-06-23T13:01:31+08:00
 draft: false
-tags:
+tags: ["Notion"]
 
 ---
+
 
 # Notion AI vs. Mem: Which Tool Actually Saves You From Meeting Note Chaos?
 

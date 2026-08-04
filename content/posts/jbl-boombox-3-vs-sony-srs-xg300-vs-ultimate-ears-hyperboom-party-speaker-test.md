@@ -2,9 +2,10 @@
 title: "JBL Boombox 3 vs Sony SRS-XG300 vs Ultimate Ears Hyperboom: Party Speaker Test"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Sony", "Audio"]
 
 ---
+
 
 # JBL Boombox 3 vs. Sony SRS-XG300 vs. Ultimate Ears Hyperboom: The Ultimate Party Speaker Showdown
 

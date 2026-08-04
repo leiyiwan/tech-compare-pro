@@ -2,9 +2,10 @@
 title: "Copilot vs Cursor for Long-Form Coding: A Real-World Productivity Comparison"
 date: 2026-07-13T09:03:36+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "Coding"]
 
 ---
+
 
 # Copilot vs Cursor for Long-Form Coding: A Real-World Productivity Comparison
 

@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator Compared"
 date: 2026-07-27T13:04:00+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Stable Diffusion"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 vs Stable Diffusion: Which AI Image Generator Wins in 2024?
 

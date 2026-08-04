@@ -2,9 +2,10 @@
 title: "Claude vs Perplexity: Which AI Research Assistant Wins for Technical Writing"
 date: 2026-07-17T09:05:17+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Perplexity"]
 
 ---
+
 
 # Claude vs Perplexity: Which AI Research Assistant Wins for Technical Writing
 

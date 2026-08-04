@@ -2,9 +2,10 @@
 title: "Kindle Scribe vs reMarkable 2 vs Boox Note Air 4C: E-Ink Tablet Showdown"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Tablet"]
 
 ---
+
 
 # Kindle Scribe vs reMarkable 2 vs Boox Note Air 4C: E-Ink Tablet Showdown
 

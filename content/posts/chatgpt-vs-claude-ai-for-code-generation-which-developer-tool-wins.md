@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude AI for Code Generation: Which Developer Tool Wins?"
 date: 2026-06-28T17:03:23+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Developer"]
 
 ---
+
 
 # ChatGPT vs. Claude AI for Code Generation: Which Developer Tool Wins?
 

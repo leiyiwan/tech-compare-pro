@@ -2,9 +2,10 @@
 title: "Oura Ring 4 vs Samsung Galaxy Ring: Smart Ring Comparison 2026"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Samsung"]
 
 ---
+
 
 # Oura Ring 4 vs Samsung Galaxy Ring: Which Smart Ring Wins in 2026?
 

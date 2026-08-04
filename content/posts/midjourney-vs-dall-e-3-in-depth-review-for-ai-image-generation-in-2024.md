@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: In-Depth Review for AI Image Generation in 2024"
 date: 2026-06-24T17:01:59+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: In-Depth Review for AI Image Generation in 2024
 

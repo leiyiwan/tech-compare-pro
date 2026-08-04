@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Bard for Code Generation: 2025 Comparison"
 date: 2026-07-30T13:01:24+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Bard for Code Generation: 2025 Comparison
 

@@ -2,9 +2,10 @@
 title: "Perplexity vs. Gemini for Research: A Detailed Comparison for Developers"
 date: 2026-07-09T09:02:01+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Developer"]
 
 ---
+
 
 # Perplexity vs. Gemini for Research: A Detailed Comparison for Developers
 

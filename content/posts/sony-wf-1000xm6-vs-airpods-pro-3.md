@@ -8,6 +8,7 @@ description: "Noise-cancelling earbuds comparison: Sony WF-1000XM6 vs AirPods Pr
 summary: "Noise-cancelling earbuds comparison: Sony WF-1000XM6 vs AirPods Pro 3"
 ---
 
+
 Sony’s WF-1000XM5 have been the benchmark for noise-cancelling earbuds since 2023, but Apple’s AirPods Pro 2 have held their ground with seamless ecosystem integration. Now both companies are preparing their next-gen flagships. The **Noise-cancelling earbuds comparison: Sony WF-1000XM6 vs AirPods Pro 3** comes down to which company better balances sound quality, ANC performance, battery life, and price. We’ve spent three weeks testing pre-production units of both models, benchmarked them against current top-tier earbuds, and compiled everything you need to know before you buy.
 
 ## Comparison Table

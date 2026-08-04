@@ -2,9 +2,10 @@
 title: "Jasper vs Writesonic for Marketing Copy: A Detailed 2024 Comparison"
 date: 2026-06-14T09:02:26+08:00
 draft: false
-tags:
+tags: ["Marketing"]
 
 ---
+
 
 # Jasper vs Writesonic for Marketing Copy: A Detailed 2024 Comparison
 

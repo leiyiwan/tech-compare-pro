@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: Head-to-Head Comparison for AI-Assisted Coding in 2025"
 date: 2026-07-20T17:01:50+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Coding"]
 
 ---
+
 
 # GitHub Copilot vs Tabnine: Head-to-Head Comparison for AI-Assisted Coding in 2025
 

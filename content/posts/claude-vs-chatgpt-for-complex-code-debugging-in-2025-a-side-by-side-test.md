@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Complex Code Debugging in 2025: A Side-by-Side Test"
 date: 2026-08-03T09:02:35+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # Claude vs ChatGPT for Complex Code Debugging in 2025: A Side-by-Side Test
 

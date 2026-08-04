@@ -2,9 +2,10 @@
 title: "Notion AI vs Mem AI for Note-Taking: A Detailed Comparison"
 date: 2026-06-19T17:04:19+08:00
 draft: false
-tags:
+tags: ["Notion"]
 
 ---
+
 
 # Notion AI vs Mem AI for Note-Taking: A Detailed Comparison
 

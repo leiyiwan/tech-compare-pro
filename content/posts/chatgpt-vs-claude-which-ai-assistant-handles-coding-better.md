@@ -2,9 +2,10 @@
 title: "ChatGPT vs. Claude: Which AI Assistant Handles Coding Better?"
 date: 2026-07-24T17:03:38+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # ChatGPT vs. Claude: Which AI Assistant Handles Coding Better?
 

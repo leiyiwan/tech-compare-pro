@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Professional Logo Design: Which AI Wins?"
 date: 2026-07-27T09:03:51+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 for Professional Logo Design: Which AI Wins?
 

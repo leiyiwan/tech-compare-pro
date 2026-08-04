@@ -2,9 +2,10 @@
 title: "Gemini Advanced vs Copilot Pro: Best AI Productivity Suite Compared"
 date: 2026-07-09T17:02:16+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot", "Productivity"]
 
 ---
+
 
 # Gemini Advanced vs Copilot Pro: Best AI Productivity Suite Compared
 

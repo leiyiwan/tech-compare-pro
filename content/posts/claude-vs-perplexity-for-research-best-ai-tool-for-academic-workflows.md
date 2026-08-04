@@ -2,9 +2,10 @@
 title: "Claude vs. Perplexity for Research: Best AI Tool for Academic Workflows"
 date: 2026-07-18T17:05:59+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Perplexity"]
 
 ---
+
 
 # Claude vs. Perplexity for Research: Which AI Tool Fits Your Academic Workflow?
 

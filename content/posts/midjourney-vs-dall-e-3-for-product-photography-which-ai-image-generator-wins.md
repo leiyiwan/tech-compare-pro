@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Product Photography: Which AI Image Generator Wins?"
 date: 2026-07-20T09:01:34+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 for Product Photography: Which AI Image Generator Wins?
 

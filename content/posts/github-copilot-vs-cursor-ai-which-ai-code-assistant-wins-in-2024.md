@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Cursor AI: Which AI Code Assistant Wins in 2024"
 date: 2026-06-22T13:06:10+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "GitHub"]
 
 ---
+
 
 # GitHub Copilot vs Cursor AI: Which AI Code Assistant Wins in 2024?
 

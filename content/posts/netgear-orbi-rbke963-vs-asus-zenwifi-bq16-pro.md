@@ -8,6 +8,7 @@ description: "Mesh WiFi system comparison: Netgear Orbi vs ASUS ZenWiFi. Detaile
 summary: "Mesh WiFi system comparison: Netgear Orbi vs ASUS ZenWiFi"
 ---
 
+
 ## Comparison Table
 
 | Feature | Netgear Orbi RBKE963 (3-pack) | ASUS ZenWiFi BQ16 Pro (2-pack) |

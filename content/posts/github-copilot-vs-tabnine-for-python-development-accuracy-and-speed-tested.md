@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine for Python Development: Accuracy and Speed Tested"
 date: 2026-06-25T09:02:06+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Python"]
 
 ---
+
 
 # GitHub Copilot vs. Tabnine for Python Development: Accuracy and Speed Tested
 

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Gemini for Coding Assistance: A 2025 Comparison"
 date: 2026-06-14T13:02:32+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Google"]
 
 ---
+
 
 # ChatGPT vs Google Gemini for Coding Assistance: A 2025 Comparison
 

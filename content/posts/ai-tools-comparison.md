@@ -1,11 +1,12 @@
 ---
-title: "AI tools comparison 最佳实践分享"
+title: "AI Tools Comparison: ChatGPT, Claude, Gemini and Perplexity"
 date: 2026-05-27
 draft: false
-tags: ["ai","tools","comparison"]
+tags: ["ai", "tools", "comparison"]
 categories: ["AI tools comparison"]
 description: "A detailed comparison of AI tools comparison 最佳实践分享 covering price, specs, performance, and value."
 ---
+
 
 ## The Contenders: ChatGPT, Claude, Gemini, Perplexity
 

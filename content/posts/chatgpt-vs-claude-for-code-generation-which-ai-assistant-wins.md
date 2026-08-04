@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude for Code Generation: Which AI Assistant Wins?"
 date: 2026-07-23T13:03:02+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # ChatGPT vs Claude for Code Generation: Which AI Assistant Wins?
 

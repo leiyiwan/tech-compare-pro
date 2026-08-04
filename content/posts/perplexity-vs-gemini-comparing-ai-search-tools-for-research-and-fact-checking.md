@@ -2,9 +2,10 @@
 title: "Perplexity vs Gemini: Comparing AI Search Tools for Research and Fact-Checking"
 date: 2026-07-07T17:01:31+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity"]
 
 ---
+
 
 # Perplexity vs Gemini: Comparing AI Search Tools for Research and Fact-Checking
 

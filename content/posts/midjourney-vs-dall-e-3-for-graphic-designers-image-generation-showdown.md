@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Graphic Designers: Image Generation Showdown"
 date: 2026-06-27T17:03:02+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 for Graphic Designers: Image Generation Showdown
 

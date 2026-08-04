@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator for Designers"
 date: 2026-08-04T13:03:57+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Stable Diffusion", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 vs Stable Diffusion: Which AI Image Generator Actually Saves Designers Time?
 

@@ -8,6 +8,7 @@ description: "Premium ANC headphones comparison: Sony WH-1000XM6 vs Bose QuietCo
 summary: "Premium ANC headphones comparison: Sony WH-1000XM6 vs Bose QuietComfort Ultra"
 ---
 
+
 This is a Premium ANC headphones comparison: Sony WH-1000XM6 vs Bose QuietComfort Ultra. Two heavyweights fighting for the top spot in over-ear wireless noise-cancelling. Sony’s XM6 line builds on the already excellent XM5, while Bose counters with the QuietComfort Ultra — a model that redefined comfort and spatial audio in 2023. Both sit north of $400, both claim best-in-class ANC, and both promise all-day wearability. We’ve spent weeks with production units to see which one actually delivers.
 
 ## Comparison Table

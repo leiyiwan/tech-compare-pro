@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Which AI Image Generator is Best for Graphic Designers?"
 date: 2026-06-22T17:01:17+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Image Generator is Best for Graphic Designers?
 

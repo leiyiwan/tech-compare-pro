@@ -2,9 +2,10 @@
 title: "ChatGPT vs. Google Gemini for Code Generation: A Detailed Comparison"
 date: 2026-07-28T17:05:37+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Gemini for Code Generation: A Detailed Comparison
 

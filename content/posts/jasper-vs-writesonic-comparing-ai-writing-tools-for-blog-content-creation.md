@@ -2,9 +2,10 @@
 title: "Jasper vs Writesonic: Comparing AI Writing Tools for Blog Content Creation"
 date: 2026-06-20T13:04:32+08:00
 draft: false
-tags:
+tags: ["Content"]
 
 ---
+
 
 # Jasper vs Writesonic: Which AI Writing Tool Actually Delivers for Blog Content?
 

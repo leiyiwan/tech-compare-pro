@@ -2,9 +2,10 @@
 title: "Sonos Era 300 vs Apple HomePod 2 vs Amazon Echo Studio: Smart Speaker Sound Test"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Apple", "Amazon", "Audio"]
 
 ---
+
 
 # Sonos Era 300 vs. Apple HomePod 2 vs. Amazon Echo Studio: Smart Speaker Sound Test
 

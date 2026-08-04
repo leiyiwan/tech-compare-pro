@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini for Code Generation: Which AI Writes Better Code?"
 date: 2026-07-28T13:05:29+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT vs Claude vs Gemini for Code Generation: Which AI Writes Better Code?
 

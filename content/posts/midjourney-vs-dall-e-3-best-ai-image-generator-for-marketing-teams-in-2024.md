@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Best AI Image Generator for Marketing Teams in 2024"
 date: 2026-06-27T09:02:49+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Marketing"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Image Generator Wins for Marketing Teams in 2024?
 

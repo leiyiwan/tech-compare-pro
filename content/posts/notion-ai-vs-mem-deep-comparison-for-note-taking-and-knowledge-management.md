@@ -2,9 +2,10 @@
 title: "Notion AI vs Mem: Deep Comparison for Note-Taking and Knowledge Management"
 date: 2026-06-29T17:03:45+08:00
 draft: false
-tags:
+tags: ["Notion"]
 
 ---
+
 
 # Notion AI vs Mem: Which Note-Taking Tool Actually Organizes Your Knowledge?
 

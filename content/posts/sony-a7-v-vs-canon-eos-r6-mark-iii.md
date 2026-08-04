@@ -8,6 +8,7 @@ description: "Full-frame mirrorless camera comparison: Sony A7 V vs Canon EOS R6
 summary: "Full-frame mirrorless camera comparison: Sony A7 V vs Canon EOS R6 Mark III – which hybrid body wins for stills and video?"
 ---
 
+
 The **full-frame mirrorless camera comparison: Sony A7 V vs Canon EOS R6 Mark III** pits two heavyweights against each other for 2026. Both cameras claim to be the ultimate hybrid tool, but their DNA couldn't be more different. Sony’s A7 V takes the high-resolution path, aiming to please both stills photographers who want cropping headroom and videographers who need oversampled 4K. Canon’s R6 Mark III continues the brand’s low-light and speed tradition, now with a stacked sensor that pushes burst rates and rolling shutter control to new levels. After a month of shooting with both bodies in real-world conditions — studio, street, event, and run-and-gun video — here’s the full breakdown.
 
 ## Comparison Table

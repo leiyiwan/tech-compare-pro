@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Ultimate AI Image Generator Showdown for Designers"
 date: 2026-06-18T09:03:46+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: The Ultimate AI Image Generator Showdown for Designers
 

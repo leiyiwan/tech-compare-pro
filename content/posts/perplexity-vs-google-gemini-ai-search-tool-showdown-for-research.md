@@ -2,9 +2,10 @@
 title: "Perplexity vs Google Gemini: AI Search Tool Showdown for Research"
 date: 2026-07-23T13:03:02+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity vs Google Gemini: AI Search Tool Showdown for Research
 

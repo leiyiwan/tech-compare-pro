@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for AI Image Generation: Which Tool Wins?"
 date: 2026-07-02T09:04:36+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 for AI Image Generation: Which Tool Wins?
 

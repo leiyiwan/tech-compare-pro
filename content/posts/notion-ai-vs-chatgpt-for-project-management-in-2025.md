@@ -2,9 +2,10 @@
 title: "Notion AI vs ChatGPT for Project Management in 2025"
 date: 2026-06-23T17:01:38+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Notion"]
 
 ---
+
 
 # Notion AI vs. ChatGPT for Project Management in 2025: Which Tool Actually Saves You Time?
 

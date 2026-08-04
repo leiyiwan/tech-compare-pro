@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Cursor AI: Best AI Coding Assistant for Developers in 2024"
 date: 2026-07-12T09:03:12+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "GitHub"]
 
 ---
+
 
 # GitHub Copilot vs Cursor AI: Which AI Coding Assistant Actually Helps in 2024?
 

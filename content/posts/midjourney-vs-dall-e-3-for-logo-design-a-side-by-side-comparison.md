@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Logo Design: A Side-by-Side Comparison"
 date: 2026-07-18T09:05:42+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs. DALL-E 3 for Logo Design: A Side-by-Side Comparison
 

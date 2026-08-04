@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Which AI Image Generator Delivers More Realistic Results?"
 date: 2026-07-16T17:05:08+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Image Generator Delivers More Realistic Results?
 

@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Amazon CodeWhisperer: Best AI Coding Assistant for Developers"
 date: 2026-07-11T09:02:49+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Amazon"]
 
 ---
+
 
 # GitHub Copilot vs Amazon CodeWhisperer: Best AI Coding Assistant for Developers
 

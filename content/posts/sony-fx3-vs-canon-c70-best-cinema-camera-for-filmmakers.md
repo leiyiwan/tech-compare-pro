@@ -2,9 +2,10 @@
 title: "Sony FX3 vs Canon C70: Best Cinema Camera for Filmmakers"
 date: 2026-05-30T21:08:13+08:00
 draft: false
-tags:
+tags: ["Sony", "Camera"]
 
 ---
+
 
 # Sony FX3 vs Canon C70: Which Cinema Camera Actually Serves Filmmakers Better?
 

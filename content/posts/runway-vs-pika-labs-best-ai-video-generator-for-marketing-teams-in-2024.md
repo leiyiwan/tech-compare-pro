@@ -2,9 +2,10 @@
 title: "Runway vs Pika Labs: Best AI Video Generator for Marketing Teams in 2024"
 date: 2026-06-28T09:03:10+08:00
 draft: false
-tags:
+tags: ["Runway", "Marketing", "Video"]
 
 ---
+
 
 # Runway vs Pika Labs: Which AI Video Generator Actually Delivers for Marketing Teams in 2024?
 

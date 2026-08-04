@@ -2,9 +2,10 @@
 title: "Runway Gen-2 vs Pika Labs: Best AI Video Generation Tool for Creators"
 date: 2026-07-29T09:05:47+08:00
 draft: false
-tags:
+tags: ["Runway", "Video"]
 
 ---
+
 
 # Runway Gen-2 vs Pika Labs: Which AI Video Tool Actually Serves Creators?
 

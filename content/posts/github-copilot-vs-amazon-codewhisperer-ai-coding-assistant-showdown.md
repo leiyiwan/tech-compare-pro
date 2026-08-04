@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Amazon CodeWhisperer: AI Coding Assistant Showdown"
 date: 2026-07-01T17:04:29+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Amazon"]
 
 ---
+
 
 # GitHub Copilot vs. Amazon CodeWhisperer: AI Coding Assistant Showdown
 

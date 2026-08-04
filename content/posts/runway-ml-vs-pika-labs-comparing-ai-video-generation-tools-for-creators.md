@@ -2,9 +2,10 @@
 title: "Runway ML vs Pika Labs: Comparing AI Video Generation Tools for Creators"
 date: 2026-07-30T17:01:33+08:00
 draft: false
-tags:
+tags: ["Runway", "Video"]
 
 ---
+
 
 # Runway ML vs Pika Labs: Comparing AI Video Generation Tools for Creators
 

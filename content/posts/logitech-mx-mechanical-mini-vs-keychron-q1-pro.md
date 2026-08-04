@@ -8,6 +8,7 @@ description: "Mechanical keyboard comparison: Logitech MX Mechanical Mini vs Key
 summary: "Mechanical keyboard comparison: Logitech MX Mechanical Mini vs Keychron Q1 Pro"
 ---
 
+
 The **Mechanical keyboard comparison: Logitech MX Mechanical Mini vs Keychron Q1 Pro** pits two of the most popular wireless mechanical boards head-to-head. Both pack a 75% layout, wireless connectivity, and mechanical switches, but they target different users. Logitech’s offering leans into productivity with its low-profile switches and ecosystem integration, while Keychron delivers a fully customizable, enthusiast-grade experience with hot-swap sockets and QMK/VIA support. We tested both for weeks, measured latency, and compared build quality to help you decide which one belongs on your desk.
 
 ## Comparison Table

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini: Which AI Assistant Powers Better Code Generation"
 date: 2026-06-21T09:04:46+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT vs Claude vs Gemini: Which AI Assistant Powers Better Code Generation
 

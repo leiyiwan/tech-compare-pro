@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Cursor vs Tabnine: AI Coding Assistant Comparison"
 date: 2026-07-19T17:01:24+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "GitHub"]
 
 ---
+
 
 # GitHub Copilot vs. Cursor vs. Tabnine: Which AI Coding Assistant Actually Delivers?
 

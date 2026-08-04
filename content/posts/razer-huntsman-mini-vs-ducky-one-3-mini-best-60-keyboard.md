@@ -8,6 +8,7 @@ description: "A comparison of two popular 60% keyboards for gamers and minimalis
 summary: "A comparison of two popular 60% keyboards for gamers and minimalists."
 ---
 
+
 Razer Huntsman Mini or Ducky One 3 Mini? Both are 60% keyboards that strip away the numpad, arrow keys, and function row to save desk space. But they target different users: Razer pushes raw speed with optical switches, while Ducky focuses on customization with hot-swap sockets and a rich typing feel. A comparison of two popular 60% keyboards for gamers and minimalists has to weigh latency against flexibility, software against hardware, and price against long-term value. Let’s break down every spec, bench, and real-world quirk.
 
 ## Comparison Table

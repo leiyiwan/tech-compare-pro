@@ -2,9 +2,10 @@
 title: "ChatGPT vs. DeepSeek for Coding Assistance: Which AI Tool Wins in 2025?"
 date: 2026-07-18T17:05:59+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Coding"]
 
 ---
+
 
 # ChatGPT vs. DeepSeek for Coding Assistance: Which AI Tool Wins in 2025?
 

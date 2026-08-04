@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Gemini: Ultimate AI Chatbot Comparison for Productivity"
 date: 2026-07-17T17:05:33+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Google"]
 
 ---
+
 
 # ChatGPT vs Google Gemini: Which AI Chatbot Actually Boosts Your Productivity?
 

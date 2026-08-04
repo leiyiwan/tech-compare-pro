@@ -2,9 +2,10 @@
 title: "Jasper AI vs Writesonic for Long-Form SEO Content: A Detailed Comparison"
 date: 2026-07-24T13:03:29+08:00
 draft: false
-tags:
+tags: ["Content", "SEO"]
 
 ---
+
 
 # Jasper AI vs Writesonic for Long-Form SEO Content: A Detailed Comparison
 

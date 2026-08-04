@@ -2,9 +2,10 @@
 title: "ASUS ZenScreen OLED vs Lepow Z1-Gamut: Portable Monitor Comparison"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Monitor"]
 
 ---
+
 
 # ASUS ZenScreen OLED vs Lepow Z1-Gamut: A Portable Monitor Showdown
 

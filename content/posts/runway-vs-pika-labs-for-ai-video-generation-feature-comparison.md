@@ -2,9 +2,10 @@
 title: "Runway vs Pika Labs for AI Video Generation: Feature Comparison"
 date: 2026-06-13T17:02:19+08:00
 draft: false
-tags:
+tags: ["Runway", "Video"]
 
 ---
+
 
 # Runway vs Pika Labs for AI Video Generation: Feature Comparison
 

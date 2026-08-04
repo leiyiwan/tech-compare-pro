@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: Best AI Code Assistant for Enterprise Teams"
 date: 2026-06-29T09:03:30+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub"]
 
 ---
+
 
 # GitHub Copilot vs Tabnine: Which AI Code Assistant Actually Delivers for Enterprise Teams?
 

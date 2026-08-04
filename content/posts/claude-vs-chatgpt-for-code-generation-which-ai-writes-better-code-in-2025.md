@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Code Generation: Which AI Writes Better Code in 2025?"
 date: 2026-07-01T09:04:14+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # Claude vs ChatGPT for Code Generation: Which AI Writes Better Code in 2025?
 

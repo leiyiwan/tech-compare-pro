@@ -2,9 +2,10 @@
 title: "Jasper vs Surfer SEO: The Definitive AI Content Optimization Tool Comparison"
 date: 2026-08-01T17:00:56+08:00
 draft: false
-tags:
+tags: ["Content", "SEO"]
 
 ---
+
 
 # Jasper vs Surfer SEO: The Definitive AI Content Optimization Tool Comparison
 

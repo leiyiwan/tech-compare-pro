@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Gemini: Which AI Assistant is Better for Developers in 2024?"
 date: 2026-06-22T17:01:17+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Gemini: Which AI Assistant is Better for Developers in 2024?
 

@@ -8,6 +8,7 @@ description: "Which PC gaming handheld offers the best battery life and screen q
 summary: "Which PC gaming handheld offers the best battery life and screen quality."
 ---
 
+
 Which PC gaming handheld offers the best battery life and screen quality isn't a theoretical question anymore. Two devices dominate the market: Valve’s Steam Deck OLED and ASUS’s ROG Ally X. Both run Windows-based PC architecture, both target on-the-go gamers, but they approach the problem from completely different angles. The Steam Deck OLED refines Valve’s original vision with a stunning HDR OLED panel and a dramatically improved battery. The ROG Ally X, meanwhile, is ASUS’s second-generation attempt, swapping the original Ally’s 40Wh battery for a massive 80Wh cell while upgrading RAM and storage. After spending weeks testing both—running everything from *Cyberpunk 2077* to *Hades*—the choice comes down to trade-offs in software maturity, raw performance, and screen fidelity. Here’s the full breakdown.
 
 ## Comparison Table

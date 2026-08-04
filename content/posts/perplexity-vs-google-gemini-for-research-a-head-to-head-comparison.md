@@ -2,9 +2,10 @@
 title: "Perplexity vs Google Gemini for Research: A Head-to-Head Comparison"
 date: 2026-06-16T09:03:06+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity vs Google Gemini for Research: A Head-to-Head Comparison
 

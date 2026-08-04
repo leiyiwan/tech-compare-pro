@@ -2,9 +2,10 @@
 title: "ChatGPT vs Gemini for Code Generation: Which AI Writes Better?"
 date: 2026-06-13T17:02:19+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini"]
 
 ---
+
 
 # ChatGPT vs. Gemini for Code Generation: Which AI Writes Better?
 

@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude AI: A Detailed Comparison for Developers"
 date: 2026-07-04T13:05:27+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Developer"]
 
 ---
+
 
 # ChatGPT vs Claude AI: A Detailed Comparison for Developers
 

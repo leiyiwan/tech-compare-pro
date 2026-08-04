@@ -2,9 +2,10 @@
 title: "Cursor vs GitHub Copilot: Which AI Coding Assistant Wins for Productivity?"
 date: 2026-07-27T13:04:00+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "GitHub"]
 
 ---
+
 
 # Cursor vs. GitHub Copilot: Which AI Coding Assistant Actually Boosts Productivity?
 

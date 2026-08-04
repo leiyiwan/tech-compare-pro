@@ -2,9 +2,10 @@
 title: "ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Assistant Wins in 2024"
 date: 2026-07-14T13:04:09+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Assistant Wins in 2024?
 

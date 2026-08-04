@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT vs Gemini: Which AI Assistant is Best for Coding in 2025?"
 date: 2026-08-04T13:03:57+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # Claude vs ChatGPT vs Gemini: Which AI Assistant is Best for Coding in 2025?
 

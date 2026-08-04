@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 for Product Photography: A Side-by-Side Review"
 date: 2026-06-30T09:03:53+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 for Product Photography: A Side-by-Side Review
 

@@ -2,9 +2,10 @@
 title: "DALL-E 3 vs. Midjourney for Professional Logo Design: A Side-by-Side Review"
 date: 2026-07-28T17:05:37+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # DALL-E 3 vs. Midjourney for Professional Logo Design: A Side-by-Side Review
 

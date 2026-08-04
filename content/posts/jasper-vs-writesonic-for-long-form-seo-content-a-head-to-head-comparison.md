@@ -2,9 +2,10 @@
 title: "Jasper vs Writesonic for Long-Form SEO Content: A Head-to-Head Comparison"
 date: 2026-07-28T13:05:29+08:00
 draft: false
-tags:
+tags: ["Content", "SEO"]
 
 ---
+
 
 # Jasper vs Writesonic for Long-Form SEO Content: A Head-to-Head Comparison
 

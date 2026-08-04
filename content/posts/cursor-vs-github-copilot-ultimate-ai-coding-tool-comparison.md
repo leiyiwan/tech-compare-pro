@@ -2,9 +2,10 @@
 title: "Cursor vs GitHub Copilot: Ultimate AI Coding Tool Comparison"
 date: 2026-07-17T09:05:17+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Cursor", "GitHub"]
 
 ---
+
 
 # Cursor vs GitHub Copilot: Which AI Coding Tool Actually Delivers?
 

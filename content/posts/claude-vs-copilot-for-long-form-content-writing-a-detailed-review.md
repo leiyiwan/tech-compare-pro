@@ -2,9 +2,10 @@
 title: "Claude vs Copilot for Long-Form Content Writing: A Detailed Review"
 date: 2026-06-22T09:06:03+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Copilot", "Content"]
 
 ---
+
 
 # Claude vs Copilot for Long-Form Content Writing: A Detailed Review
 

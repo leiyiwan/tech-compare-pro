@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3 vs Stable Diffusion: AI Image Generator Showdown"
 date: 2026-07-22T17:02:43+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Stable Diffusion"]
 
 ---
+
 
 # Midjourney vs DALL-E 3 vs Stable Diffusion: AI Image Generator Showdown
 

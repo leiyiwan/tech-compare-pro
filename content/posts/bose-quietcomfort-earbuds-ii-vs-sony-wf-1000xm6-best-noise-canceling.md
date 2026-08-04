@@ -1,12 +1,13 @@
---- 
-title: "Bose QuietComfort Earbuds II vs Sony WF-1000XM6: Best Noise Canceling"  
+---
+title: "Bose QuietComfort Earbuds II vs Sony WF-1000XM6: Best Noise Canceling"
 date: 2026-05-25  
 draft: false  
-tags: ["noise-canceling", "wireless", "premium", "Bose", "Sony"]  
+tags: ["noise-canceling", "wireless", "premium", "Bose", "Sony"]
 categories: ["headphones"]  
 description: "Which earbuds offer the best active noise cancellation for travel and work."  
 summary: "Which earbuds offer the best active noise cancellation for travel and work."  
 ---
+
 
 The battle for noise-canceling earbud supremacy continues with Bose's QuietComfort Earbuds II and Sony's latest WF-1000XM6. Which earbuds offer the best active noise cancellation for travel and work? We put both through rigorous testing — on crowded flights, open-plan offices, and windy commutes — to settle the score. Bose’s second-gen QC Earbuds already set a high bar in 2022, but Sony’s WF-1000XM6 (launched early 2026) brings new processor tech and improved ergonomics. Here’s how they stack up on every metric that matters.
 

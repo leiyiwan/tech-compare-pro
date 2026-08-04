@@ -2,9 +2,10 @@
 title: "Gemini Advanced vs Copilot Pro: Which AI Assistant Delivers More Value?"
 date: 2026-07-08T09:01:39+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot"]
 
 ---
+
 
 # Gemini Advanced vs Copilot Pro: Which AI Assistant Delivers More Value?
 

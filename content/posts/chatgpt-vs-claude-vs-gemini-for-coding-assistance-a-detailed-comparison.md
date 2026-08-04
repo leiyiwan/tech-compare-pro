@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude vs Gemini for Coding Assistance: A Detailed Comparison"
 date: 2026-06-30T09:03:53+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Gemini"]
 
 ---
+
 
 # ChatGPT vs Claude vs Gemini for Coding Assistance: A Detailed Comparison
 

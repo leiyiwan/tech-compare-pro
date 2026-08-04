@@ -2,9 +2,10 @@
 title: "Midjourney vs. DALL-E 3 for Brand Logo Design: Which AI Image Generator Wins?"
 date: 2026-06-17T17:03:39+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs. DALL-E 3 for Brand Logo Design: Which AI Image Generator Wins?
 

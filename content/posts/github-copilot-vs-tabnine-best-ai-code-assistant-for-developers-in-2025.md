@@ -2,9 +2,10 @@
 title: "GitHub Copilot vs Tabnine: Best AI Code Assistant for Developers in 2025"
 date: 2026-07-17T17:05:33+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "GitHub", "Developer"]
 
 ---
+
 
 # GitHub Copilot vs Tabnine: Best AI Code Assistant for Developers in 2025
 

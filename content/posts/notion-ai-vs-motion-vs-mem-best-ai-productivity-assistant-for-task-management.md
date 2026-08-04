@@ -2,9 +2,10 @@
 title: "Notion AI vs Motion vs Mem: Best AI Productivity Assistant for Task Management"
 date: 2026-06-17T13:03:33+08:00
 draft: false
-tags:
+tags: ["Notion", "Productivity"]
 
 ---
+
 
 # Notion AI vs Motion vs Mem: Which AI Productivity Assistant Actually Helps You Get Things Done?
 

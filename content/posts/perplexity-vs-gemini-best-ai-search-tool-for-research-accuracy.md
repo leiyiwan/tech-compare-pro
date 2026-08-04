@@ -2,9 +2,10 @@
 title: "Perplexity vs Gemini: Best AI Search Tool for Research Accuracy"
 date: 2026-06-30T17:04:06+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity"]
 
 ---
+
 
 # Perplexity vs Gemini: Which AI Search Tool Delivers Better Research Accuracy?
 

@@ -2,9 +2,10 @@
 title: "Jasper AI vs Writesonic: In-Depth Comparison for Long-Form Blog Content"
 date: 2026-07-21T17:02:16+08:00
 draft: false
-tags:
+tags: ["Content"]
 
 ---
+
 
 # Jasper AI vs Writesonic: In-Depth Comparison for Long-Form Blog Content
 

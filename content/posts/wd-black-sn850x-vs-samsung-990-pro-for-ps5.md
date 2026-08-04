@@ -8,6 +8,7 @@ description: "PS5 SSD comparison: WD Black SN850X vs Samsung 990 Pro for gaming"
 summary: "PS5 SSD comparison: WD Black SN850X vs Samsung 990 Pro for gaming"
 ---
 
+
 # WD Black SN850X vs Samsung 990 Pro for PS5
 
 In the **PS5 SSD comparison: WD Black SN850X vs Samsung 990 Pro for gaming**, both drives claim to be the ultimate storage upgrade for Sony’s console. But real-world PS5 performance isn’t just about raw sequential numbers—it’s about sustained write speeds, heat management, and game load times. We put both 2TB models through identical tests on a PS5 running firmware 25.01-10.60.00 to see which one actually delivers faster boot times, quicker level loads, and better value. The WD Black SN850X currently retails at $209.99 for the 2TB version (with heatsink), while the Samsung 990 Pro 2TB (with heatsink) sits at $229.99. Here’s how they stack up.

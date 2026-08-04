@@ -2,9 +2,10 @@
 title: "Runway Gen-2 vs Pika Labs: Best AI Video Generator for Short-Form Content"
 date: 2026-07-20T13:01:42+08:00
 draft: false
-tags:
+tags: ["Runway", "Content", "Video"]
 
 ---
+
 
 # Runway Gen-2 vs Pika Labs: Which AI Video Generator Wins for Short-Form Content?
 

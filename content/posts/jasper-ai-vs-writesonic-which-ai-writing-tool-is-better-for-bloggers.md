@@ -2,9 +2,10 @@
 title: "Jasper AI vs Writesonic: Which AI Writing Tool is Better for Bloggers?"
 date: 2026-07-05T13:05:49+08:00
 draft: false
-tags:
+tags: ["Tech"]
 
 ---
+
 
 # Jasper AI vs Writesonic: Which AI Writing Tool is Better for Bloggers?
 

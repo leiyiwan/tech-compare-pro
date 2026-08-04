@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Best AI Image Generator for Professional Design Work"
 date: 2026-07-16T09:04:51+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Which AI Image Generator Wins for Professional Design Work?
 

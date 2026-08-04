@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude for Code Generation: A Detailed Comparison"
 date: 2026-07-08T09:01:39+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # ChatGPT vs Claude for Code Generation: A Detailed Comparison
 

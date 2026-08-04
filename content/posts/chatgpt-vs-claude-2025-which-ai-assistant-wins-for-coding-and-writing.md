@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude 2025: Which AI Assistant Wins for Coding and Writing?"
 date: 2026-07-04T17:05:34+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # ChatGPT vs Claude 2025: Which AI Assistant Wins for Coding and Writing?
 

@@ -2,9 +2,10 @@
 title: "DeepSeek vs ChatGPT for coding assistance: A detailed review"
 date: 2026-07-21T09:02:00+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Coding"]
 
 ---
+
 
 ## DeepSeek vs ChatGPT for Coding Assistance: A Detailed Review
 

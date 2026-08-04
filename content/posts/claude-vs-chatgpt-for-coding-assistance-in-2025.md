@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Coding Assistance in 2025"
 date: 2026-08-02T20:24:05+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # Claude vs ChatGPT for Coding Assistance in 2025: Which AI Actually Ships Better Code?
 

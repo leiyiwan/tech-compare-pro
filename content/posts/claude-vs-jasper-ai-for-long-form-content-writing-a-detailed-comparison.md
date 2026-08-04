@@ -2,9 +2,10 @@
 title: "Claude vs. Jasper AI for Long-Form Content Writing: A Detailed Comparison"
 date: 2026-06-24T13:01:52+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Content"]
 
 ---
+
 
 # Claude vs. Jasper AI for Long-Form Content Writing: A Detailed Comparison
 

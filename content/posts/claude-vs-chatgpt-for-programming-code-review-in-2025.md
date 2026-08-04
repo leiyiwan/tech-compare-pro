@@ -2,9 +2,10 @@
 title: "Claude vs ChatGPT for Programming Code Review in 2025"
 date: 2026-07-10T09:02:24+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Programming"]
 
 ---
+
 
 # Claude vs ChatGPT for Programming Code Review in 2025
 

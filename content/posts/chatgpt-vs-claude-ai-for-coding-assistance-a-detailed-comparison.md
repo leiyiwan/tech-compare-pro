@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude AI for Coding Assistance: A Detailed Comparison"
 date: 2026-07-29T17:01:05+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # ChatGPT vs. Claude AI for Coding Assistance: A Detailed Comparison
 

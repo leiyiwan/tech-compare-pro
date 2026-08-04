@@ -2,9 +2,10 @@
 title: "Runway Gen-3 vs Pika Labs for AI Video Creation: A Side-by-Side Review"
 date: 2026-07-27T17:04:09+08:00
 draft: false
-tags:
+tags: ["Runway", "Video"]
 
 ---
+
 
 # Runway Gen-3 vs Pika Labs: Which AI Video Tool Actually Delivers?
 

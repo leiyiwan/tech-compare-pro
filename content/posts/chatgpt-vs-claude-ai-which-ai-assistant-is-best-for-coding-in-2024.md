@@ -2,9 +2,10 @@
 title: "ChatGPT vs Claude AI: Which AI Assistant is Best for Coding in 2024"
 date: 2026-06-18T09:03:46+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Coding"]
 
 ---
+
 
 # ChatGPT vs Claude AI: Which AI Assistant is Best for Coding in 2024
 

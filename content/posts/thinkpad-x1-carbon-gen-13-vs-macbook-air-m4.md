@@ -8,6 +8,7 @@ description: "Business ultrabook vs MacBook Air: ThinkPad X1 Carbon Gen 13 vs Ma
 summary: "Business ultrabook vs MacBook Air: ThinkPad X1 Carbon Gen 13 vs MacBook Air M4"
 ---
 
+
 The **Business ultrabook vs MacBook Air: ThinkPad X1 Carbon Gen 13 vs MacBook Air M4** debate is heating up as Lenovo and Apple bring their latest thin-and-light contenders to market. Both machines target professionals who need portability without sacrificing performance, but they approach the job from completely different angles. The X1 Carbon Gen 13 runs Windows on Intel’s newest Core Ultra processors, while the MacBook Air M4 leverages Apple’s own silicon. We’ve spent weeks testing both laptops side-by-side — running productivity suites, compiling code, editing video, and living with them on the road. Here’s what we found.
 
 ## Comparison Table

@@ -2,9 +2,10 @@
 title: "Perplexity vs Google Gemini: Best AI Search Tool for Developers in 2024"
 date: 2026-07-30T09:01:15+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity vs Google Gemini: Best AI Search Tool for Developers in 2024
 

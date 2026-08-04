@@ -2,9 +2,10 @@
 title: "Perplexity Pro vs Google Gemini vs ChatGPT Search: Best AI Search Tool"
 date: 2026-07-19T17:01:24+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Gemini", "Perplexity"]
 
 ---
+
 
 # Perplexity Pro vs. Google Gemini vs. ChatGPT Search: Which AI Search Tool Actually Saves You Time?
 

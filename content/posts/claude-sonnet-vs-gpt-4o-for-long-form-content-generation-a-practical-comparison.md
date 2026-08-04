@@ -2,9 +2,10 @@
 title: "Claude Sonnet vs GPT-4o for Long-Form Content Generation: A Practical Comparison"
 date: 2026-08-04T17:04:05+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Content"]
 
 ---
+
 
 # Claude Sonnet vs GPT-4o for Long-Form Content Generation: A Practical Comparison
 

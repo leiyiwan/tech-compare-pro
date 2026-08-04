@@ -2,9 +2,10 @@
 title: "Apple iPad Pro M4 Magic Keyboard vs Logitech Combo Touch: Best iPad Keyboard Case"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Apple", "Keyboard"]
 
 ---
+
 
 # iPad Pro M4 Keyboard Cases: Magic Keyboard vs. Logitech Combo Touch
 

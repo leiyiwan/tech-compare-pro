@@ -2,9 +2,10 @@
 title: "Perplexity Pro vs Google Gemini: Best AI Search Tool for Research?"
 date: 2026-07-10T17:02:39+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity Pro vs. Google Gemini: Which AI Search Tool Actually Delivers for Research?
 

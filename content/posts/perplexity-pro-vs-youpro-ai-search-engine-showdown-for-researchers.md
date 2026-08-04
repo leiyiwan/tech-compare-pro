@@ -2,9 +2,10 @@
 title: "Perplexity Pro vs YouPro: AI Search Engine Showdown for Researchers"
 date: 2026-07-08T09:01:39+08:00
 draft: false
-tags:
+tags: ["Perplexity"]
 
 ---
+
 
 # Perplexity Pro vs YouPro: AI Search Engine Showdown for Researchers
 

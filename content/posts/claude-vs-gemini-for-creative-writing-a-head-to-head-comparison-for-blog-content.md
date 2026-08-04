@@ -2,9 +2,10 @@
 title: "Claude vs Gemini for Creative Writing: A Head-to-Head Comparison for Blog Content"
 date: 2026-07-16T13:04:59+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Gemini", "Content"]
 
 ---
+
 
 # Claude vs Gemini for Creative Writing: A Head-to-Head Comparison for Blog Content
 

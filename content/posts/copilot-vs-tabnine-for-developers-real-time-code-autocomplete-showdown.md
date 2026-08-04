@@ -2,9 +2,10 @@
 title: "Copilot vs Tabnine for Developers: Real-Time Code Autocomplete Showdown"
 date: 2026-07-24T13:03:29+08:00
 draft: false
-tags:
+tags: ["AI", "Copilot", "Developer"]
 
 ---
+
 
 # Copilot vs Tabnine for Developers: Real-Time Code Autocomplete Showdown
 

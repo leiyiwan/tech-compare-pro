@@ -8,6 +8,7 @@ description: "Budget electric scooter comparison: Xiaomi 5 Pro vs Segway F3 Pro"
 summary: "Budget electric scooter comparison: Xiaomi 5 Pro vs Segway F3 Pro"
 ---
 
+
 # Xiaomi Electric Scooter 5 Pro vs Segway F3 Pro
 
 If you’re shopping for a sub-$800 electric scooter that doesn’t skimp on range or power, the Xiaomi Electric Scooter 5 Pro and the Segway F3 Pro are the two names everyone’s talking about. Both sit squarely in the commuter segment, but they approach the same problem—getting you from A to B with minimal fuss—from different angles. This budget electric scooter comparison: Xiaomi 5 Pro vs Segway F3 Pro cuts through the marketing to show you exactly where each one shines and where it falls short. We’ve tested both on real streets, measured acceleration times, and checked build quality under daily abuse.

@@ -2,9 +2,10 @@
 title: "ChatGPT vs. Google Bard for Code Generation: Which AI Model Writes Better Scripts?"
 date: 2026-06-17T17:03:39+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Bard for Code Generation: Which AI Model Writes Better Scripts?
 

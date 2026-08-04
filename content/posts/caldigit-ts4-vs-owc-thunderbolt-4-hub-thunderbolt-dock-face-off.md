@@ -2,9 +2,10 @@
 title: "CalDigit TS4 vs OWC Thunderbolt 4 Hub: Thunderbolt Dock Face-Off"
 date: 2026-05-30T21:16:19+08:00
 draft: false
-tags:
+tags: ["Tech"]
 
 ---
+
 
 # CalDigit TS4 vs OWC Thunderbolt 4 Hub: Thunderbolt Dock Face-Off
 

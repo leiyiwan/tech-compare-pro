@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Real-World Image Quality and Pricing Face-Off"
 date: 2026-08-04T09:03:48+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: Real-World Image Quality and Pricing Face-Off
 

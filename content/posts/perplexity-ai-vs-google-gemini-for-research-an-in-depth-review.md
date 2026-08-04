@@ -2,9 +2,10 @@
 title: "Perplexity AI vs Google Gemini for Research: An In-Depth Review"
 date: 2026-06-21T13:05:50+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Perplexity", "Google"]
 
 ---
+
 
 # Perplexity AI vs Google Gemini for Research: An In-Depth Review
 

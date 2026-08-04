@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Bard vs Claude 2: Detailed Comparison for Content Creation"
 date: 2026-07-20T13:01:42+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude", "Google"]
 
 ---
+
 
 # ChatGPT vs. Google Bard vs. Claude 2: The Content Creator’s Toolkit Showdown
 

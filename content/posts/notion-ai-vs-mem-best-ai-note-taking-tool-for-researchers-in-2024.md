@@ -2,9 +2,10 @@
 title: "Notion AI vs Mem: Best AI Note-Taking Tool for Researchers in 2024"
 date: 2026-06-27T13:02:56+08:00
 draft: false
-tags:
+tags: ["Notion"]
 
 ---
+
 
 # Notion AI vs Mem: Best AI Note-Taking Tool for Researchers in 2024
 

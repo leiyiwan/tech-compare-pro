@@ -2,9 +2,10 @@
 title: "Stability AI vs Midjourney for Product Photography: Which Wins?"
 date: 2026-06-22T09:06:03+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Stability AI vs Midjourney for Product Photography: Which Wins?
 

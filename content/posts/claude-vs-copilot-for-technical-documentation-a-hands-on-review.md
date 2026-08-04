@@ -2,9 +2,10 @@
 title: "Claude vs Copilot for Technical Documentation: A Hands-On Review"
 date: 2026-06-13T17:02:19+08:00
 draft: false
-tags:
+tags: ["AI", "Claude", "Copilot"]
 
 ---
+
 
 # Claude vs Copilot for Technical Documentation: A Hands-On Review
 

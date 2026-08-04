@@ -2,9 +2,10 @@
 title: "Gemini Advanced vs Copilot Pro: Best AI Assistant for Google Workspace in 2025"
 date: 2026-07-02T13:04:44+08:00
 draft: false
-tags:
+tags: ["AI", "Gemini", "Copilot", "Google"]
 
 ---
+
 
 # Gemini Advanced vs Copilot Pro: Best AI Assistant for Google Workspace in 2025
 

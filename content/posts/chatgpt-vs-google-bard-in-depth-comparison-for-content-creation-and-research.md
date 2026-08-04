@@ -2,9 +2,10 @@
 title: "ChatGPT vs Google Bard: In-Depth Comparison for Content Creation and Research"
 date: 2026-07-03T13:05:05+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Google", "Content"]
 
 ---
+
 
 # ChatGPT vs. Google Bard: An In-Depth Comparison for Content Creation and Research
 

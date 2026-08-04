@@ -8,6 +8,7 @@ description: "Gaming monitor comparison: LG UltraGear vs Samsung Odyssey OLED G8
 summary: "Gaming monitor comparison: LG UltraGear vs Samsung Odyssey OLED G8"
 ---
 
+
 # LG UltraGear 32GS95UE vs Samsung Odyssey OLED G8
 
 **Gaming monitor comparison: LG UltraGear vs Samsung Odyssey OLED G8** — two of the most talked-about OLED gaming panels on the market right now. The LG UltraGear 32GS95UE is a 32-inch 4K OLED that can also flip to 1080p at 480 Hz, while the Samsung Odyssey OLED G8 (model G85SB) is a 34-inch ultrawide 3440×1440 panel with a 175 Hz refresh rate. Both use third-generation LG.Display WOLED and Samsung QD-OLED technology respectively, but they serve different gaming priorities. This comparison digs into real-world performance, build quality, features, and value to help you decide which flagship OLED fits your rig.

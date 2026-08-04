@@ -2,9 +2,10 @@
 title: "Midjourney vs DALL-E 3: Ultimate Comparison for AI Image Generation"
 date: 2026-06-30T17:04:06+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney"]
 
 ---
+
 
 # Midjourney vs DALL-E 3: The Ultimate Comparison for AI Image Generation
 

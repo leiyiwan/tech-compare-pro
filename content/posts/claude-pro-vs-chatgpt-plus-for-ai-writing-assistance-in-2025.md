@@ -2,9 +2,10 @@
 title: "Claude Pro vs ChatGPT Plus for AI Writing Assistance in 2025"
 date: 2026-07-31T09:05:12+08:00
 draft: false
-tags:
+tags: ["AI", "ChatGPT", "Claude"]
 
 ---
+
 
 # Claude Pro vs ChatGPT Plus for AI Writing Assistance in 2025
 

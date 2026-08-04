@@ -2,9 +2,10 @@
 title: "Midjourney vs. DALL-E 3: Head-to-Head AI Image Generator Comparison for Designers"
 date: 2026-07-18T17:05:59+08:00
 draft: false
-tags:
+tags: ["AI", "Midjourney", "Design"]
 
 ---
+
 
 # Midjourney vs. DALL-E 3: Head-to-Head AI Image Generator Comparison for Designers
 
