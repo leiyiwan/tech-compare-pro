@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 13:01:33 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 17:01:42 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Sonnet 4.5 vs GPT-4.1 for Coding: Which AI Model Generates Better Production-Ready Code?</title>
+      <link>https://techcompare.dev/2026/08/claude-sonnet-4.5-vs-gpt-4.1-for-coding-which-ai-model-generates-better-production-ready-code/</link>
+      <pubDate>Mon, 10 Aug 2026 17:01:42 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-sonnet-4.5-vs-gpt-4.1-for-coding-which-ai-model-generates-better-production-ready-code/</guid>
+      <description>&lt;h1 id=&#34;claude-sonnet-45-vs-gpt-41-for-coding-which-ai-model-generates-better-production-ready-code&#34;&gt;Claude Sonnet 4.5 vs. GPT-4.1 for Coding: Which AI Model Generates Better Production-Ready Code?&lt;/h1&gt;&#xA;&lt;p&gt;In a 2024 GitHub survey of over 20,000 developers, 92% reported using AI coding tools, yet only 38% said they trusted the output enough to merge it without manual review. That trust gap is the real battleground for frontier models. As of late 2025, the two most prominent contenders for serious software engineering work are Anthropic’s Claude Sonnet 4.5 and OpenAI’s GPT-4.1. Both are marketed as &amp;ldquo;coding workhorses,&amp;rdquo; but they have fundamentally different strengths and weaknesses when it comes to the thing that actually matters: shipping code that survives code review, passes CI/CD, and doesn&amp;rsquo;t blow up in production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot in 2025: A Real-World Test of AI Pair Programming for Python and React</title>
+      <link>https://techcompare.dev/2026/08/cursor-vs-github-copilot-in-2025-a-real-world-test-of-ai-pair-programming-for-python-and-react/</link>
+      <pubDate>Mon, 10 Aug 2026 17:01:42 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/cursor-vs-github-copilot-in-2025-a-real-world-test-of-ai-pair-programming-for-python-and-react/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-in-2025-a-real-world-test-of-ai-pair-programming-for-python-and-react&#34;&gt;Cursor vs GitHub Copilot in 2025: A Real-World Test of AI Pair Programming for Python and React&lt;/h1&gt;&#xA;&lt;p&gt;In December 2024, GitHub reported that Copilot had been activated by over 3 million developers and was responsible for writing roughly 46% of code in files where it was enabled. Meanwhile, Cursor—the AI-native editor that emerged from relative obscurity in 2023—has seen its user base explode past 1 million, with venture funding that values the company at over $9 billion. The battle for the AI coding assistant crown is no longer a niche developer debate; it&amp;rsquo;s a mainstream decision that affects how thousands of engineering teams structure their daily workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perplexity vs ChatGPT Search vs Google AI Overviews: Which AI Search Tool Delivers the Most Accurate Real-Time Answers?</title>
+      <link>https://techcompare.dev/2026/08/perplexity-vs-chatgpt-search-vs-google-ai-overviews-which-ai-search-tool-delivers-the-most-accurate-real-time-answers/</link>
+      <pubDate>Mon, 10 Aug 2026 17:01:42 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/perplexity-vs-chatgpt-search-vs-google-ai-overviews-which-ai-search-tool-delivers-the-most-accurate-real-time-answers/</guid>
+      <description>&lt;h1 id=&#34;perplexity-vs-chatgpt-search-vs-google-ai-overviews-which-ai-search-tool-delivers-the-most-accurate-real-time-answers&#34;&gt;Perplexity vs. ChatGPT Search vs. Google AI Overviews: Which AI Search Tool Delivers the Most Accurate Real-Time Answers?&lt;/h1&gt;&#xA;&lt;p&gt;In late 2024, Google processed roughly 8.5 billion searches per day. But a growing slice of that traffic is no longer coming from the traditional blue links. Instead, users are asking conversational AI tools for direct answers, real-time data, and source-backed summaries. Three platforms have emerged as the frontrunners in this shift: Perplexity, ChatGPT Search, and Google&amp;rsquo;s AI Overviews.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ChatGPT vs Claude vs Gemini: Which AI Assistant Wins for Coding in 2025?</title>
       <link>https://techcompare.dev/2026/08/chatgpt-vs-claude-vs-gemini-which-ai-assistant-wins-for-coding-in-2025/</link>
