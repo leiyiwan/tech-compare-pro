@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 09:03:13 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 13:03:22 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 3.7 Sonnet vs GPT-4.5 for Code Generation: Which AI Model Wins in 2025</title>
+      <link>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-code-generation-which-ai-model-wins-in-2025/</link>
+      <pubDate>Fri, 14 Aug 2026 13:03:22 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-code-generation-which-ai-model-wins-in-2025/</guid>
+      <description>&lt;h1 id=&#34;claude-37-sonnet-vs-gpt-45-for-code-generation-which-ai-model-wins-in-2025&#34;&gt;Claude 3.7 Sonnet vs GPT-4.5 for Code Generation: Which AI Model Wins in 2025&lt;/h1&gt;&#xA;&lt;p&gt;When GitHub’s Copilot shipped in 2021, it felt like magic—autocomplete on steroids. By early 2025, that magic has become table stakes. The real battleground is now between frontier models that don’t just suggest the next line, but architect entire functions, refactor legacy code, and explain their reasoning.&lt;/p&gt;&#xA;&lt;p&gt;Two names dominate the conversation: Anthropic’s Claude 3.7 Sonnet and OpenAI’s GPT-4.5. Both are exceptional. Both have passionate defenders. And both have very different personalities when it comes to writing software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot for Large Codebases: A Developer’s Honest Comparison</title>
+      <link>https://techcompare.dev/2026/08/cursor-vs-github-copilot-for-large-codebases-a-developers-honest-comparison/</link>
+      <pubDate>Fri, 14 Aug 2026 13:03:22 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/cursor-vs-github-copilot-for-large-codebases-a-developers-honest-comparison/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-for-large-codebases-a-developers-honest-comparison&#34;&gt;Cursor vs GitHub Copilot for Large Codebases: A Developer’s Honest Comparison&lt;/h1&gt;&#xA;&lt;p&gt;In 2024, a survey by Stack Overflow found that 76% of developers are either using or planning to use AI coding tools. But for those working in enterprise repositories—think millions of lines of code, monorepos, and legacy systems—the choice between tools isn&amp;rsquo;t about who generates the funniest commit message. It&amp;rsquo;s about who understands the codebase without choking on it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper vs Writesonic vs Copy.ai: The Best AI Writer for SEO Content in 2025</title>
+      <link>https://techcompare.dev/2026/08/jasper-vs-writesonic-vs-copy.ai-the-best-ai-writer-for-seo-content-in-2025/</link>
+      <pubDate>Fri, 14 Aug 2026 13:03:22 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/jasper-vs-writesonic-vs-copy.ai-the-best-ai-writer-for-seo-content-in-2025/</guid>
+      <description>&lt;h1 id=&#34;jasper-vs-writesonic-vs-copyai-the-best-ai-writer-for-seo-content-in-2025&#34;&gt;Jasper vs Writesonic vs Copy.ai: The Best AI Writer for SEO Content in 2025&lt;/h1&gt;&#xA;&lt;p&gt;In 2024, over 90% of marketers reported using AI tools to assist with content creation, according to a survey by HubSpot. But as the market matures, the question is no longer &lt;em&gt;whether&lt;/em&gt; to use an AI writer—it&amp;rsquo;s &lt;em&gt;which one&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Three names consistently dominate the conversation: Jasper, Writesonic, and Copy.ai. Each has evolved significantly since the GPT-3 days, pivoting toward enterprise features, SEO integrations, and multi-modal capabilities. But for a content team trying to rank in 2025, the differences are more pronounced than ever.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Sonnet vs GPT-4o for Code Generation: Which AI Model Writes Better Production-Ready Code?</title>
       <link>https://techcompare.dev/2026/08/claude-sonnet-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code/</link>
