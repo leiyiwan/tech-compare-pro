@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2026 13:03:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 17:03:59 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus vs GPT-4o for Complex Code Generation: A Head-to-Head Benchmark</title>
+      <link>https://techcompare.dev/2026/08/claude-opus-vs-gpt-4o-for-complex-code-generation-a-head-to-head-benchmark/</link>
+      <pubDate>Sat, 15 Aug 2026 17:03:59 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-opus-vs-gpt-4o-for-complex-code-generation-a-head-to-head-benchmark/</guid>
+      <description>&lt;h1 id=&#34;claude-opus-vs-gpt-4o-for-complex-code-generation-a-head-to-head-benchmark&#34;&gt;Claude Opus vs GPT-4o for Complex Code Generation: A Head-to-Head Benchmark&lt;/h1&gt;&#xA;&lt;p&gt;When OpenAI released GPT-4o in May 2024, it promised flagship-level intelligence at twice the speed and half the cost of GPT-4 Turbo. Just weeks later, Anthropic answered with Claude Opus, the most capable model in the Claude 3 family, which quickly became the default choice for developers tackling large-scale refactoring and architectural design.&lt;/p&gt;&#xA;&lt;p&gt;Ask any senior engineer which model they reach for when the task is genuinely hard, and you&amp;rsquo;ll get a split decision. In internal benchmarks and community polls, Claude Opus has gained a reputation for superior reasoning and fewer &amp;ldquo;hallucinated&amp;rdquo; API calls, while GPT-4o wins on raw speed, ecosystem integration, and multimodal flexibility.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper AI vs Writesonic for SEO Blog Content: Which Delivers Better Rankings?</title>
+      <link>https://techcompare.dev/2026/08/jasper-ai-vs-writesonic-for-seo-blog-content-which-delivers-better-rankings/</link>
+      <pubDate>Sat, 15 Aug 2026 17:03:59 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/jasper-ai-vs-writesonic-for-seo-blog-content-which-delivers-better-rankings/</guid>
+      <description>&lt;h1 id=&#34;jasper-ai-vs-writesonic-for-seo-blog-content-which-delivers-better-rankings&#34;&gt;Jasper AI vs Writesonic for SEO Blog Content: Which Delivers Better Rankings?&lt;/h1&gt;&#xA;&lt;p&gt;In a 2024 survey by Semrush, 84% of content marketers said they use AI tools to assist with SEO writing. Yet, the same survey found that nearly half struggle to rank the content those tools produce. If you’ve spent hours prompting Jasper or Writesonic only to see your articles stall on page three of Google, you’re not alone. The gap between generating text and generating &lt;em&gt;rankable&lt;/em&gt; text is where most AI writing tools falter—and where these two industry giants diverge significantly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Runway vs Pika Labs for AI Video Generation: A Feature and Output Quality Comparison</title>
+      <link>https://techcompare.dev/2026/08/runway-vs-pika-labs-for-ai-video-generation-a-feature-and-output-quality-comparison/</link>
+      <pubDate>Sat, 15 Aug 2026 17:03:59 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/runway-vs-pika-labs-for-ai-video-generation-a-feature-and-output-quality-comparison/</guid>
+      <description>&lt;h1 id=&#34;runway-vs-pika-labs-for-ai-video-generation-a-feature-and-output-quality-comparison&#34;&gt;Runway vs Pika Labs for AI Video Generation: A Feature and Output Quality Comparison&lt;/h1&gt;&#xA;&lt;p&gt;The AI video generation market has exploded over the past 18 months, transitioning from a niche research curiosity into a fiercely competitive creative tool sector. According to a 2024 report by MarketsandMarkets, the AI video generation market is projected to grow from $1.2 billion in 2024 to $6.1 billion by 2030. At the forefront of this race are two platforms that have become household names among creators: Runway and Pika Labs.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Sonnet 4 vs GPT-4o for Code Generation: Which AI Model Writes Better Production-Ready Code?</title>
       <link>https://techcompare.dev/2026/08/claude-sonnet-4-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code/</link>
