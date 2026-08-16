@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/08/claude-sonnet-4-vs-gpt-4o-for-coding-which-ai-assistant-writes-better-production-code/</loc>
+    <lastmod>2026-08-16T13:04:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/08/jasper-vs-writesonic-for-long-form-seo-content-a-cost-per-word-deep-dive/</loc>
+    <lastmod>2026-08-16T13:04:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-for-e-commerce-product-photography-a-side-by-side-image-quality-test/</loc>
+    <lastmod>2026-08-16T13:04:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-08-16T13:04:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/08/claude-vs-chatgpt-for-code-generation-which-ai-writes-better-in-2025/</loc>
     <lastmod>2026-08-16T09:04:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-vs-stable-diffusion-the-ultimate-ai-image-generator-showdown/</loc>
-    <lastmod>2026-08-16T09:04:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-08-16T09:04:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -419,11 +434,6 @@
   </url><url>
     <loc>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-for-e-commerce-product-photography-image-quality-cost-and-workflow-speed-compared/</loc>
     <lastmod>2026-08-06T13:04:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/08/claude-sonnet-4-vs-gpt-4o-for-coding-which-ai-assistant-writes-better-production-code/</loc>
-    <lastmod>2026-08-06T09:04:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
