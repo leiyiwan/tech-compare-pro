@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 13:02:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 17:02:13 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 3.5 Sonnet vs GPT-4o for Code Generation: Which AI Model Writes Better Production-Ready Code in 2024</title>
+      <link>https://techcompare.dev/2026/08/claude-3.5-sonnet-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code-in-2024/</link>
+      <pubDate>Sat, 22 Aug 2026 17:02:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-3.5-sonnet-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code-in-2024/</guid>
+      <description>&lt;h1 id=&#34;claude-35-sonnet-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code-in-2024&#34;&gt;Claude 3.5 Sonnet vs GPT-4o for Code Generation: Which AI Model Writes Better Production-Ready Code in 2024&lt;/h1&gt;&#xA;&lt;p&gt;In June 2024, GitHub reported that 92% of professional developers in the U.S. had used AI coding tools at least once, with 70% saying these tools significantly reduce coding time. Yet, the same survey revealed a persistent anxiety: &amp;ldquo;Will this code actually work in production?&amp;rdquo; As the two dominant frontier models—Anthropic&amp;rsquo;s Claude 3.5 Sonnet and OpenAI&amp;rsquo;s GPT-4o—battle for developer mindshare, the question isn&amp;rsquo;t just about who writes more code, but who writes code that survives code review, passes edge-case testing, and doesn&amp;rsquo;t crater under load.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot: A Side-by-Side Comparison of AI Code Editors for Large Codebases</title>
+      <link>https://techcompare.dev/2026/08/cursor-vs-github-copilot-a-side-by-side-comparison-of-ai-code-editors-for-large-codebases/</link>
+      <pubDate>Sat, 22 Aug 2026 17:02:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/cursor-vs-github-copilot-a-side-by-side-comparison-of-ai-code-editors-for-large-codebases/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-which-ai-assistant-handles-large-codebases-better&#34;&gt;Cursor vs. GitHub Copilot: Which AI Assistant Handles Large Codebases Better?&lt;/h1&gt;&#xA;&lt;p&gt;In a 2024 survey by Stack Overflow, 76% of developers reported using or planning to use AI coding tools. But for engineers working on enterprise-scale repositories—think millions of lines of code across dozens of services—the choice between tools isn&amp;rsquo;t about who can autocomplete a function faster. It&amp;rsquo;s about who can understand the &lt;em&gt;context&lt;/em&gt; of that function within a sprawling, interconnected system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perplexity vs Google AI Overviews: Which AI Search Tool Provides More Accurate Real-Time Answers with Citations</title>
+      <link>https://techcompare.dev/2026/08/perplexity-vs-google-ai-overviews-which-ai-search-tool-provides-more-accurate-real-time-answers-with-citations/</link>
+      <pubDate>Sat, 22 Aug 2026 17:02:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/perplexity-vs-google-ai-overviews-which-ai-search-tool-provides-more-accurate-real-time-answers-with-citations/</guid>
+      <description>&lt;h1 id=&#34;perplexity-vs-google-ai-overviews-which-ai-search-tool-delivers-more-accurate-real-time-answers&#34;&gt;Perplexity vs. Google AI Overviews: Which AI Search Tool Delivers More Accurate Real-Time Answers?&lt;/h1&gt;&#xA;&lt;p&gt;In March 2025, Google reported that AI Overviews—its generative answer feature—had been used by over a billion users, marking one of the fastest feature rollouts in the company’s history. Meanwhile, Perplexity, the AI-native search startup valued at $9 billion, announced it now handles over 100 million queries per week. These numbers underscore a fundamental shift: the search bar as we knew it is being replaced by conversational, AI-generated answers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Sonnet 4 vs GPT-4o for Code Generation: Which AI Model Writes Better Production-Ready Code in 2025?</title>
       <link>https://techcompare.dev/2026/08/claude-sonnet-4-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-production-ready-code-in-2025/</link>
