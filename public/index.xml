@@ -8,6 +8,27 @@
     <language>en</language>
     <atom:link href="https://techcompare.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Claude Sonnet 4.5 vs GPT-4o for Code Generation: Which AI Model Wins in 2024?</title>
+      <link>https://techcompare.dev/2026/08/claude-sonnet-4.5-vs-gpt-4o-for-code-generation-which-ai-model-wins-in-2024/</link>
+      <pubDate>Thu, 27 Aug 2026 09:04:16 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-sonnet-4.5-vs-gpt-4o-for-code-generation-which-ai-model-wins-in-2024/</guid>
+      <description>&lt;h1 id=&#34;claude-sonnet-45-vs-gpt-4o-for-code-generation-which-ai-model-wins-in-2024&#34;&gt;Claude Sonnet 4.5 vs GPT-4o for Code Generation: Which AI Model Wins in 2024?&lt;/h1&gt;&#xA;&lt;p&gt;The debate over which AI model writes better code isn&amp;rsquo;t just academic—it&amp;rsquo;s a daily productivity question for millions of developers. In head-to-head benchmarks from August 2024, Claude Sonnet 4.5 scored 72.4% on HumanEval, while GPT-4o edged ahead at 76.8%. But raw benchmark numbers only tell part of the story. When you actually sit down to build a feature, debug a legacy system, or refactor a messy codebase, the two models feel remarkably different. I spent three weeks testing both across real-world scenarios to give you a practical breakdown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot for Large Codebases: A Side-by-Side Feature and Pricing Review</title>
+      <link>https://techcompare.dev/2026/08/cursor-vs-github-copilot-for-large-codebases-a-side-by-side-feature-and-pricing-review/</link>
+      <pubDate>Thu, 27 Aug 2026 09:04:16 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/cursor-vs-github-copilot-for-large-codebases-a-side-by-side-feature-and-pricing-review/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-for-large-codebases-a-side-by-side-feature-and-pricing-review&#34;&gt;Cursor vs GitHub Copilot for Large Codebases: A Side-by-Side Feature and Pricing Review&lt;/h1&gt;&#xA;&lt;p&gt;In 2024, GitHub reported that Copilot users accepted roughly 30% of its code suggestions—a figure that sounds impressive until you’re staring at a 10,000-line monorepo where a wrong autocomplete can cascade into a debugging nightmare. For developers working in large, complex codebases, the choice of AI assistant isn’t about who writes the most boilerplate. It’s about who can understand the architecture, respect existing patterns, and avoid breaking the build.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper vs Copy.ai for Long-Form SEO Content: Which AI Writer Delivers Better Output?</title>
+      <link>https://techcompare.dev/2026/08/jasper-vs-copy.ai-for-long-form-seo-content-which-ai-writer-delivers-better-output/</link>
+      <pubDate>Thu, 27 Aug 2026 09:04:16 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/jasper-vs-copy.ai-for-long-form-seo-content-which-ai-writer-delivers-better-output/</guid>
+      <description>&lt;h1 id=&#34;jasper-vs-copyai-for-long-form-seo-content-which-ai-writer-delivers-better-output&#34;&gt;Jasper vs. Copy.ai for Long-Form SEO Content: Which AI Writer Delivers Better Output?&lt;/h1&gt;&#xA;&lt;p&gt;In 2024, the average first-page result on Google contained 1,447 words. Yet, the real challenge isn&amp;rsquo;t hitting a word count—it&amp;rsquo;s producing long-form content that actually ranks. As AI writing tools have matured, two platforms have emerged as the primary contenders for SEO teams: Jasper and Copy.ai. Both promise to eliminate writer&amp;rsquo;s block and scale content production, but they take fundamentally different approaches to the long-form process.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Claude vs ChatGPT for Coding: Which AI Assistant Writes Better Production-Ready Code in 2025</title>
       <link>https://techcompare.dev/2026/08/claude-vs-chatgpt-for-coding-which-ai-assistant-writes-better-production-ready-code-in-2025/</link>
       <pubDate>Wed, 26 Aug 2026 17:04:06 +0800</pubDate>
