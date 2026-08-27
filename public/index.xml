@@ -8,6 +8,27 @@
     <language>en</language>
     <atom:link href="https://techcompare.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Claude 3.7 Sonnet vs GPT-4.5 for Coding: Which AI Assistant Writes Better Production Code?</title>
+      <link>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-coding-which-ai-assistant-writes-better-production-code/</link>
+      <pubDate>Thu, 27 Aug 2026 13:04:26 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-coding-which-ai-assistant-writes-better-production-code/</guid>
+      <description>&lt;h1 id=&#34;claude-37-sonnet-vs-gpt-45-for-coding-which-ai-assistant-writes-better-production-code&#34;&gt;Claude 3.7 Sonnet vs GPT-4.5 for Coding: Which AI Assistant Writes Better Production Code?&lt;/h1&gt;&#xA;&lt;p&gt;In March 2025, a senior engineer at a mid-sized fintech startup ran a quiet experiment. She gave two AI assistants—Anthropic&amp;rsquo;s Claude 3.7 Sonnet and OpenAI&amp;rsquo;s GPT-4.5—the same task: refactor a legacy Python service that handled payment retries. The codebase had 12,000 lines, poor test coverage, and a nasty race condition. Claude finished in 22 minutes. GPT-4.5 took 31 minutes. Both passed the existing test suite. But when she reviewed the diffs, the differences were stark: Claude&amp;rsquo;s code was more conservative, GPT-4.5&amp;rsquo;s was more ambitious. One introduced a new abstraction layer; the other kept the change surface minimal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper AI vs Copy.ai vs Writesonic: In-Depth Comparison for Long-Form SEO Content</title>
+      <link>https://techcompare.dev/2026/08/jasper-ai-vs-copy.ai-vs-writesonic-in-depth-comparison-for-long-form-seo-content/</link>
+      <pubDate>Thu, 27 Aug 2026 13:04:26 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/jasper-ai-vs-copy.ai-vs-writesonic-in-depth-comparison-for-long-form-seo-content/</guid>
+      <description>&lt;h1 id=&#34;jasper-ai-vs-copyai-vs-writesonic-in-depth-comparison-for-long-form-seo-content&#34;&gt;Jasper AI vs Copy.ai vs Writesonic: In-Depth Comparison for Long-Form SEO Content&lt;/h1&gt;&#xA;&lt;p&gt;The AI writing tool market has exploded, but when it comes to producing long-form SEO content, three names consistently dominate the conversation: Jasper AI, Copy.ai, and Writesonic. With over 400 AI writing tools now on the market, according to a 2024 industry report, the choice between these three platforms can feel overwhelming.&lt;/p&gt;&#xA;&lt;p&gt;The stakes are high. A well-optimized 2,000-word article can drive thousands of monthly organic visits, while a poorly structured one disappears into the SERP void. I tested all three platforms side-by-side over a two-week period, generating identical article briefs and comparing output quality, workflow efficiency, and SEO integration. Here is what I found.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney vs DALL-E 3 vs Stable Diffusion: Detailed Review for Commercial Graphic Design Projects</title>
+      <link>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-vs-stable-diffusion-detailed-review-for-commercial-graphic-design-projects/</link>
+      <pubDate>Thu, 27 Aug 2026 13:04:26 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-vs-stable-diffusion-detailed-review-for-commercial-graphic-design-projects/</guid>
+      <description>&lt;h1 id=&#34;midjourney-vs-dall-e-3-vs-stable-diffusion-a-practical-guide-for-commercial-design-work&#34;&gt;Midjourney vs DALL-E 3 vs Stable Diffusion: A Practical Guide for Commercial Design Work&lt;/h1&gt;&#xA;&lt;p&gt;If you’ve spent any time in a design Slack channel recently, you’ve likely seen the same argument play out: a designer swears by Midjourney’s aesthetic output, while a developer insists Stable Diffusion’s open-source flexibility is the only viable path for production. Meanwhile, the project manager just wants to know which tool won’t get the client sued.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Claude Sonnet 4.5 vs GPT-4o for Code Generation: Which AI Model Wins in 2024?</title>
       <link>https://techcompare.dev/2026/08/claude-sonnet-4.5-vs-gpt-4o-for-code-generation-which-ai-model-wins-in-2024/</link>
       <pubDate>Thu, 27 Aug 2026 09:04:16 +0800</pubDate>
