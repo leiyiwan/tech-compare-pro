@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:04:35 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 09:04:18 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 3.7 Sonnet vs GPT-4.5 for Code Generation: Which AI Model Writes Better Production-Ready Code?</title>
+      <link>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-code-generation-which-ai-model-writes-better-production-ready-code/</link>
+      <pubDate>Fri, 28 Aug 2026 09:04:18 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-code-generation-which-ai-model-writes-better-production-ready-code/</guid>
+      <description>&lt;h1 id=&#34;claude-37-sonnet-vs-gpt-45-for-code-generation-which-ai-model-writes-better-production-ready-code&#34;&gt;Claude 3.7 Sonnet vs GPT-4.5 for Code Generation: Which AI Model Writes Better Production-Ready Code?&lt;/h1&gt;&#xA;&lt;p&gt;In February 2025, OpenAI released GPT-4.5, its largest and most capable model to date, boasting improved &amp;ldquo;emotional intelligence&amp;rdquo; and a 10% accuracy gain over its predecessor. Just weeks earlier, Anthropic had shipped Claude 3.7 Sonnet, the industry&amp;rsquo;s first hybrid reasoning model, designed to switch between rapid responses and extended &amp;ldquo;thinking&amp;rdquo; modes. For developers, the question is no longer &lt;em&gt;which&lt;/em&gt; model can write a Fibonacci sequence—both handle that in seconds. The real question is which one produces code that survives code review, passes CI/CD pipelines, and doesn&amp;rsquo;t haunt you with edge-case bugs at 2 AM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper AI vs Writesonic for SEO Blog Content: In-Depth Comparison of Features, Pricing, and Output Quality</title>
+      <link>https://techcompare.dev/2026/08/jasper-ai-vs-writesonic-for-seo-blog-content-in-depth-comparison-of-features-pricing-and-output-quality/</link>
+      <pubDate>Fri, 28 Aug 2026 09:04:18 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/jasper-ai-vs-writesonic-for-seo-blog-content-in-depth-comparison-of-features-pricing-and-output-quality/</guid>
+      <description>&lt;h1 id=&#34;jasper-ai-vs-writesonic-for-seo-blog-content-an-in-depth-comparison&#34;&gt;Jasper AI vs Writesonic for SEO Blog Content: An In-Depth Comparison&lt;/h1&gt;&#xA;&lt;p&gt;The AI writing space has exploded over the last three years, but two names consistently dominate the conversation when it comes to long-form content: Jasper AI and Writesonic. For SEO professionals and content marketers, the choice between these two platforms often comes down to more than just price—it’s about workflow, output quality, and how well the tool integrates with existing SEO strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney v6 vs DALL-E 3 for Professional Product Photography: A Detailed Review of Image Quality and Workflow</title>
+      <link>https://techcompare.dev/2026/08/midjourney-v6-vs-dall-e-3-for-professional-product-photography-a-detailed-review-of-image-quality-and-workflow/</link>
+      <pubDate>Fri, 28 Aug 2026 09:04:18 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/08/midjourney-v6-vs-dall-e-3-for-professional-product-photography-a-detailed-review-of-image-quality-and-workflow/</guid>
+      <description>&lt;h1 id=&#34;midjourney-v6-vs-dall-e-3-for-professional-product-photography-a-detailed-review&#34;&gt;Midjourney v6 vs DALL-E 3 for Professional Product Photography: A Detailed Review&lt;/h1&gt;&#xA;&lt;p&gt;The brief was simple: generate a hero image of a matte black titanium water bottle, perched on a rain-slicked granite ledge, with dramatic volcanic backlighting. The client wanted it for a landing page, and they wanted it in under an hour.&lt;/p&gt;&#xA;&lt;p&gt;This is the new reality for commercial photographers and e-commerce teams. AI image generators have moved from novelty to utility, and the two biggest names in the ring—Midjourney v6 and OpenAI’s DALL-E 3—are fighting for the same slice of the product photography pie. But while both can produce stunning results, the gap between them in terms of raw image quality, text rendering, and professional workflow integration is significant.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude 3.5 Sonnet vs GPT-4o for Coding: Which AI Assistant Wins in 2025?</title>
       <link>https://techcompare.dev/2026/08/claude-3.5-sonnet-vs-gpt-4o-for-coding-which-ai-assistant-wins-in-2025/</link>
