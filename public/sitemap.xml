@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/09/claude-sonnet-vs-gpt-4o-for-coding-which-ai-assistant-wins-in-2024/</loc>
+    <lastmod>2026-09-01T13:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/09/jasper-vs-copy.ai-for-seo-content-a-head-to-head-comparison/</loc>
+    <lastmod>2026-09-01T13:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/09/midjourney-vs-dall-e-3-for-product-photography-which-generates-better-results/</loc>
+    <lastmod>2026-09-01T13:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-09-01T13:04:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/09/claude-3.7-sonnet-vs-gpt-4.5-for-coding-which-ai-model-wins-in-2025/</loc>
     <lastmod>2026-09-01T09:04:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/09/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-for-commercial-use/</loc>
-    <lastmod>2026-09-01T09:04:37+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-09-01T09:04:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -194,16 +209,6 @@
   </url><url>
     <loc>https://techcompare.dev/2026/08/midjourney-v6-vs-dall-e-3-for-professional-product-photography-a-detailed-review-of-image-quality-and-workflow/</loc>
     <lastmod>2026-08-28T09:04:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/08/jasper-vs-copy.ai-for-seo-content-a-head-to-head-comparison/</loc>
-    <lastmod>2026-08-27T17:04:35+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/08/midjourney-vs-dall-e-3-for-product-photography-which-generates-better-results/</loc>
-    <lastmod>2026-08-27T17:04:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
