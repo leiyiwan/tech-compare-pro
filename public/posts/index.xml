@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 09:05:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:05:13 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus vs GPT-4o for Code Generation: Which AI Model Writes Better Software?</title>
+      <link>https://techcompare.dev/2026/09/claude-opus-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-software/</link>
+      <pubDate>Wed, 02 Sep 2026 13:05:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/claude-opus-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-software/</guid>
+      <description>&lt;h1 id=&#34;claude-opus-vs-gpt-4o-for-code-generation-which-ai-model-writes-better-software&#34;&gt;Claude Opus vs GPT-4o for Code Generation: Which AI Model Writes Better Software?&lt;/h1&gt;&#xA;&lt;p&gt;In a benchmark test conducted by Artificial Analysis in late 2024, Claude Opus scored 84.4% on HumanEval, a standard measure of code generation accuracy, while GPT-4o scored 90.2%. Yet when developers on Stack Overflow&amp;rsquo;s annual survey were asked which AI tool they preferred for coding assistance, the results told a different story—many reported switching back and forth between models depending on the task. This discrepancy between raw benchmark scores and real-world developer experience highlights a crucial truth: writing code that passes tests is not the same as writing code that ships to production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper AI vs Writesonic: Head-to-Head Comparison for Long-Form SEO Content in 2024</title>
+      <link>https://techcompare.dev/2026/09/jasper-ai-vs-writesonic-head-to-head-comparison-for-long-form-seo-content-in-2024/</link>
+      <pubDate>Wed, 02 Sep 2026 13:05:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/jasper-ai-vs-writesonic-head-to-head-comparison-for-long-form-seo-content-in-2024/</guid>
+      <description>&lt;h1 id=&#34;jasper-ai-vs-writesonic-which-one-wins-for-long-form-seo-content-in-2024&#34;&gt;Jasper AI vs Writesonic: Which One Wins for Long-Form SEO Content in 2024?&lt;/h1&gt;&#xA;&lt;p&gt;In the crowded landscape of AI writing assistants, Jasper and Writesonic consistently rank as the two most popular choices for content teams. But for marketers whose primary goal is ranking on Google, the choice isn&amp;rsquo;t just about which tool produces better prose—it&amp;rsquo;s about which one integrates more seamlessly with your SEO workflow.&lt;/p&gt;&#xA;&lt;p&gt;We analyzed both platforms across five critical dimensions for long-form content creation: output quality, SEO tooling, workflow efficiency, pricing, and scalability. Here is the head-to-head breakdown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Runway Gen-3 vs Pika Labs: The Ultimate AI Video Generator Comparison for Marketing Teams</title>
+      <link>https://techcompare.dev/2026/09/runway-gen-3-vs-pika-labs-the-ultimate-ai-video-generator-comparison-for-marketing-teams/</link>
+      <pubDate>Wed, 02 Sep 2026 13:05:13 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/runway-gen-3-vs-pika-labs-the-ultimate-ai-video-generator-comparison-for-marketing-teams/</guid>
+      <description>&lt;h1 id=&#34;runway-gen-3-vs-pika-labs-choosing-the-right-ai-video-generator-for-your-marketing-team&#34;&gt;Runway Gen-3 vs Pika Labs: Choosing the Right AI Video Generator for Your Marketing Team&lt;/h1&gt;&#xA;&lt;p&gt;In 2024, the cost of producing a single 15-second commercial spot averaged between $5,000 and $25,000, according to industry data from Screen Actors Guild and production resource surveys. For a mid-sized marketing team running four campaigns a quarter, that translates to a six-figure annual budget before media spend. Enter the new wave of generative AI video tools, which promise to slash that cost to a monthly subscription fee—sometimes less than the price of a team lunch.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Sonnet 4.5 vs GPT-4.1 for Coding: Which AI Model Writes Better Production-Ready Code?</title>
       <link>https://techcompare.dev/2026/09/claude-sonnet-4.5-vs-gpt-4.1-for-coding-which-ai-model-writes-better-production-ready-code/</link>
