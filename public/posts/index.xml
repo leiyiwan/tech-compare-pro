@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 09:01:57 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 13:02:05 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Sonnet 4.5 vs GPT-4.5 for Complex Code Generation: A Head-to-Head Comparison</title>
+      <link>https://techcompare.dev/2026/09/claude-sonnet-4.5-vs-gpt-4.5-for-complex-code-generation-a-head-to-head-comparison/</link>
+      <pubDate>Sun, 06 Sep 2026 13:02:05 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/claude-sonnet-4.5-vs-gpt-4.5-for-complex-code-generation-a-head-to-head-comparison/</guid>
+      <description>&lt;h1 id=&#34;claude-sonnet-45-vs-gpt-45-for-complex-code-generation-a-head-to-head-comparison&#34;&gt;Claude Sonnet 4.5 vs GPT-4.5 for Complex Code Generation: A Head-to-Head Comparison&lt;/h1&gt;&#xA;&lt;p&gt;In benchmark after benchmark, the gap between frontier AI models has narrowed to statistical noise. But for developers wrestling with sprawling codebases, the difference between &amp;ldquo;passes unit tests&amp;rdquo; and &amp;ldquo;actually works in production&amp;rdquo; remains stark. When OpenAI released GPT-4.5 in late February 2025 and Anthropic countered with Claude Sonnet 4.5 in March, both companies claimed significant gains in coding capability. Yet the real question isn&amp;rsquo;t which model scores higher on HumanEval—it&amp;rsquo;s which one can refactor a tangled Django monolith without breaking authentication, or generate a distributed system that doesn&amp;rsquo;t collapse under load.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor AI vs GitHub Copilot for Large Legacy Codebases: Which Refactors Better?</title>
+      <link>https://techcompare.dev/2026/09/cursor-ai-vs-github-copilot-for-large-legacy-codebases-which-refactors-better/</link>
+      <pubDate>Sun, 06 Sep 2026 13:02:05 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/cursor-ai-vs-github-copilot-for-large-legacy-codebases-which-refactors-better/</guid>
+      <description>&lt;h1 id=&#34;cursor-ai-vs-github-copilot-for-large-legacy-codebases-which-refactors-better&#34;&gt;Cursor AI vs. GitHub Copilot for Large Legacy Codebases: Which Refactors Better?&lt;/h1&gt;&#xA;&lt;p&gt;Refactoring a legacy codebase is often compared to performing open-heart surgery on a patient with an undisclosed medical history. You have sprawling monoliths, decades-old design patterns, tangled dependencies, and—critically—a test suite that may or may not cover the areas you are about to touch. For years, developers relied on manual analysis and IDE search tools. Then came AI pair programmers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jasper AI vs Writesonic for Long-Form SEO Content: A 2025 Feature and Pricing Deep Dive</title>
+      <link>https://techcompare.dev/2026/09/jasper-ai-vs-writesonic-for-long-form-seo-content-a-2025-feature-and-pricing-deep-dive/</link>
+      <pubDate>Sun, 06 Sep 2026 13:02:05 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/09/jasper-ai-vs-writesonic-for-long-form-seo-content-a-2025-feature-and-pricing-deep-dive/</guid>
+      <description>&lt;h1 id=&#34;jasper-ai-vs-writesonic-for-long-form-seo-content-a-2025-feature-and-pricing-deep-dive&#34;&gt;Jasper AI vs Writesonic for Long-Form SEO Content: A 2025 Feature and Pricing Deep Dive&lt;/h1&gt;&#xA;&lt;p&gt;In the rush to adopt generative AI for content operations, many marketing teams hit a wall around the 2,000-word mark. The first 500 words flow effortlessly, but by the third section, the narrative loses coherence, the facts blur, and the output starts to read like a generic Wikipedia summary. According to a 2024 survey by the Content Marketing Institute, 72% of marketers now use AI for content brainstorming, yet only 38% trust it for drafting full-length articles.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Sonnet 4 vs GPT-4o for Long-Form Content Writing: Which AI Model Performs Better in 2025?</title>
       <link>https://techcompare.dev/2026/09/claude-sonnet-4-vs-gpt-4o-for-long-form-content-writing-which-ai-model-performs-better-in-2025/</link>
