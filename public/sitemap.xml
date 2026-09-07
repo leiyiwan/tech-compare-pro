@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://techcompare.dev/2026/09/claude-3.7-sonnet-vs-gpt-4.5-for-coding-which-ai-model-generates-cleaner-code/</loc>
+    <lastmod>2026-09-07T17:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/09/cursor-vs-github-copilot-vs-windsurf-the-best-ai-code-editor-for-developers-in-2025/</loc>
+    <lastmod>2026-09-07T17:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/2026/09/jasper-vs-writesonic-vs-copy.ai-which-ai-writing-tool-delivers-the-best-seo-content/</loc>
+    <lastmod>2026-09-07T17:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://techcompare.dev/posts/</loc>
+    <lastmod>2026-09-07T17:02:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://techcompare.dev/2026/09/claude-vs-chatgpt-for-coding-which-ai-assistant-writes-better-production-code-in-2025/</loc>
     <lastmod>2026-09-07T13:02:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -13,11 +33,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/09/midjourney-v7-vs-dall-e-3-vs-stable-diffusion-the-ultimate-ai-image-generator-comparison/</loc>
-    <lastmod>2026-09-07T13:02:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/posts/</loc>
     <lastmod>2026-09-07T13:02:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -758,11 +773,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://techcompare.dev/2026/08/claude-3.7-sonnet-vs-gpt-4.5-for-coding-which-ai-model-writes-better-production-code-in-2025/</loc>
-    <lastmod>2026-08-19T17:05:49+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://techcompare.dev/2026/08/cursor-vs-github-copilot-vs-windsurf-the-best-ai-code-editor-for-developers-in-2025/</loc>
     <lastmod>2026-08-19T17:05:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
