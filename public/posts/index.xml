@@ -6,14 +6,28 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 09:02:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 13:02:46 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Subscription Is Worth It in 2025</title>
+      <title>ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Subscription Is Worth It in 2025?</title>
       <link>https://techcompare.dev/2026/10/chatgpt-plus-vs-claude-pro-vs-gemini-advanced-which-ai-subscription-is-worth-it-in-2025/</link>
-      <pubDate>Mon, 19 Oct 2026 09:02:35 +0800</pubDate>
+      <pubDate>Mon, 19 Oct 2026 13:02:46 +0800</pubDate>
       <guid>https://techcompare.dev/2026/10/chatgpt-plus-vs-claude-pro-vs-gemini-advanced-which-ai-subscription-is-worth-it-in-2025/</guid>
-      <description>&lt;h1 id=&#34;chatgpt-plus-vs-claude-pro-vs-gemini-advanced-which-ai-subscription-is-worth-it-in-2025&#34;&gt;ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Subscription Is Worth It in 2025&lt;/h1&gt;&#xA;&lt;p&gt;Twenty dollars a month. That&amp;rsquo;s the price of admission for all three major AI subscriptions: ChatGPT Plus, Claude Pro, and Google&amp;rsquo;s Gemini Advanced (bundled into the Google One AI Premium plan). They cost the same, they all promise a smarter assistant, and they all claim to save you hours every week. So why would you pick one over the others?&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;chatgpt-plus-vs-claude-pro-vs-gemini-advanced-which-ai-subscription-is-worth-it-in-2025&#34;&gt;ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Subscription Is Worth It in 2025?&lt;/h1&gt;&#xA;&lt;p&gt;Twenty dollars a month has become the default price of entry into the AI era. ChatGPT Plus, Claude Pro, and Google&amp;rsquo;s Gemini Advanced all sit at that familiar $19.99–$20 mark, and each promises to be the assistant that finally earns a permanent spot in your workflow. But the three products have diverged sharply over the past year, and the &amp;ldquo;best&amp;rdquo; one depends heavily on what you actually do all day.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot vs Windsurf: Best AI Coding Assistant for Developers Compared</title>
+      <link>https://techcompare.dev/2026/10/cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared/</link>
+      <pubDate>Mon, 19 Oct 2026 13:02:46 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/10/cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared&#34;&gt;Cursor vs GitHub Copilot vs Windsurf: Best AI Coding Assistant for Developers Compared&lt;/h1&gt;&#xA;&lt;p&gt;Three tools dominate the current conversation about AI-assisted coding: Cursor, GitHub Copilot, and Windsurf. All three promise to write code faster, explain unfamiliar files, and catch bugs before they ship. But they take different routes to get there, and the right choice depends heavily on how you work.&lt;/p&gt;&#xA;&lt;p&gt;The stakes are real. GitHub&amp;rsquo;s own research, published in 2022, found that developers using Copilot completed a task about 55% faster than a control group. Since then, the market has matured into distinct products with different architectures: Copilot as an extension inside your existing editor, Cursor as a fork of VS Code built around AI, and Windsurf as an agent-first editor that emphasizes autonomous task execution. Here&amp;rsquo;s how they actually compare.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator for Quality and Control</title>
+      <link>https://techcompare.dev/2026/10/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-for-quality-and-control/</link>
+      <pubDate>Mon, 19 Oct 2026 13:02:46 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/10/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-for-quality-and-control/</guid>
+      <description>&lt;h1 id=&#34;midjourney-vs-dall-e-3-vs-stable-diffusion-which-ai-image-generator-wins-on-quality-and-control&#34;&gt;Midjourney vs DALL-E 3 vs Stable Diffusion: Which AI Image Generator Wins on Quality and Control?&lt;/h1&gt;&#xA;&lt;p&gt;Type &amp;ldquo;a cat astronaut drinking espresso on Mars&amp;rdquo; into three different AI image generators and you&amp;rsquo;ll get three wildly different results: a cinematic masterpiece, a friendly cartoon, and something that looks like a 1970s sci-fi paperback cover. That divergence is the whole story of the current AI image market. Midjourney, DALL-E 3, and Stable Diffusion are the three tools most people compare, and each one optimizes for something different. Picking the &amp;ldquo;best&amp;rdquo; one depends entirely on whether you care more about out-of-the-box image quality or fine-grained control over every pixel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cursor vs GitHub Copilot vs Windsurf: Best AI Coding Assistant Compared</title>
@@ -378,13 +392,6 @@
       <pubDate>Tue, 29 Sep 2026 13:03:06 +0800</pubDate>
       <guid>https://techcompare.dev/2026/09/cursor-vs-github-copilot-vs-codeium-which-ai-code-editor-wins-in-2025/</guid>
       <description>&lt;h1 id=&#34;cursor-vs-github-copilot-vs-codeium-which-ai-code-editor-wins-in-2025&#34;&gt;Cursor vs GitHub Copilot vs Codeium: Which AI Code Editor Wins in 2025?&lt;/h1&gt;&#xA;&lt;p&gt;Three years ago, AI code completion meant accepting a gray-text suggestion and hitting Tab. In 2025, it means handing an agent a ticket, watching it edit six files, run the test suite, and open a pull request while you review the diff. The tools have changed shape—and so has the question of which one to use.&lt;/p&gt;&#xA;&lt;p&gt;The three names that come up most often are Cursor, GitHub Copilot, and Codeium (now branded Windsurf). They are not the same kind of product, which is why &amp;ldquo;which is best&amp;rdquo; debates online so often talk past each other. Here&amp;rsquo;s a breakdown of what each actually is, how they compare on the things that matter day to day, and who should pick which.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cursor vs GitHub Copilot vs Windsurf: Best AI Coding Assistant for Developers Compared</title>
-      <link>https://techcompare.dev/2026/09/cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared/</link>
-      <pubDate>Mon, 28 Sep 2026 17:02:49 +0800</pubDate>
-      <guid>https://techcompare.dev/2026/09/cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared/</guid>
-      <description>&lt;h2 id=&#34;cursor-vs-github-copilot-vs-windsurf-best-ai-coding-assistant-for-developers-compared&#34;&gt;Cursor vs GitHub Copilot vs Windsurf: Best AI Coding Assistant for Developers Compared&lt;/h2&gt;&#xA;&lt;p&gt;Three tools dominate the current conversation about AI-assisted coding: Cursor, GitHub Copilot, and Windsurf. Each promises to reduce boilerplate, explain unfamiliar code, and keep developers in flow. But they take meaningfully different approaches, and the &amp;ldquo;best&amp;rdquo; choice depends heavily on how you work.&lt;/p&gt;&#xA;&lt;p&gt;This comparison breaks down what each tool actually does, where it excels, and where it falls short—based on publicly available documentation, pricing, and the practical experience of developers who use them daily.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perplexity Pro vs You.com vs Phind: Best AI Search Engine for Developers Compared</title>
