@@ -6,8 +6,29 @@
     <description>Recent content in Posts on TechComparePro</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 17:01:37 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 09:01:48 +0800</lastBuildDate>
     <atom:link href="https://techcompare.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Plus vs Claude Pro: Which AI Subscription Is Worth It in 2025</title>
+      <link>https://techcompare.dev/2026/11/chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025/</link>
+      <pubDate>Tue, 17 Nov 2026 09:01:48 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/11/chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025/</guid>
+      <description>&lt;h1 id=&#34;chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025&#34;&gt;ChatGPT Plus vs Claude Pro: Which AI Subscription Is Worth It in 2025&lt;/h1&gt;&#xA;&lt;p&gt;Two subscriptions, $20 a month each, and a decision that thousands of professionals, students, and small teams are making right now. ChatGPT Plus and Claude Pro are the two most direct competitors in the consumer AI market, and on paper they look nearly identical: same price, same promise of priority access, same pitch about a smarter assistant. In practice, they feel different enough that the &amp;ldquo;right&amp;rdquo; choice depends heavily on what you actually do with an AI tool day to day.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor vs GitHub Copilot vs Codeium: Best AI Coding Assistant Tested</title>
+      <link>https://techcompare.dev/2026/11/cursor-vs-github-copilot-vs-codeium-best-ai-coding-assistant-tested/</link>
+      <pubDate>Tue, 17 Nov 2026 09:01:48 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/11/cursor-vs-github-copilot-vs-codeium-best-ai-coding-assistant-tested/</guid>
+      <description>&lt;h1 id=&#34;cursor-vs-github-copilot-vs-codeium-best-ai-coding-assistant-tested&#34;&gt;Cursor vs GitHub Copilot vs Codeium: Best AI Coding Assistant Tested&lt;/h1&gt;&#xA;&lt;p&gt;Three AI coding assistants dominate the conversation in 2025: Cursor, GitHub Copilot, and Codeium (now branded Windsurf). All three promise to write code faster, catch bugs earlier, and reduce boilerplate. But they take fundamentally different approaches—one is a standalone editor, one is a plugin inside the tools you already use, and one is a freemium platform betting on enterprise scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator Compared</title>
+      <link>https://techcompare.dev/2026/11/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared/</link>
+      <pubDate>Tue, 17 Nov 2026 09:01:48 +0800</pubDate>
+      <guid>https://techcompare.dev/2026/11/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared/</guid>
+      <description>&lt;h1 id=&#34;midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared&#34;&gt;Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator Compared&lt;/h1&gt;&#xA;&lt;p&gt;Type &amp;ldquo;a photorealistic golden retriever surfing a wave at sunset&amp;rdquo; into three different AI image generators and you&amp;rsquo;ll get three wildly different results. One will look like a cinematic film still, another will follow your prompt with almost literal precision, and the third might look like anything from a masterpiece to a muddled mess depending on which model and settings you chose.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ChatGPT Plus vs Claude Pro: Which AI Chatbot Is Worth Your $20 in 2025?</title>
       <link>https://techcompare.dev/2026/11/chatgpt-plus-vs-claude-pro-which-ai-chatbot-is-worth-your-20-in-2025/</link>
@@ -21,13 +42,6 @@
       <pubDate>Mon, 16 Nov 2026 17:01:37 +0800</pubDate>
       <guid>https://techcompare.dev/2026/11/cursor-vs-github-copilot-vs-codeium-which-ai-coding-assistant-actually-saves-developers-time/</guid>
       <description>&lt;h1 id=&#34;cursor-vs-github-copilot-vs-codeium-which-ai-coding-assistant-actually-saves-developers-time&#34;&gt;Cursor vs GitHub Copilot vs Codeium: Which AI Coding Assistant Actually Saves Developers Time?&lt;/h1&gt;&#xA;&lt;p&gt;In a 2024 survey by Stack Overflow, 76% of developers said they were using or planning to use AI coding tools—yet only 43% said they trust the accuracy of the output. That gap between adoption and trust is the real story behind the Cursor vs GitHub Copilot vs Codeium debate. All three tools promise to save time. The question is where, how much, and at what cost to your workflow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator Compared</title>
-      <link>https://techcompare.dev/2026/11/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared/</link>
-      <pubDate>Mon, 16 Nov 2026 17:01:37 +0800</pubDate>
-      <guid>https://techcompare.dev/2026/11/midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared/</guid>
-      <description>&lt;h1 id=&#34;midjourney-vs-dall-e-3-vs-stable-diffusion-best-ai-image-generator-compared&#34;&gt;Midjourney vs DALL-E 3 vs Stable Diffusion: Best AI Image Generator Compared&lt;/h1&gt;&#xA;&lt;p&gt;Type &amp;ldquo;a photorealistic astronaut riding a horse through Times Square&amp;rdquo; into three different AI image generators, and you&amp;rsquo;ll get three wildly different results. One will look like a cinematic still. Another will nail the prompt details but feel a little flat. The third might produce something strange, beautiful, and completely unexpected—depending on which model you loaded.&lt;/p&gt;&#xA;&lt;p&gt;That variability is exactly why the Midjourney vs DALL-E 3 vs Stable Diffusion comparison still matters in 2024, even as each tool releases updates at a rapid clip. They&amp;rsquo;ve converged somewhat on quality, but they remain built for different users with different priorities. Here&amp;rsquo;s how they actually stack up.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ChatGPT Plus vs Claude Pro vs Gemini Advanced: Which AI Subscription Is Worth It in 2025</title>
@@ -84,13 +98,6 @@
       <pubDate>Sun, 15 Nov 2026 09:05:28 +0800</pubDate>
       <guid>https://techcompare.dev/2026/11/midjourney-vs-dall-e-3-vs-stable-diffusion-ai-image-generators-tested-and-compared/</guid>
       <description>&lt;h1 id=&#34;midjourney-vs-dall-e-3-vs-stable-diffusion-ai-image-generators-tested-and-compared&#34;&gt;Midjourney vs DALL-E 3 vs Stable Diffusion: AI Image Generators Tested and Compared&lt;/h1&gt;&#xA;&lt;p&gt;Type &amp;ldquo;a golden retriever wearing a spacesuit, oil painting style&amp;rdquo; into three different AI image generators and you&amp;rsquo;ll get three wildly different results. One might look like a museum piece, another like a glossy advertisement, and the third like it was painted by someone who has never seen a dog. That variability is the whole story of AI image generation in 2024—and the reason choosing the right tool matters more than ever.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ChatGPT Plus vs Claude Pro: Which AI Subscription Is Worth It in 2025</title>
-      <link>https://techcompare.dev/2026/11/chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025/</link>
-      <pubDate>Sat, 14 Nov 2026 17:04:17 +0800</pubDate>
-      <guid>https://techcompare.dev/2026/11/chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025/</guid>
-      <description>&lt;h1 id=&#34;chatgpt-plus-vs-claude-pro-which-ai-subscription-is-worth-it-in-2025&#34;&gt;ChatGPT Plus vs Claude Pro: Which AI Subscription Is Worth It in 2025&lt;/h1&gt;&#xA;&lt;p&gt;Both ChatGPT Plus and Claude Pro cost $20 a month. That&amp;rsquo;s where the easy comparison ends. OpenAI&amp;rsquo;s flagship consumer plan and Anthropic&amp;rsquo;s premium tier have converged on price while diverging sharply on what they actually deliver—different models, different usage caps, different strengths, and very different ideas about what a $20 AI subscription should include.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re paying for one (or considering switching), the decision in 2025 comes down to how you work, not which brand you trust. Here&amp;rsquo;s a practical breakdown.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jasper AI vs Copy.ai: Best AI Writing Tool for Content Marketing Compared</title>
